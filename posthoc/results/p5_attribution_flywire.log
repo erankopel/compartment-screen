@@ -1,0 +1,42 @@
+group into_ER   : edges  7,873, synapses   30,556 (0.067 of EB), synapses kept under the BANC pattern 0.470 (uniform 0.648)
+group ER_ER     : edges 12,204, synapses  143,544 (0.314 of EB), synapses kept under the BANC pattern 0.674 (uniform 0.648)
+group out_of_ER : edges 14,802, synapses  106,358 (0.233 of EB), synapses kept under the BANC pattern 0.432 (uniform 0.648)
+group columnar  : edges  7,404, synapses  116,489 (0.255 of EB), synapses kept under the BANC pattern 0.784 (uniform 0.648)
+group tail      : edges  4,851, synapses   59,771 (0.131 of EB), synapses kept under the BANC pattern 0.307 (uniform 0.648)
+  uniform                th 1: EB 683 | stays 13.70 mixes 4.19 ratio 3.269 | Dob8 0.203 | 5 s
+  uniform                th 2: EB 679 | stays 15.16 mixes 4.57 ratio 3.315 | Dob8 0.246 | 3 s
+  uniform                th 5: EB 668 | stays 20.47 mixes 6.03 ratio 3.392 | Dob8 0.423 | 2 s
+  block pattern          th 1: EB 683 | stays 12.81 mixes 6.83 ratio 1.876 | Dob8 0.393 | 5 s
+  block pattern          th 2: EB 677 | stays 13.89 mixes 8.76 ratio 1.586 | Dob8 0.520 | 3 s
+  block pattern          th 5: EB 636 | stays 17.10 mixes 35.83 ratio 0.477 | Dob8 0.894 | 2 s
+  only into_ER           th 1: EB 683 | stays 11.77 mixes 4.04 ratio 2.914 | Dob8 0.185 | 5 s
+  only into_ER           th 2: EB 678 | stays 12.45 mixes 4.37 ratio 2.850 | Dob8 0.238 | 3 s
+  only into_ER           th 5: EB 666 | stays 15.31 mixes 5.87 ratio 2.606 | Dob8 0.402 | 2 s
+  only ER_ER             th 1: EB 683 | stays 14.02 mixes 4.29 ratio 3.272 | Dob8 0.217 | 5 s
+  only ER_ER             th 2: EB 679 | stays 15.56 mixes 4.66 ratio 3.336 | Dob8 0.263 | 3 s
+  only ER_ER             th 5: EB 671 | stays 21.29 mixes 6.29 ratio 3.383 | Dob8 0.449 | 2 s
+  only out_of_ER         th 1: EB 683 | stays 14.19 mixes 6.09 ratio 2.329 | Dob8 0.348 | 5 s
+  only out_of_ER         th 2: EB 678 | stays 16.03 mixes 7.30 ratio 2.196 | Dob8 0.453 | 3 s
+  only out_of_ER         th 5: EB 667 | stays 25.14 mixes 14.73 ratio 1.706 | Dob8 0.755 | 2 s
+  only columnar          th 1: EB 683 | stays 13.50 mixes 4.48 ratio 3.014 | Dob8 0.230 | 5 s
+  only columnar          th 2: EB 678 | stays 15.21 mixes 4.90 ratio 3.103 | Dob8 0.284 | 3 s
+  only columnar          th 5: EB 667 | stays 20.85 mixes 6.33 ratio 3.293 | Dob8 0.454 | 2 s
+  only tail              th 1: EB 683 | stays 13.81 mixes 4.14 ratio 3.333 | Dob8 0.195 | 5 s
+  only tail              th 2: EB 679 | stays 15.36 mixes 4.49 ratio 3.419 | Dob8 0.241 | 3 s
+  only tail              th 5: EB 644 | stays 20.34 mixes 6.00 ratio 3.390 | Dob8 0.426 | 2 s
+  all but into_ER        th 1: EB 682 | stays 14.33 mixes 6.65 ratio 2.154 | Dob8 0.386 | 5 s
+  all but into_ER        th 2: EB 679 | stays 16.38 mixes 8.14 ratio 2.011 | Dob8 0.503 | 3 s
+  all but into_ER        th 5: EB 639 | stays 25.94 mixes 16.49 ratio 1.573 | Dob8 0.803 | 2 s
+  all but ER_ER          th 1: EB 682 | stays 12.63 mixes 6.60 ratio 1.913 | Dob8 0.379 | 5 s
+  all but ER_ER          th 2: EB 679 | stays 13.89 mixes 8.16 ratio 1.703 | Dob8 0.503 | 3 s
+  all but ER_ER          th 5: EB 638 | stays 15.24 mixes 41.62 ratio 0.366 | Dob8 0.897 | 2 s
+  all but out_of_ER      th 1: EB 683 | stays 11.97 mixes 4.30 ratio 2.783 | Dob8 0.207 | 5 s
+  all but out_of_ER      th 2: EB 680 | stays 12.92 mixes 4.69 ratio 2.757 | Dob8 0.244 | 3 s
+  all but out_of_ER      th 5: EB 638 | stays 15.36 mixes 6.41 ratio 2.398 | Dob8 0.435 | 2 s
+  all but columnar       th 1: EB 683 | stays 12.67 mixes 6.46 ratio 1.960 | Dob8 0.377 | 5 s
+  all but columnar       th 2: EB 677 | stays 13.74 mixes 8.13 ratio 1.689 | Dob8 0.501 | 3 s
+  all but columnar       th 5: EB 636 | stays 15.86 mixes 31.29 ratio 0.507 | Dob8 0.878 | 2 s
+  all but tail           th 1: EB 683 | stays 12.68 mixes 6.74 ratio 1.882 | Dob8 0.383 | 5 s
+  all but tail           th 2: EB 679 | stays 13.82 mixes 8.49 ratio 1.628 | Dob8 0.499 | 3 s
+  all but tail           th 5: EB 664 | stays 16.61 mixes 33.71 ratio 0.493 | Dob8 0.872 | 2 s
+saved results/p5_attribution_flywire.json

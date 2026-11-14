@@ -1,0 +1,42 @@
+group into_ER   : edges 13,946, synapses   80,902 (0.096 of EB), synapses kept under the BANC pattern 0.177 (uniform 0.357)
+group ER_ER     : edges 18,437, synapses  269,271 (0.321 of EB), synapses kept under the BANC pattern 0.370 (uniform 0.357)
+group out_of_ER : edges 20,044, synapses  207,988 (0.248 of EB), synapses kept under the BANC pattern 0.222 (uniform 0.357)
+group columnar  : edges  9,381, synapses  209,027 (0.249 of EB), synapses kept under the BANC pattern 0.454 (uniform 0.357)
+group tail      : edges  6,119, synapses   71,306 (0.085 of EB), synapses kept under the BANC pattern 0.270 (uniform 0.357)
+  uniform                th 1: EB 691 | stays 9.26 mixes 4.80 ratio 1.927 | Dob8 0.262 | 6 s
+  uniform                th 2: EB 691 | stays 9.90 mixes 5.44 ratio 1.821 | Dob8 0.327 | 4 s
+  uniform                th 5: EB 690 | stays 13.11 mixes 8.56 ratio 1.531 | Dob8 0.578 | 3 s
+  block pattern          th 1: EB 691 | stays 9.81 mixes 8.33 ratio 1.177 | Dob8 0.476 | 7 s
+  block pattern          th 2: EB 691 | stays 10.57 mixes 13.08 ratio 0.808 | Dob8 0.645 | 4 s
+  block pattern          th 5: EB 656 | stays 14.46 mixes 41.99 ratio 0.345 | Dob8 0.983 | 2 s
+  only into_ER           th 1: EB 691 | stays 7.11 mixes 5.09 ratio 1.396 | Dob8 0.264 | 6 s
+  only into_ER           th 2: EB 691 | stays 7.17 mixes 6.09 ratio 1.178 | Dob8 0.349 | 4 s
+  only into_ER           th 5: EB 689 | stays 7.91 mixes 12.39 ratio 0.639 | Dob8 0.657 | 2 s
+  only ER_ER             th 1: EB 691 | stays 9.31 mixes 4.99 ratio 1.867 | Dob8 0.273 | 7 s
+  only ER_ER             th 2: EB 691 | stays 9.98 mixes 5.74 ratio 1.738 | Dob8 0.349 | 5 s
+  only ER_ER             th 5: EB 688 | stays 13.46 mixes 9.09 ratio 1.482 | Dob8 0.621 | 3 s
+  only out_of_ER         th 1: EB 691 | stays 10.75 mixes 7.71 ratio 1.394 | Dob8 0.462 | 6 s
+  only out_of_ER         th 2: EB 691 | stays 12.27 mixes 10.50 ratio 1.169 | Dob8 0.591 | 4 s
+  only out_of_ER         th 5: EB 690 | stays 26.61 mixes 20.16 ratio 1.320 | Dob8 0.878 | 3 s
+  only columnar          th 1: EB 691 | stays 10.88 mixes 4.73 ratio 2.299 | Dob8 0.256 | 6 s
+  only columnar          th 2: EB 691 | stays 12.06 mixes 5.32 ratio 2.266 | Dob8 0.317 | 4 s
+  only columnar          th 5: EB 690 | stays 18.18 mixes 8.36 ratio 2.174 | Dob8 0.576 | 2 s
+  only tail              th 1: EB 691 | stays 9.26 mixes 4.84 ratio 1.913 | Dob8 0.256 | 6 s
+  only tail              th 2: EB 691 | stays 9.92 mixes 5.56 ratio 1.783 | Dob8 0.334 | 4 s
+  only tail              th 5: EB 676 | stays 13.31 mixes 8.88 ratio 1.498 | Dob8 0.587 | 2 s
+  all but into_ER        th 1: EB 691 | stays 12.70 mixes 7.52 ratio 1.688 | Dob8 0.438 | 7 s
+  all but into_ER        th 2: EB 691 | stays 14.99 mixes 10.26 ratio 1.461 | Dob8 0.581 | 4 s
+  all but into_ER        th 5: EB 670 | stays 33.21 mixes 18.53 ratio 1.792 | Dob8 0.854 | 2 s
+  all but ER_ER          th 1: EB 691 | stays 9.67 mixes 8.09 ratio 1.195 | Dob8 0.463 | 6 s
+  all but ER_ER          th 2: EB 691 | stays 10.39 mixes 12.63 ratio 0.823 | Dob8 0.633 | 3 s
+  all but ER_ER          th 5: EB 656 | stays 14.12 mixes 41.10 ratio 0.343 | Dob8 0.982 | 2 s
+  all but out_of_ER      th 1: EB 691 | stays 8.58 mixes 4.72 ratio 1.818 | Dob8 0.241 | 6 s
+  all but out_of_ER      th 2: EB 691 | stays 8.87 mixes 5.38 ratio 1.647 | Dob8 0.302 | 4 s
+  all but out_of_ER      th 5: EB 657 | stays 10.47 mixes 8.92 ratio 1.173 | Dob8 0.619 | 2 s
+  all but columnar       th 1: EB 691 | stays 8.52 mixes 9.41 ratio 0.906 | Dob8 0.527 | 6 s
+  all but columnar       th 2: EB 691 | stays 8.85 mixes 15.83 ratio 0.559 | Dob8 0.714 | 4 s
+  all but columnar       th 5: EB 664 | stays 14.87 mixes 40.28 ratio 0.369 | Dob8 0.982 | 2 s
+  all but tail           th 1: EB 691 | stays 9.87 mixes 8.22 ratio 1.201 | Dob8 0.468 | 6 s
+  all but tail           th 2: EB 691 | stays 10.86 mixes 12.23 ratio 0.888 | Dob8 0.629 | 4 s
+  all but tail           th 5: EB 682 | stays 15.62 mixes 39.27 ratio 0.398 | Dob8 0.963 | 2 s
+saved results/p5_attribution_male.json

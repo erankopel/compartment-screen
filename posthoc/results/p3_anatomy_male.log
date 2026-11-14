@@ -1,0 +1,49 @@
+=== male, threshold 1: EB neurons in the component 691
+  eigenvalues of the conditioned walk: +1.0000+0.0000i, +0.7934+0.0000i, +0.7426+0.0000i, +0.6864+0.0000i, +0.6034+0.0000i
+  slow mode, minor side: 293 neurons, mass 0.3127, families {'ER': 123, 'MeTu2': 101, 'TuBu': 56, 'ExR': 6, 'EL': 4, 'TuTuB': 2, 'AOTU046': 1}, sides {'R': 147, 'L': 146}
+     types {'MeTu2a': 70, 'MeTu2b': 31, 'TuBu03': 23, 'ER5': 21, 'ER3d_b': 20, 'ER3m': 18, 'ER3a_a': 15, 'TuBu02': 12, 'ER3d_d': 11, 'TuBu04': 11, 'TuBu06': 10, 'ER3d_c': 9}
+  slow mode, major side: 311 neurons, mass 0.5965, families {'ER': 153, 'EPG': 46, 'PEN': 42, 'TuBu': 39, 'PEG': 18, 'ExR': 7, 'GLNO': 4, 'LPsP': 2}
+  classes inside EB: 1; largest 691; single neurons 0 {}
+     class size  691 root 0.8923 families {'ER': 282, 'TuBu': 156, 'MeTu2': 101, 'EPG': 46, 'PEN': 42, 'EL': 18, 'PEG': 18, 'ExR': 14, 'AOTU046': 4, 'GLNO': 4, 'TuTuB': 4, 'LPsP': 2} sides {'R': 347, 'L': 344}
+  r = 8: coefficient 0.2550, attained by ['TuBu08', np.str_('R'), 'TuBu02', np.str_('L')]; pairwise distances median 0.097, 90% 0.178, 99% 0.223; pairs above 0.6: 0.0000
+  starts farther than 0.3 from the stationary law: 0 of 691; greedy removal (starts removed, coefficient): []
+  by family (neurons, median and max distance to the stationary law, starts above 0.3): AOTU046 4 0.03 0.03 0; EL 18 0.01 0.03 0; EPG 46 0.04 0.05 0; ER 282 0.07 0.17 0; ExR 14 0.05 0.09 0; GLNO 4 0.06 0.06 0; LPsP 2 0.06 0.06 0; MeTu2 101 0.10 0.16 0; PEG 18 0.06 0.06 0; PEN 42 0.05 0.05 0; TuBu 156 0.05 0.18 0; TuTuB 4 0.08 0.11 0
+  subset core      : n  426 loss 0.1189 stays 9.13 mixes 4.87 ratio 1.874 | Dobrushin r=8 0.244 (dropped 0) | exit mean 0.219 below 1.000
+  subset tail      : n  265 loss 0.7029 stays 2.11 mixes 7.08 ratio 0.298 | Dobrushin r=8 0.372 (dropped 9) | exit mean 0.863 below 0.040
+  subset core_left : n  214 loss 0.5689 stays 1.80 mixes 4.78 ratio 0.376 | Dobrushin r=8 0.240 (dropped 0)
+  subset core_right: n  212 loss 0.5632 stays 1.82 mixes 4.27 ratio 0.425 | Dobrushin r=8 0.163 (dropped 0)
+=== male, threshold 5: EB neurons in the component 691
+  eigenvalues of the conditioned walk: +1.0000+0.0000i, +0.8336+0.0000i, +0.7969+0.0000i, +0.7173+0.0000i, +0.6817+0.0000i
+  slow mode, minor side: 291 neurons, mass 0.3432, families {'ER': 123, 'MeTu2': 101, 'TuBu': 56, 'ExR': 6, 'EL': 2, 'TuTuB': 2, 'AOTU046': 1}, sides {'R': 146, 'L': 145}
+     types {'MeTu2a': 70, 'MeTu2b': 31, 'TuBu03': 23, 'ER5': 21, 'ER3d_b': 20, 'ER3m': 18, 'ER3a_a': 15, 'TuBu02': 12, 'ER3d_d': 11, 'TuBu04': 10, 'TuBu06': 10, 'ER3d_c': 9}
+  slow mode, major side: 341 neurons, mass 0.5761, families {'ER': 156, 'TuBu': 62, 'EPG': 46, 'PEN': 42, 'PEG': 18, 'ExR': 8, 'GLNO': 4, 'EL': 3, 'LPsP': 2}
+  classes inside EB: 4; largest 688; single neurons 3 {'MeTu2': 2, 'TuBu': 1}
+     class size  688 root 0.9020 families {'ER': 282, 'TuBu': 155, 'MeTu2': 99, 'EPG': 46, 'PEN': 42, 'EL': 18, 'PEG': 18, 'ExR': 14, 'AOTU046': 4, 'GLNO': 4, 'TuTuB': 4, 'LPsP': 2} sides {'R': 346, 'L': 342}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'R': 1}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'L': 1}
+     class size    1 root 0.0000 families {'TuBu': 1} sides {'L': 1}
+  r = 8: coefficient 0.3639, attained by ['TuBu08', np.str_('R'), 'TuBu02', np.str_('L')]; pairwise distances median 0.142, 90% 0.271, 99% 0.324; pairs above 0.6: 0.0000
+  starts farther than 0.3 from the stationary law: 0 of 691; greedy removal (starts removed, coefficient): []
+  by family (neurons, median and max distance to the stationary law, starts above 0.3): AOTU046 4 0.03 0.04 0; EL 18 0.02 0.06 0; EPG 46 0.07 0.09 0; ER 282 0.11 0.25 0; ExR 14 0.07 0.14 0; GLNO 4 0.09 0.09 0; LPsP 2 0.10 0.10 0; MeTu2 101 0.11 0.22 0; PEG 18 0.10 0.10 0; PEN 42 0.08 0.09 0; TuBu 156 0.07 0.26 0; TuTuB 4 0.10 0.13 0
+  subset core      : n  426 loss 0.1043 stays 10.10 mixes 6.04 ratio 1.674 | Dobrushin r=8 0.353 (dropped 0) | exit mean 0.223 below 0.999
+  subset tail      : n  265 loss 0.7057 stays 2.40 mixes 9.37 ratio 0.256 | Dobrushin r=8 0.489 (dropped 117) | exit mean 0.876 below 0.050
+  subset core_left : n  214 loss 0.5646 stays 1.81 mixes 6.15 ratio 0.294 | Dobrushin r=8 0.358 (dropped 2)
+  subset core_right: n  212 loss 0.5568 stays 1.84 mixes 5.19 ratio 0.355 | Dobrushin r=8 0.267 (dropped 2)
+=== male, threshold 10: EB neurons in the component 691
+  eigenvalues of the conditioned walk: +1.0000+0.0000i, +0.8824+0.0000i, +0.8311+0.0000i, +0.7918+0.0000i, +0.7788+0.0000i
+  slow mode, minor side: 145 neurons, mass 0.4086, families {'ER': 97, 'TuBu': 44, 'ExR': 3, 'EL': 1}, sides {'R': 73, 'L': 72}
+     types {'TuBu03': 23, 'ER3d_b': 20, 'ER3m': 18, 'ER3a_a': 15, 'ER3d_d': 11, 'TuBu02': 11, 'TuBu04': 10, 'ER3d_c': 9, 'ER3d_a': 7, 'ER3d_e': 7, 'ER3a_b': 5, 'ER3a_d': 5}
+  slow mode, major side: 401 neurons, mass 0.4780, families {'ER': 158, 'TuBu': 101, 'EPG': 46, 'PEN': 42, 'PEG': 18, 'EL': 11, 'ExR': 8, 'MeTu2': 6, 'GLNO': 4, 'AOTU046': 3, 'LPsP': 2, 'TuTuB': 2}
+  classes inside EB: 23; largest 669; single neurons 22 {'MeTu2': 16, 'TuBu': 6}
+     class size  669 root 0.9211 families {'ER': 282, 'TuBu': 150, 'MeTu2': 85, 'EPG': 46, 'PEN': 42, 'EL': 18, 'PEG': 18, 'ExR': 14, 'AOTU046': 4, 'GLNO': 4, 'TuTuB': 4, 'LPsP': 2} sides {'R': 336, 'L': 333}
+     class size    1 root 0.0000 families {'TuBu': 1} sides {'R': 1}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'L': 1}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'R': 1}
+  r = 8: coefficient 0.5692, attained by ['TuBu03', np.str_('R'), 'TuBu08', np.str_('L')]; pairwise distances median 0.204, 90% 0.426, 99% 0.502; pairs above 0.6: 0.0000
+  starts farther than 0.3 from the stationary law: 3 of 691; greedy removal (starts removed, coefficient): []
+  by family (neurons, median and max distance to the stationary law, starts above 0.3): AOTU046 4 0.04 0.04 0; EL 18 0.10 0.23 0; EPG 46 0.17 0.20 0; ER 282 0.24 0.29 0; ExR 14 0.13 0.20 0; GLNO 4 0.20 0.20 0; LPsP 2 0.21 0.21 0; MeTu2 101 0.11 0.24 0; PEG 18 0.21 0.22 0; PEN 42 0.17 0.20 0; TuBu 156 0.20 0.32 3; TuTuB 4 0.13 0.14 0
+  subset core      : n  426 loss 0.0869 stays 12.60 mixes 8.53 ratio 1.478 | Dobrushin r=8 0.523 (dropped 0) | exit mean 0.248 below 0.993
+  subset tail      : n  265 loss 0.6923 stays 2.51 mixes 12.80 ratio 0.196 | Dobrushin r=8 0.624 (dropped 140) | exit mean 0.894 below 0.065
+  subset core_left : n  214 loss 0.5577 stays 1.84 mixes 7.58 ratio 0.242 | Dobrushin r=8 0.463 (dropped 2)
+  subset core_right: n  212 loss 0.5465 stays 1.88 mixes 7.91 ratio 0.238 | Dobrushin r=8 0.465 (dropped 2)
+saved results/p3_anatomy_male.json

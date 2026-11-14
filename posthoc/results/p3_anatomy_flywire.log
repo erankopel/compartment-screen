@@ -1,0 +1,32 @@
+=== flywire, threshold 1: EB neurons in the component 683
+  eigenvalues of the conditioned walk: +1.0000+0.0000i, +0.7660+0.0000i, +0.6868+0.0000i, +0.6812+0.0000i, +0.6183+0.0000i
+  slow mode, minor side: 228 neurons, mass 0.2756, families {'ER': 125, 'TuBu': 52, 'MeTu2': 42, 'ExR': 6, 'TuTuB': 2, 'EL': 1}, sides {'R': 115, 'L': 113}
+     types {'ER3d': 47, 'MeTu2b': 31, 'TuBu03': 26, 'ER3a_a,ER3a_d': 23, 'ER5': 21, 'ER3m': 15, 'ER3a_b,ER3a_c': 14, 'MeTu2a': 11, 'TuBu02': 11, 'TuBu04': 7, 'ER3p_b': 5, 'TuBu06b': 5}
+  slow mode, major side: 363 neurons, mass 0.5648, families {'ER': 151, 'TuBu': 91, 'EPG': 47, 'PEN': 42, 'PEG': 20, 'ExR': 4, 'GLNO': 4, 'LPsP': 2, 'TuTuB': 2}
+  classes inside EB: 1; largest 683; single neurons 0 {}
+     class size  683 root 0.9165 families {'ER': 278, 'TuBu': 150, 'MeTu2': 101, 'EPG': 47, 'PEN': 42, 'PEG': 20, 'EL': 17, 'ExR': 14, 'AOTU046': 4, 'GLNO': 4, 'TuTuB': 4, 'LPsP': 2} sides {'R': 342, 'L': 341}
+  r = 8: coefficient 0.2102, attained by ['ER3w', np.str_('R'), 'TuBu03', np.str_('L')]; pairwise distances median 0.066, 90% 0.138, 99% 0.172; pairs above 0.6: 0.0000
+  starts farther than 0.3 from the stationary law: 0 of 683; greedy removal (starts removed, coefficient): []
+  by family (neurons, median and max distance to the stationary law, starts above 0.3): AOTU046 4 0.01 0.01 0; EL 17 0.01 0.02 0; EPG 47 0.03 0.04 0; ER 278 0.05 0.13 0; ExR 14 0.03 0.10 0; GLNO 4 0.04 0.04 0; LPsP 2 0.04 0.04 0; MeTu2 101 0.04 0.10 0; PEG 20 0.04 0.04 0; PEN 42 0.03 0.03 0; TuBu 150 0.05 0.14 0; TuTuB 4 0.05 0.05 0
+  subset core      : n  424 loss 0.0972 stays 11.64 mixes 4.28 ratio 2.720 | Dobrushin r=8 0.198 (dropped 0) | exit mean 0.223 below 0.972
+  subset tail      : n  259 loss 0.7267 stays 1.91 mixes 9.11 ratio 0.210 | Dobrushin r=8 0.487 (dropped 7) | exit mean 0.896 below 0.022
+  subset core_left : n  211 loss 0.5598 stays 1.84 mixes 3.76 ratio 0.488 | Dobrushin r=8 0.150 (dropped 0)
+  subset core_right: n  213 loss 0.5617 stays 1.82 mixes 3.85 ratio 0.474 | Dobrushin r=8 0.164 (dropped 0)
+=== flywire, threshold 5: EB neurons in the component 674
+  eigenvalues of the conditioned walk: +1.0000+0.0000i, +0.8292+0.0000i, +0.7500+0.0000i, +0.7282+0.0048i, +0.7282-0.0048i
+  slow mode, minor side: 150 neurons, mass 0.2008, families {'ER': 93, 'TuBu': 44, 'MeTu2': 8, 'ExR': 4, 'EL': 1}, sides {'L': 75, 'R': 75}
+     types {'ER3d': 46, 'TuBu03': 26, 'ER3a_a,ER3a_d': 23, 'ER3m': 15, 'TuBu02': 11, 'MeTu2b': 8, 'TuBu04': 7, 'ER3p_b': 5, 'ER3a_b,ER3a_c': 4, 'ExR1': 2, 'ExR3': 2, 'EL': 1}
+  slow mode, major side: 358 neurons, mass 0.6522, families {'ER': 147, 'TuBu': 89, 'EPG': 40, 'PEN': 39, 'PEG': 20, 'EL': 8, 'ExR': 5, 'GLNO': 4, 'LPsP': 2, 'MeTu2': 2, 'TuTuB': 2}
+  classes inside EB: 12; largest 663; single neurons 11 {'MeTu2': 8, 'TuBu': 3}
+     class size  663 root 0.9314 families {'ER': 272, 'TuBu': 144, 'MeTu2': 93, 'EPG': 47, 'PEN': 42, 'PEG': 20, 'EL': 17, 'ExR': 14, 'AOTU046': 4, 'GLNO': 4, 'TuTuB': 4, 'LPsP': 2} sides {'R': 335, 'L': 328}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'L': 1}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'L': 1}
+     class size    1 root 0.0000 families {'MeTu2': 1} sides {'R': 1}
+  r = 8: coefficient 0.3810, attained by ['TuBu03', np.str_('L'), 'TuBu09,TuBu10', np.str_('L')]; pairwise distances median 0.105, 90% 0.260, 99% 0.321; pairs above 0.6: 0.0000
+  starts farther than 0.3 from the stationary law: 0 of 673; greedy removal (starts removed, coefficient): []
+  by family (neurons, median and max distance to the stationary law, starts above 0.3): AOTU046 4 0.04 0.04 0; EL 17 0.04 0.07 0; EPG 47 0.04 0.08 0; ER 272 0.09 0.25 0; ExR 14 0.04 0.20 0; GLNO 4 0.05 0.05 0; LPsP 2 0.06 0.06 0; MeTu2 100 0.05 0.11 0; PEG 20 0.06 0.07 0; PEN 42 0.04 0.06 0; TuBu 147 0.11 0.28 0; TuTuB 4 0.07 0.08 0
+  subset core      : n  418 loss 0.0768 stays 14.22 mixes 5.87 ratio 2.421 | Dobrushin r=8 0.359 (dropped 0) | exit mean 0.217 below 0.967
+  subset tail      : n  256 loss 0.7524 stays 1.86 mixes 13.68 ratio 0.136 | Dobrushin r=8 0.741 (dropped 112) | exit mean 0.909 below 0.025
+  subset core_left : n  209 loss 0.5509 stays 1.88 mixes 4.53 ratio 0.415 | Dobrushin r=8 0.256 (dropped 3)
+  subset core_right: n  209 loss 0.5535 stays 1.85 mixes 4.80 ratio 0.386 | Dobrushin r=8 0.277 (dropped 3)
+saved results/p3_anatomy_flywire.json

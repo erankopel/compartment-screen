@@ -1,0 +1,32 @@
+male: p inside EB 0.3573, elsewhere 0.3594; block probabilities inside EB: synapse-weighted mean 0.3270, range 0.025 to 1.000
+uniform, seed 20261115: edges kept 15,823,502 of 25,582,938; synapses 44,634,003; inside EB: edges 52,771, synapses 300,224 (per neuron 434; BANC 434); mean per edge 2.82 (BANC 3.19), inside EB 5.69 (BANC 6.44)
+  uniform  seed 20261115 th 1: scc 164,395 EB 691 | loss 0.1163 stays 9.26 mixes 4.80 ratio 1.927 | Dob8 0.262 (drop 0) | exit mean 0.270 below 0.944 | 41 s
+  uniform  seed 20261115 th 2: scc 160,462 EB 691 | loss 0.1059 stays 9.90 mixes 5.44 ratio 1.821 | Dob8 0.327 (drop 0) | exit mean 0.242 below 0.975 | 20 s
+  uniform  seed 20261115 th 3: scc 155,767 EB 691 | loss 0.0978 stays 10.67 mixes 6.20 ratio 1.722 | Dob8 0.394 (drop 0) | exit mean 0.235 below 0.981 | 13 s
+  uniform  seed 20261115 th 5: scc 141,131 EB 690 | loss 0.0815 stays 13.11 mixes 8.56 ratio 1.531 | Dob8 0.578 (drop 0) | exit mean 0.231 below 0.996 | 7 s
+uniform, seed 20261116: edges kept 15,824,104 of 25,582,938; synapses 44,629,877; inside EB: edges 52,885, synapses 300,320 (per neuron 435; BANC 434); mean per edge 2.82 (BANC 3.19), inside EB 5.68 (BANC 6.44)
+  uniform  seed 20261116 th 1: scc 164,381 EB 691 | loss 0.1158 stays 9.29 mixes 4.84 ratio 1.922 | Dob8 0.276 (drop 0) | exit mean 0.270 below 0.943 | 40 s
+  uniform  seed 20261116 th 2: scc 160,545 EB 691 | loss 0.1049 stays 9.99 mixes 5.51 ratio 1.813 | Dob8 0.339 (drop 0) | exit mean 0.241 below 0.972 | 19 s
+  uniform  seed 20261116 th 3: scc 155,813 EB 691 | loss 0.0976 stays 10.65 mixes 6.47 ratio 1.646 | Dob8 0.413 (drop 0) | exit mean 0.234 below 0.987 | 14 s
+  uniform  seed 20261116 th 5: scc 140,940 EB 688 | loss 0.0806 stays 13.27 mixes 9.04 ratio 1.468 | Dob8 0.592 (drop 0) | exit mean 0.226 below 0.997 | 8 s
+uniform, seed 20261117: edges kept 15,825,988 of 25,582,938; synapses 44,634,176; inside EB: edges 52,763, synapses 299,557 (per neuron 434; BANC 434); mean per edge 2.82 (BANC 3.19), inside EB 5.68 (BANC 6.44)
+  uniform  seed 20261117 th 1: scc 164,392 EB 691 | loss 0.1158 stays 9.30 mixes 4.85 ratio 1.918 | Dob8 0.258 (drop 0) | exit mean 0.272 below 0.946 | 40 s
+  uniform  seed 20261117 th 2: scc 160,542 EB 691 | loss 0.1052 stays 9.96 mixes 5.56 ratio 1.792 | Dob8 0.336 (drop 0) | exit mean 0.241 below 0.976 | 20 s
+  uniform  seed 20261117 th 3: scc 155,719 EB 691 | loss 0.0980 stays 10.66 mixes 6.44 ratio 1.655 | Dob8 0.408 (drop 0) | exit mean 0.236 below 0.982 | 14 s
+  uniform  seed 20261117 th 5: scc 141,033 EB 691 | loss 0.0805 stays 13.44 mixes 8.73 ratio 1.539 | Dob8 0.600 (drop 0) | exit mean 0.233 below 0.993 | 8 s
+block, seed 20261115: edges kept 15,817,576 of 25,582,938; synapses 44,608,937; inside EB: edges 46,983, synapses 274,563 (per neuron 397; BANC 434); mean per edge 2.82 (BANC 3.19), inside EB 5.84 (BANC 6.44)
+  block    seed 20261115 th 1: scc 164,383 EB 691 | loss 0.1231 stays 9.81 mixes 8.33 ratio 1.177 | Dob8 0.476 (drop 0) | exit mean 0.348 below 0.736 | 41 s
+  block    seed 20261115 th 2: scc 160,425 EB 691 | loss 0.1133 stays 10.57 mixes 13.08 ratio 0.808 | Dob8 0.645 (drop 0) | exit mean 0.309 below 0.826 | 20 s
+  block    seed 20261115 th 3: scc 155,695 EB 691 | loss 0.1034 stays 11.87 mixes 16.85 ratio 0.704 | Dob8 0.775 (drop 1) | exit mean 0.301 below 0.884 | 14 s
+  block    seed 20261115 th 5: scc 141,067 EB 656 | loss 0.0963 stays 14.46 mixes 41.99 ratio 0.345 | Dob8 0.983 (drop 6) | exit mean 0.329 below 0.861 | 9 s
+block, seed 20261116: edges kept 15,818,083 of 25,582,938; synapses 44,604,164; inside EB: edges 46,936, synapses 274,933 (per neuron 398; BANC 434); mean per edge 2.82 (BANC 3.19), inside EB 5.86 (BANC 6.44)
+  block    seed 20261116 th 1: scc 164,432 EB 691 | loss 0.1216 stays 9.91 mixes 8.04 ratio 1.232 | Dob8 0.465 (drop 0) | exit mean 0.343 below 0.742 | 44 s
+  block    seed 20261116 th 2: scc 160,574 EB 691 | loss 0.1094 stays 10.79 mixes 11.79 ratio 0.915 | Dob8 0.615 (drop 1) | exit mean 0.300 below 0.844 | 22 s
+  block    seed 20261116 th 3: scc 155,757 EB 691 | loss 0.1011 stays 11.92 mixes 16.84 ratio 0.708 | Dob8 0.772 (drop 2) | exit mean 0.296 below 0.887 | 15 s
+  block    seed 20261116 th 5: scc 141,099 EB 668 | loss 0.0867 stays 15.18 mixes 119.74 ratio 0.127 | Dob8 0.989 (drop 11) | exit mean 0.322 below 0.869 | 9 s
+block, seed 20261117: edges kept 15,819,924 of 25,582,938; synapses 44,610,473; inside EB: edges 46,775, synapses 274,211 (per neuron 397; BANC 434); mean per edge 2.82 (BANC 3.19), inside EB 5.86 (BANC 6.44)
+  block    seed 20261117 th 1: scc 164,394 EB 691 | loss 0.1211 stays 9.92 mixes 7.99 ratio 1.242 | Dob8 0.462 (drop 0) | exit mean 0.337 below 0.761 | 44 s
+  block    seed 20261117 th 2: scc 160,561 EB 691 | loss 0.1113 stays 10.58 mixes 11.70 ratio 0.904 | Dob8 0.612 (drop 0) | exit mean 0.300 below 0.842 | 21 s
+  block    seed 20261117 th 3: scc 155,779 EB 690 | loss 0.1015 stays 11.67 mixes 17.23 ratio 0.677 | Dob8 0.778 (drop 2) | exit mean 0.307 below 0.847 | 14 s
+  block    seed 20261117 th 5: scc 140,996 EB 666 | loss 0.0839 stays 16.30 mixes 38.10 ratio 0.428 | Dob8 0.968 (drop 8) | exit mean 0.294 below 0.923 | 9 s
+saved results/p4_thinning_male.json

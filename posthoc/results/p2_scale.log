@@ -1,0 +1,78 @@
+banc: syn/neuron 268; per edge mean 3.19 median 1; edges w=1 0.536, <5 0.854 (synapses in them 0.425)
+   EB: 595 neurons, 40,044 edges, 257,977 synapses; inside per neuron 434; per edge mean 6.44, pct [1.0, 1.0, 3.0, 7.0, 16.0]; w=1 0.332, <5 0.658 (synapses in them 0.189); strongest inside input <5: 57, output <5: 25
+male: syn/neuron 745; per edge mean 4.85 median 2; edges w=1 0.403, <5 0.756 (synapses in them 0.276)
+   EB: 691 neurons, 67,927 edges, 838,494 synapses; inside per neuron 1213; per edge mean 12.34, pct [1.0, 2.0, 5.0, 14.0, 33.0]; w=1 0.198, <5 0.463 (synapses in them 0.076); strongest inside input <5: 3, output <5: 0
+flywire: syn/neuron 495; per edge mean 4.59 median 2; edges w=1 0.408, <5 0.765 (synapses in them 0.296)
+   EB: 683 neurons, 47,134 edges, 456,718 synapses; inside per neuron 669; per edge mean 9.69, pct [1.0, 2.0, 4.0, 10.0, 25.0]; w=1 0.240, <5 0.544 (synapses in them 0.112); strongest inside input <5: 11, output <5: 10
+
+family: neurons (banc male flywire) | median inside input per neuron | neurons whose strongest inside input < 5
+  ER        268  282  278 |     342    1252     718 |   0   0   0
+  EPG        45   46   47 |    1069    3972    1762 |   0   0   0
+  PEG        19   18   20 |     485     860     505 |   0   0   0
+  PEN        42   42   42 |     909    1685     950 |   0   0   0
+  EL         18   18   17 |     916    4038    3173 |   0   0   0
+  ExR        14   14   14 |    2238    6785    2760 |   0   0   0
+  TuBu      148  156  150 |      26     118      78 |  34   1   3
+  MeTu2      27  101  101 |       2      48      27 |  23   2   8
+  LPsP        2    2    2 |     748    1056     386 |   0   0   0
+  GLNO        4    4    4 |     512    1232     540 |   0   0   0
+  AOTU046     4    4    4 |     148     500     426 |   0   0   0
+  TuTuB       4    4    4 |      42    1332     694 |   0   0   0
+
+blocks with at least 2000 synapses in the male: synapses per possible pair, density, mean weight (banc / male / flywire) and ratio banc:male
+  ER>ER          syn/pair   1.26   3.40   1.86 | density 0.174 0.233 0.158 | mean w   7.20  14.60  11.76 | banc:male syn/pair 0.37, mean w 0.49
+  ER>EPG         syn/pair   2.20   9.56   3.81 | density 0.598 0.894 0.647 | mean w   3.67  10.69   5.90 | banc:male syn/pair 0.23, mean w 0.34
+  ER>EL          syn/pair   1.46   7.55   5.62 | density 0.533 0.901 0.744 | mean w   2.74   8.38   7.55 | banc:male syn/pair 0.19, mean w 0.33
+  ER>ExR         syn/pair   1.20   8.57   5.56 | density 0.284 0.461 0.333 | mean w   4.23  18.60  16.68 | banc:male syn/pair 0.14, mean w 0.23
+  PEN>EPG        syn/pair   5.47  12.46   6.38 | density 0.337 0.380 0.300 | mean w  16.24  32.75  21.28 | banc:male syn/pair 0.44, mean w 0.50
+  ExR>ER         syn/pair   0.44   5.94   1.89 | density 0.215 0.491 0.307 | mean w   2.02  12.09   6.17 | banc:male syn/pair 0.07, mean w 0.17
+  EL>ER          syn/pair   0.27   4.56   1.38 | density 0.204 0.884 0.490 | mean w   1.35   5.16   2.82 | banc:male syn/pair 0.06, mean w 0.26
+  EPG>ER         syn/pair   0.43   1.55   0.65 | density 0.212 0.400 0.206 | mean w   2.03   3.87   3.17 | banc:male syn/pair 0.28, mean w 0.52
+  PEN>PEN        syn/pair   4.43  10.40   4.70 | density 0.599 0.621 0.567 | mean w   7.39  16.76   8.29 | banc:male syn/pair 0.43, mean w 0.44
+  EPG>ExR        syn/pair  15.93  25.70  15.84 | density 0.760 0.890 0.667 | mean w  20.95  28.88  23.74 | banc:male syn/pair 0.62, mean w 0.73
+  GLNO>PEN       syn/pair  45.31  97.45  54.48 | density 0.500 0.500 0.500 | mean w  90.62 194.89 108.96 | banc:male syn/pair 0.46, mean w 0.46
+  TuBu>ER        syn/pair   0.19   0.36   0.53 | density 0.012 0.013 0.011 | mean w  16.64  28.27  46.49 | banc:male syn/pair 0.53, mean w 0.59
+  ExR>EPG        syn/pair   7.97  24.55  11.27 | density 0.717 0.998 0.746 | mean w  11.10  24.59  15.10 | banc:male syn/pair 0.32, mean w 0.45
+  ExR>PEN        syn/pair  14.33  22.00  11.57 | density 0.405 0.573 0.383 | mean w  35.40  38.38  30.24 | banc:male syn/pair 0.65, mean w 0.92
+  EPG>PEN        syn/pair   4.57   6.38   4.21 | density 0.341 0.344 0.287 | mean w  13.43  18.57  14.70 | banc:male syn/pair 0.72, mean w 0.72
+  EPG>EPG        syn/pair   1.49   5.55   1.62 | density 0.281 0.407 0.232 | mean w   5.29  13.64   7.01 | banc:male syn/pair 0.27, mean w 0.39
+  AOTU046>TuBu   syn/pair   3.49  16.92  13.40 | density 0.701 0.955 0.933 | mean w   4.97  17.72  14.36 | banc:male syn/pair 0.21, mean w 0.28
+  ExR>EL         syn/pair   9.90  41.50  39.16 | density 0.655 0.968 0.794 | mean w  15.12  42.86  49.31 | banc:male syn/pair 0.24, mean w 0.35
+  MeTu2>TuBu     syn/pair   0.07   0.65   0.49 | density 0.014 0.034 0.028 | mean w   5.34  18.93  17.69 | banc:male syn/pair 0.11, mean w 0.28
+  PEN>ER         syn/pair   0.31   0.81   0.43 | density 0.108 0.179 0.133 | mean w   2.89   4.54   3.26 | banc:male syn/pair 0.39, mean w 0.64
+  EPG>EL         syn/pair   3.85  11.06  10.78 | density 0.265 0.465 0.506 | mean w  14.50  23.78  21.31 | banc:male syn/pair 0.35, mean w 0.61
+  PEN>EL         syn/pair   4.80  10.80   9.68 | density 0.279 0.380 0.367 | mean w  17.19  28.45  26.38 | banc:male syn/pair 0.44, mean w 0.60
+  PEG>ExR        syn/pair  16.96  30.23  14.41 | density 0.703 0.813 0.636 | mean w  24.13  37.16  22.66 | banc:male syn/pair 0.56, mean w 0.65
+  ER>PEN         syn/pair   0.31   0.64   0.45 | density 0.087 0.139 0.102 | mean w   3.52   4.57   4.39 | banc:male syn/pair 0.48, mean w 0.77
+  TuBu>ExR       syn/pair   1.45   2.89   2.64 | density 0.195 0.292 0.254 | mean w   7.45   9.90  10.41 | banc:male syn/pair 0.50, mean w 0.75
+  EPG>PEG        syn/pair   5.25   7.43   4.32 | density 0.374 0.458 0.363 | mean w  14.02  16.24  11.91 | banc:male syn/pair 0.71, mean w 0.86
+  MeTu2>MeTu2    syn/pair   0.04   0.58   0.23 | density 0.021 0.126 0.089 | mean w   1.80   4.60   2.63 | banc:male syn/pair 0.07, mean w 0.39
+  ExR>ExR        syn/pair   9.04  32.13  10.04 | density 0.797 0.912 0.775 | mean w  11.34  35.23  12.96 | banc:male syn/pair 0.28, mean w 0.32
+  TuTuB>TuBu     syn/pair   1.32   8.12   4.77 | density 0.225 0.340 0.312 | mean w   5.87  23.90  15.32 | banc:male syn/pair 0.16, mean w 0.25
+  PEN>ExR        syn/pair   2.81   8.49   3.79 | density 0.544 0.648 0.478 | mean w   5.17  13.10   7.93 | banc:male syn/pair 0.33, mean w 0.39
+  MeTu2>TuTuB    syn/pair   0.55  11.67   6.00 | density 0.111 0.535 0.463 | mean w   4.92  21.82  12.95 | banc:male syn/pair 0.05, mean w 0.23
+  PEG>ER         syn/pair   0.38   0.91   0.56 | density 0.032 0.042 0.021 | mean w  11.71  21.90  25.97 | banc:male syn/pair 0.41, mean w 0.53
+  ER>PEG         syn/pair   0.37   0.83   0.55 | density 0.061 0.077 0.060 | mean w   6.01  10.73   9.16 | banc:male syn/pair 0.44, mean w 0.56
+  LPsP>EPG       syn/pair  23.22  42.07  19.81 | density 1.000 1.000 1.000 | mean w  23.22  42.07  19.81 | banc:male syn/pair 0.55, mean w 0.55
+  AOTU046>ExR    syn/pair  14.98  67.48  50.73 | density 0.554 0.732 0.679 | mean w  27.06  92.17  74.76 | banc:male syn/pair 0.22, mean w 0.29
+  EL>EPG         syn/pair   0.34   4.48   0.91 | density 0.136 0.354 0.209 | mean w   2.49  12.66   4.37 | banc:male syn/pair 0.08, mean w 0.20
+  PEN>GLNO       syn/pair   7.85  20.81   8.87 | density 0.500 0.500 0.500 | mean w  15.70  41.62  17.74 | banc:male syn/pair 0.38, mean w 0.38
+  TuTuB>MeTu2    syn/pair   0.34   7.46   4.36 | density 0.120 0.584 0.587 | mean w   2.85  12.76   7.43 | banc:male syn/pair 0.05, mean w 0.22
+  LPsP>PEG       syn/pair  38.34  80.39  40.38 | density 1.000 1.000 1.000 | mean w  38.34  80.39  40.38 | banc:male syn/pair 0.48, mean w 0.48
+  LPsP>PEN       syn/pair  15.50  32.44  20.89 | density 0.952 0.905 0.810 | mean w  16.27  35.86  25.81 | banc:male syn/pair 0.48, mean w 0.45
+  PEG>PEN        syn/pair   2.14   3.21   2.11 | density 0.209 0.224 0.181 | mean w  10.23  14.34  11.68 | banc:male syn/pair 0.67, mean w 0.71
+  EPG>LPsP       syn/pair  15.60  22.70   7.07 | density 1.000 1.000 0.936 | mean w  15.60  22.70   7.56 | banc:male syn/pair 0.69, mean w 0.69
+
+summary {
+ "blocks_compared": 42,
+ "median_ratio_syn_per_pair": 0.37356246781758634,
+ "median_ratio_mean_weight": 0.4594383994073207,
+ "median_ratio_density": 0.7345693359566334,
+ "weighted_mean_ratio_syn_per_pair": 0.32699092854792083,
+ "weighted_mean_ratio_mean_weight": 0.44805721855595104,
+ "ratio_inside_synapses_per_neuron_banc_male": 0.3573074820236433,
+ "ratio_inside_synapses_per_neuron_banc_flywire": 0.648390432416951,
+ "ratio_synapses_per_neuron_whole_banc_male": 0.3594399515679118,
+ "ratio_synapses_per_neuron_whole_banc_flywire": 0.5413795976572239
+}
+BANC flags {'proofread_EB': {'FALSE': 16, 'TRUE': 579}, 'proofread_all': {'FALSE': 7311, 'TRUE': 139458}, 'status_EB': {'ALIGNMENT_CELL_TYPE': 2, 'ALIGNMENT_CELL_TYPE,TRACING_ISSUE_2': 1, 'CX_REVIEW': 1, 'FAFB_ALT_MATCH': 157, 'FAFB_ALT_MATCH,HEMIBRAIN_MATCH_PREFERRED': 8, 'FAFB_ALT_MATCH,IN_VIGNETTE,MANUAL_MORPHOLOGY_MATCH,SENT_TO_AELYSIA_TRACING': 1, 'FAFB_ALT_MATCH,LR_TYPE_CONFLICT': 2, 'FAFB_MATCH_WRONG_SIDE': 1, 'HEMIBRAIN_MATCH_PREFERRED': 13, 'INVESTIGATE': 1, 'IN_VIGNETTE,SENT_TO_AELYSIA_TRACING': 1, 'MALECNS_ALT_MATCH': 2, 'PUTATIVE_MOTOR_EFFERENT_CHECK': 1, 'SENT_TO_AELYSIA_TRACING,IN_VIGNETTE': 7, 'TOO_SMALL': 3, 'TRACING_ISSUE': 17, 'TRACING_ISSUE,FAFB_ALT_MATCH': 1, 'TRACING_ISSUE,NO_MIRROR_MATCH,HEMIBRAIN_MATCH_PREFERRED': 1, 'TRACING_ISSUE,SENT_TO_AELYSIA_TRACING,IN_VIGNETTE': 1, 'TRACING_ISSUE,TRACING_ISSUE_2': 2, 'TRACING_ISSUE_2': 5, 'TRACING_ISSUE_2,SENT_TO_PRINCETON_TRACING': 1, 'TRACING_ISSUE_3,TRACING_ISSUE_MISSING_AXON': 1, 'TRACING_ISSUE_RESOLVED': 2, 'TRACING_ISSUE_TADPOLE': 1, 'TRACING_NT_ISSUE,SENT_TO_AELYSIA_TRACING': 1, 'UNROOTED': 1, 'nan': 360}}

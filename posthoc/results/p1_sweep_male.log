@@ -1,0 +1,18 @@
+male: N 166,700; edges 25,582,938; synapses 124,177,617; inside EB: edges 67,927, synapses 838,494
+th  1: scc 165,314 EB 691 kept syn 1.000 EBsyn 1.000 | loss 0.1159 stays 9.29 mixes 4.84 ratio 1.919 | Dob4 0.673 Dob8 0.255 Dob16 0.043 drop 0 | exit mean 0.267 below 0.948 | classes 1 largest 691 | CX 1.37 MB 0.21 AL 0.20 | 74 s
+th  2: scc 163,514 EB 691 kept syn 0.917 EBsyn 0.984 | loss 0.1100 stays 9.63 mixes 5.08 ratio 1.894 | Dob4 0.714 Dob8 0.284 Dob16 0.053 drop 0 | exit mean 0.245 below 0.972 | classes 1 largest 691 | CX 1.51 MB 0.29 AL 0.20 | 62 s
+th  3: scc 161,820 EB 691 kept syn 0.840 EBsyn 0.965 | loss 0.1070 stays 9.79 mixes 5.38 ratio 1.820 | Dob4 0.731 Dob8 0.318 Dob16 0.066 drop 0 | exit mean 0.238 below 0.974 | classes 1 largest 691 | CX 1.62 MB 0.51 AL 0.19 | 37 s
+th  4: scc 159,940 EB 691 kept syn 0.777 EBsyn 0.944 | loss 0.1043 stays 9.96 mixes 5.67 ratio 1.756 | Dob4 0.740 Dob8 0.341 Dob16 0.077 drop 0 | exit mean 0.236 below 0.975 | classes 1 largest 691 | CX 1.71 MB 0.48 AL 0.19 | 57 s
+th  5: scc 157,821 EB 691 kept syn 0.724 EBsyn 0.924 | loss 0.1016 stays 10.20 mixes 6.01 ratio 1.697 | Dob4 0.750 Dob8 0.364 Dob16 0.090 drop 0 | exit mean 0.235 below 0.977 | classes 4 largest 688 | CX 1.82 MB 0.44 AL 0.19 | 84 s
+th  6: scc 155,761 EB 691 kept syn 0.678 EBsyn 0.904 | loss 0.0986 stays 10.53 mixes 6.44 ratio 1.635 | Dob4 0.757 Dob8 0.405 Dob16 0.109 drop 0 | exit mean 0.233 below 0.981 | classes 5 largest 687 | CX 2.09 MB 0.40 AL 0.19 | 17 s
+th  7: scc 153,692 EB 691 kept syn 0.637 EBsyn 0.883 | loss 0.0952 stays 11.00 mixes 6.91 ratio 1.592 | Dob4 0.795 Dob8 0.453 Dob16 0.138 drop 0 | exit mean 0.234 below 0.988 | classes 7 largest 685 | CX 2.08 MB 0.27 AL 0.19 | 19 s
+th  8: scc 151,514 EB 691 kept syn 0.602 EBsyn 0.862 | loss 0.0913 stays 11.59 mixes 7.39 ratio 1.567 | Dob4 0.825 Dob8 0.495 Dob16 0.168 drop 0 | exit mean 0.235 below 0.990 | classes 10 largest 682 | CX 2.08 MB 0.16 AL 0.19 | 15 s
+th 10: scc 146,003 EB 691 kept syn 0.542 EBsyn 0.819 | loss 0.0849 stays 12.67 mixes 8.50 ratio 1.491 | Dob4 0.857 Dob8 0.569 Dob16 0.232 drop 0 | exit mean 0.234 below 0.992 | classes 23 largest 669 | CX 2.05 MB 0.00 AL 0.19 | 10 s
+Traceback (most recent call last):
+  File "p1_sweep.py", line 68, in <module>
+    r['sets'][nm] = sl.set_stats(ch, SETS[nm][k])
+                    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "prereg/screen_lib.py", line 59, in set_stats
+    'stays': 1 / (1 - l1), 'mixes': 1 / (1 - l2 / l1), 'ratio': (1 - l2 / l1) / (1 - l1)}
+                                    ~~^~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero

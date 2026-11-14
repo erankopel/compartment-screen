@@ -1,0 +1,5 @@
+male: N 166,700; edges 25,582,938; synapses 124,177,617; inside EB: edges 67,927, synapses 838,494
+th 12: scc 138,208 EB 691 kept syn 0.493 EBsyn 0.777 | loss 0.0792 stays 13.73 mixes 9.70 ratio 1.416 | Dob4 0.890 Dob8 0.637 Dob16 0.304 drop 0 | exit mean 0.236 below 0.993 | classes 36 largest 656 | CX 2.05 MB nan AL 0.18 | 9 s
+th 15: scc 122,706 EB 685 kept syn 0.434 EBsyn 0.719 | loss 0.0730 stays 15.00 mixes 14.27 ratio 1.051 | Dob4 0.927 Dob8 0.740 Dob16 0.433 drop 0 | exit mean 0.245 below 0.993 | classes 69 largest 617 | CX 1.66 MB 1.44 AL 0.18 | 8 s
+th 20: scc 87,141 EB 655 kept syn 0.361 EBsyn 0.636 | loss 0.0606 stays 21.77 mixes 36.86 ratio 0.591 | Dob4 0.990 Dob8 0.946 Dob16 0.816 drop 0 | exit mean 0.265 below 0.843 | classes 82 largest 571 | CX 0.83 MB 0.13 AL 0.18 | 8 s
+saved results/p1_sweep_male_hi.json

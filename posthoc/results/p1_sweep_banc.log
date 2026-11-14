@@ -1,0 +1,14 @@
+banc: N 146,769; edges 12,305,034; synapses 39,297,815; inside EB: edges 40,044, synapses 257,977
+th  1: scc 144,122 EB 589 kept syn 1.000 EBsyn 1.000 | loss 0.1333 stays 9.57 mixes 6.86 ratio 1.396 | Dob4 0.753 Dob8 0.413 Dob16 0.122 drop 4 | exit mean 0.307 below 0.867 | classes 13 largest 577 | CX 0.79 MB 0.35 AL 0.19 | 37 s
+th  2: scc 140,216 EB 588 kept syn 0.832 EBsyn 0.949 | loss 0.1241 stays 10.93 mixes 8.61 ratio 1.270 | Dob4 0.985 Dob8 0.569 Dob16 0.232 drop 6 | exit mean 0.302 below 0.870 | classes 24 largest 565 | CX 0.91 MB 0.17 AL 0.19 | 21 s
+th  3: scc 134,066 EB 587 kept syn 0.718 EBsyn 0.899 | loss 0.1179 stays 13.25 mixes 12.01 ratio 1.103 | Dob4 0.908 Dob8 0.687 Dob16 0.368 drop 9 | exit mean 0.321 below 0.879 | classes 40 largest 546 | CX 1.01 MB 0.58 AL 0.22 | 16 s
+th  4: scc 124,907 EB 574 kept syn 0.637 EBsyn 0.854 | loss 0.1232 stays 15.10 mixes 17.30 ratio 0.873 | Dob4 0.954 Dob8 0.839 Dob16 0.583 drop 8 | exit mean 0.342 below 0.849 | classes 42 largest 531 | CX 0.71 MB 0.67 AL 0.31 | 16 s
+th  5: scc 113,971 EB 555 kept syn 0.575 EBsyn 0.811 | loss 0.1246 stays 19.36 mixes 23.01 ratio 0.842 | Dob4 0.979 Dob8 0.895 Dob16 0.726 drop 5 | exit mean 0.360 below 0.782 | classes 47 largest 508 | CX 0.36 MB 2.86 AL 0.40 | 14 s
+th  6: scc 102,478 EB 539 kept syn 0.526 EBsyn 0.771 | loss 0.1415 stays 21.83 mixes 50.12 ratio 0.436 | Dob4 0.999 Dob8 0.992 Dob16 0.941 drop 6 | exit mean 0.382 below 0.742 | classes 123 largest 384 | CX 0.16 MB 0.06 AL 0.45 | 13 s
+th  7: scc 90,524 EB 526 kept syn 0.485 EBsyn 0.735 | loss 0.1380 stays 27.14 mixes 65.90 ratio 0.412 | Dob4 1.000 Dob8 0.997 Dob16 0.967 drop 6 | exit mean 0.390 below 0.730 | classes 123 largest 378 | CX 0.23 MB 0.03 AL 0.46 | 8 s
+th  8: scc 78,799 EB 499 kept syn 0.451 EBsyn 0.705 | loss 0.1237 stays 45.31 mixes 139.32 ratio 0.325 | Dob4 1.000 Dob8 0.999 Dob16 0.993 drop 4 | exit mean 0.448 below 0.612 | classes 110 largest 365 | CX 0.07 MB 0.00 AL 0.46 | 7 s
+th 10: scc 57,394 EB 450 kept syn 0.396 EBsyn 0.650 | loss 0.1047 stays 156.96 mixes 241.63 ratio 0.650 | Dob4 1.000 Dob8 1.000 Dob16 1.000 drop 1 | exit mean 0.491 below 0.522 | classes 93 largest 350 | CX 0.65 MB 1.07 AL 0.43 | 7 s
+th 12: scc 41,439 EB 400 kept syn 0.352 EBsyn 0.596 | loss 0.0179 stays 8896.66 mixes 564.26 ratio 15.767 | Dob4 1.000 Dob8 1.000 Dob16 1.000 drop 0 | exit mean 0.381 below 0.668 | classes 70 largest 282 | CX 7.28 MB 0.00 AL 0.40 | 17 s
+th 15: scc 27,781 EB 194 kept syn 0.302 EBsyn 0.526 | loss 0.0174 stays 657214.35 mixes 56.46 ratio 11641.237 | Dob4 1.000 Dob8 0.975 Dob16 0.872 drop 125 | exit mean 0.371 below 0.776 | classes 10 largest 121 | CX 7758.48 MB 0.01 AL 0.36 | 4 s
+th 20: scc 18,260 EB 119 kept syn 0.242 EBsyn 0.416 | loss 0.0974 stays 9.78 mixes 2.52 ratio 3.886 | Dob4 0.423 Dob8 0.054 Dob16 0.001 drop 0 | exit mean 0.312 below 0.955 | classes 1 largest 119 | CX 1.82 MB 0.01 AL 0.37 | 1 s
+saved results/p1_sweep_banc.json

@@ -1,0 +1,123 @@
+TABLE 1. Threshold sweep, EB set (banc / male / flywire). Criteria of the registration for reference: stays/mixes > 1.3, Dobrushin r=8 < 0.6,
+         exit mean < 0.37, pairs below 0.5 > 0.70, loss < 0.20. Not scored here.
+  th | stays/mixes          | Dobrushin r=8        | exit mean            | pairs below 0.5      | loss per step        | giant component share | EB synapses kept
+   1 |  1.396  1.919  2.801 |  0.413  0.255  0.210 |  0.307  0.267  0.231 |  0.867  0.948  0.966 |  0.133  0.116  0.094 |  0.982  0.992  0.965 |  1.000  1.000  1.000
+   2 |  1.270  1.894  2.816 |  0.569  0.284  0.238 |  0.302  0.245  0.224 |  0.870  0.972  0.963 |  0.124  0.110  0.088 |  0.955  0.981  0.944 |  0.949  0.984  0.975
+   3 |  1.103  1.820  2.737 |  0.687  0.318  0.276 |  0.321  0.238  0.191 |  0.879  0.974  0.998 |  0.118  0.107  0.082 |  0.913  0.971  0.923 |  0.899  0.965  0.946
+   4 |  0.873  1.756  2.585 |  0.839  0.341  0.342 |  0.342  0.236  0.204 |  0.849  0.975  0.991 |  0.123  0.104  0.078 |  0.851  0.959  0.906 |  0.854  0.944  0.917
+   5 |  0.842  1.697  2.490 |  0.895  0.364  0.381 |  0.360  0.235  0.197 |  0.782  0.977  0.991 |  0.125  0.102  0.074 |  0.777  0.947  0.889 |  0.811  0.924  0.888
+   6 |  0.436  1.635  2.410 |  0.992  0.405  0.413 |  0.382  0.233  0.189 |  0.742  0.981  0.992 |  0.141  0.099  0.070 |  0.698  0.934  0.872 |  0.771  0.904  0.861
+   7 |  0.412  1.592  2.426 |  0.997  0.453  0.445 |  0.390  0.234  0.182 |  0.730  0.988  0.992 |  0.138  0.095  0.066 |  0.617  0.922  0.851 |  0.735  0.883  0.834
+   8 |  0.325  1.567  2.466 |  0.999  0.495  0.487 |  0.448  0.235  0.200 |  0.612  0.990  0.971 |  0.124  0.091  0.063 |  0.537  0.909  0.829 |  0.705  0.862  0.808
+  10 |  0.650  1.491  2.231 |  1.000  0.569  0.607 |  0.491  0.234  0.206 |  0.522  0.992  0.967 |  0.105  0.085  0.056 |  0.391  0.876  0.774 |  0.650  0.819  0.759
+  12 | 15.767  1.416  1.513 |  1.000  0.637  0.755 |  0.381  0.236  0.207 |  0.668  0.993  0.967 |  0.018  0.079  0.044 |  0.282  0.829  0.710 |  0.596  0.777  0.715
+  15 |  11641  1.051  0.854 |  0.975  0.740  0.908 |  0.371  0.245  0.226 |  0.776  0.993  0.890 |  0.017  0.073  0.033 |  0.189  0.736  0.600 |  0.526  0.719  0.657
+  20 |  3.886  0.591  1.262 |  0.054  0.946  0.998 |  0.312  0.265  0.330 |  0.955  0.843  0.827 |  0.097  0.061  0.029 |  0.124  0.523  0.418 |  0.416  0.636  0.577
+  first threshold at which stays/mixes <= 1.3: banc 2, male 15, flywire 15
+  first threshold at which Dobrushin r=8 >= 0.6: banc 3, male 12, flywire 10
+
+TABLE 2. Synapse-count scale (banc / male / flywire)
+  synapses per neuron, whole graph                            268      745      495
+  synapses per edge, whole graph (mean)                      3.19     4.85     4.59
+  EB neurons                                                  595      691      683
+  synapses inside EB per EB neuron                            434     1213      669
+  synapses per edge inside EB (mean)                         6.44    12.34     9.69
+  synapses per edge inside EB (median)                          3        5        4
+  share of edges inside EB with 1 synapse                   0.332    0.198    0.240
+  share of edges inside EB below 5 synapses                 0.658    0.463    0.544
+  share of EB synapses in edges below 5                     0.189    0.076    0.112
+  EB neurons whose strongest input inside EB is below 5        57        3       11
+  summary banc over male: {'blocks_compared': 42, 'median_ratio_syn_per_pair': 0.374, 'median_ratio_mean_weight': 0.459, 'median_ratio_density': 0.735, 'weighted_mean_ratio_syn_per_pair': 0.327, 'weighted_mean_ratio_mean_weight': 0.448, 'ratio_inside_synapses_per_neuron_banc_male': 0.357, 'ratio_inside_synapses_per_neuron_banc_flywire': 0.648, 'ratio_synapses_per_neuron_whole_banc_male': 0.359, 'ratio_synapses_per_neuron_whole_banc_flywire': 0.541}
+  BANC proofread flag in EB: {'FALSE': 16, 'TRUE': 579}
+  blocks between ring neurons and the rest, synapses per connected pair (banc / male / flywire):
+    EL>ER    mean weight   1.35   5.16   2.82 | density 0.204 0.884 0.490 | synapses per possible pair   0.27   4.56   1.38
+    ExR>ER   mean weight   2.02  12.09   6.17 | density 0.215 0.491 0.307 | synapses per possible pair   0.44   5.94   1.89
+    EPG>ER   mean weight   2.03   3.87   3.17 | density 0.212 0.400 0.206 | synapses per possible pair   0.43   1.55   0.65
+    PEN>ER   mean weight   2.89   4.54   3.26 | density 0.108 0.179 0.133 | synapses per possible pair   0.31   0.81   0.43
+    PEG>ER   mean weight  11.71  21.90  25.97 | density 0.032 0.042 0.021 | synapses per possible pair   0.38   0.91   0.56
+    ER>EL    mean weight   2.74   8.38   7.55 | density 0.533 0.901 0.744 | synapses per possible pair   1.46   7.55   5.62
+    ER>ExR   mean weight   4.23  18.60  16.68 | density 0.284 0.461 0.333 | synapses per possible pair   1.20   8.57   5.56
+    ER>EPG   mean weight   3.67  10.69   5.90 | density 0.598 0.894 0.647 | synapses per possible pair   2.20   9.56   3.81
+    ER>PEN   mean weight   3.52   4.57   4.39 | density 0.087 0.139 0.102 | synapses per possible pair   0.31   0.64   0.45
+    ER>PEG   mean weight   6.01  10.73   9.16 | density 0.061 0.077 0.060 | synapses per possible pair   0.37   0.83   0.55
+    ER>ER    mean weight   7.20  14.60  11.76 | density 0.174 0.233 0.158 | synapses per possible pair   1.26   3.40   1.86
+    PEN>EPG  mean weight  16.24  32.75  21.28 | density 0.337 0.380 0.300 | synapses per possible pair   5.47  12.46   6.38
+    EPG>PEN  mean weight  13.43  18.57  14.70 | density 0.341 0.344 0.287 | synapses per possible pair   4.57   6.38   4.21
+
+TABLE 3. Thinning to the BANC density (mean and range over three seeds). BANC itself: th 1: 1.40, 0.41; th 2: 1.27, 0.57; th 3: 1.10, 0.69; th 5: 0.84, 0.90
+  source male (p inside EB 0.357, elsewhere 0.359); unthinned: th 1: 1.92, 0.25; th 2: 1.89, 0.28; th 3: 1.82, 0.32; th 5: 1.70, 0.36
+    uniform  th 1: seeds 3 | stays/mixes 1.92 (1.92 to 1.93) | Dobrushin r=8 0.27 (0.26 to 0.28) | exit mean 0.271 | pairs below 0.5 0.944
+    uniform  th 2: seeds 3 | stays/mixes 1.81 (1.79 to 1.82) | Dobrushin r=8 0.33 (0.33 to 0.34) | exit mean 0.241 | pairs below 0.5 0.974
+    uniform  th 3: seeds 3 | stays/mixes 1.67 (1.65 to 1.72) | Dobrushin r=8 0.41 (0.39 to 0.41) | exit mean 0.235 | pairs below 0.5 0.984
+    uniform  th 5: seeds 3 | stays/mixes 1.51 (1.47 to 1.54) | Dobrushin r=8 0.59 (0.58 to 0.60) | exit mean 0.230 | pairs below 0.5 0.995
+    block    th 1: seeds 3 | stays/mixes 1.22 (1.18 to 1.24) | Dobrushin r=8 0.47 (0.46 to 0.48) | exit mean 0.343 | pairs below 0.5 0.746
+    block    th 2: seeds 3 | stays/mixes 0.88 (0.81 to 0.91) | Dobrushin r=8 0.62 (0.61 to 0.64) | exit mean 0.303 | pairs below 0.5 0.838
+    block    th 3: seeds 3 | stays/mixes 0.70 (0.68 to 0.71) | Dobrushin r=8 0.77 (0.77 to 0.78) | exit mean 0.302 | pairs below 0.5 0.872
+    block    th 5: seeds 3 | stays/mixes 0.30 (0.13 to 0.43) | Dobrushin r=8 0.98 (0.97 to 0.99) | exit mean 0.315 | pairs below 0.5 0.884
+  source flywire (p inside EB 0.648, elsewhere 0.541); unthinned: th 1: 2.80, 0.21; th 2: 2.82, 0.24; th 3: 2.74, 0.28; th 5: 2.49, 0.38
+    uniform  th 1: seeds 3 | stays/mixes 3.29 (3.27 to 3.31) | Dobrushin r=8 0.20 (0.20 to 0.20) | exit mean 0.208 | pairs below 0.5 0.973
+    uniform  th 2: seeds 3 | stays/mixes 3.34 (3.32 to 3.36) | Dobrushin r=8 0.25 (0.24 to 0.25) | exit mean 0.191 | pairs below 0.5 0.989
+    uniform  th 3: seeds 3 | stays/mixes 3.28 (3.25 to 3.29) | Dobrushin r=8 0.31 (0.31 to 0.31) | exit mean 0.171 | pairs below 0.5 0.994
+    uniform  th 5: seeds 3 | stays/mixes 3.34 (3.20 to 3.42) | Dobrushin r=8 0.42 (0.42 to 0.43) | exit mean 0.162 | pairs below 0.5 0.981
+    block    th 1: seeds 3 | stays/mixes 1.89 (1.88 to 1.92) | Dobrushin r=8 0.38 (0.38 to 0.39) | exit mean 0.282 | pairs below 0.5 0.803
+    block    th 2: seeds 3 | stays/mixes 1.65 (1.59 to 1.72) | Dobrushin r=8 0.50 (0.49 to 0.52) | exit mean 0.274 | pairs below 0.5 0.860
+    block    th 3: seeds 3 | stays/mixes 1.26 (1.23 to 1.28) | Dobrushin r=8 0.65 (0.64 to 0.66) | exit mean 0.239 | pairs below 0.5 0.901
+    block    th 5: seeds 3 | stays/mixes 0.58 (0.48 to 0.75) | Dobrushin r=8 0.87 (0.84 to 0.89) | exit mean 0.259 | pairs below 0.5 0.897
+
+TABLE 4. Attribution (one seed): stays/mixes and Dobrushin r=8 at thresholds 1, 2, 5
+  source male; groups (share of EB synapses in the source; synapses kept under the BANC pattern; uniform keeps 0.357):
+    into_ER    0.096  0.177
+    ER_ER      0.321  0.370
+    out_of_ER  0.248  0.222
+    columnar   0.249  0.454
+    tail       0.085  0.270
+    uniform                th 1:  1.93, 0.26 | th 2:  1.82, 0.33 | th 5:  1.53, 0.58
+    block pattern          th 1:  1.18, 0.48 | th 2:  0.81, 0.64 | th 5:  0.34, 0.98
+    only into_ER           th 1:  1.40, 0.26 | th 2:  1.18, 0.35 | th 5:  0.64, 0.66
+    only ER_ER             th 1:  1.87, 0.27 | th 2:  1.74, 0.35 | th 5:  1.48, 0.62
+    only out_of_ER         th 1:  1.39, 0.46 | th 2:  1.17, 0.59 | th 5:  1.32, 0.88
+    only columnar          th 1:  2.30, 0.26 | th 2:  2.27, 0.32 | th 5:  2.17, 0.58
+    only tail              th 1:  1.91, 0.26 | th 2:  1.78, 0.33 | th 5:  1.50, 0.59
+    all but into_ER        th 1:  1.69, 0.44 | th 2:  1.46, 0.58 | th 5:  1.79, 0.85
+    all but ER_ER          th 1:  1.20, 0.46 | th 2:  0.82, 0.63 | th 5:  0.34, 0.98
+    all but out_of_ER      th 1:  1.82, 0.24 | th 2:  1.65, 0.30 | th 5:  1.17, 0.62
+    all but columnar       th 1:  0.91, 0.53 | th 2:  0.56, 0.71 | th 5:  0.37, 0.98
+    all but tail           th 1:  1.20, 0.47 | th 2:  0.89, 0.63 | th 5:  0.40, 0.96
+  source flywire; groups (share of EB synapses in the source; synapses kept under the BANC pattern; uniform keeps 0.648):
+    into_ER    0.067  0.470
+    ER_ER      0.314  0.674
+    out_of_ER  0.233  0.432
+    columnar   0.255  0.784
+    tail       0.131  0.307
+    uniform                th 1:  3.27, 0.20 | th 2:  3.32, 0.25 | th 5:  3.39, 0.42
+    block pattern          th 1:  1.88, 0.39 | th 2:  1.59, 0.52 | th 5:  0.48, 0.89
+    only into_ER           th 1:  2.91, 0.19 | th 2:  2.85, 0.24 | th 5:  2.61, 0.40
+    only ER_ER             th 1:  3.27, 0.22 | th 2:  3.34, 0.26 | th 5:  3.38, 0.45
+    only out_of_ER         th 1:  2.33, 0.35 | th 2:  2.20, 0.45 | th 5:  1.71, 0.75
+    only columnar          th 1:  3.01, 0.23 | th 2:  3.10, 0.28 | th 5:  3.29, 0.45
+    only tail              th 1:  3.33, 0.19 | th 2:  3.42, 0.24 | th 5:  3.39, 0.43
+    all but into_ER        th 1:  2.15, 0.39 | th 2:  2.01, 0.50 | th 5:  1.57, 0.80
+    all but ER_ER          th 1:  1.91, 0.38 | th 2:  1.70, 0.50 | th 5:  0.37, 0.90
+    all but out_of_ER      th 1:  2.78, 0.21 | th 2:  2.76, 0.24 | th 5:  2.40, 0.43
+    all but columnar       th 1:  1.96, 0.38 | th 2:  1.69, 0.50 | th 5:  0.51, 0.88
+    all but tail           th 1:  1.88, 0.38 | th 2:  1.63, 0.50 | th 5:  0.49, 0.87
+
+TABLE 5. Slow mode of the walk conditioned to stay in EB
+  banc     th  1: second eigenvalue 0.854; stationary mass on ER3a + ER3d + ER3m 0.423 (ER3d 0.255); types at the positive end: ER4d (+0.85), ER2_c (+0.81), ER3w_b (+0.75), ER3w_a (+0.70)
+             r = 8: coefficient 0.413; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 0; core subset: stays/mixes 1.360, Dobrushin r=8 0.384; classes inside EB 13 (largest 577)
+  banc     th  2: second eigenvalue 0.884; stationary mass on ER3a + ER3d + ER3m 0.578 (ER3d 0.372); types at the positive end: ER3w_b (+0.89), ER2_c (+0.85), ER4d (+0.83), ER3w_a (+0.83)
+             r = 8: coefficient 0.569; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 131; core subset: stays/mixes 1.263, Dobrushin r=8 0.532; classes inside EB 24 (largest 565)
+  banc     th  3: second eigenvalue 0.917; stationary mass on ER3a + ER3d + ER3m 0.731 (ER3d 0.484); types at the positive end: ER3m (+0.85), ER3a_a (+0.71), ER3a_d (+0.71), ER3a_b (+0.69)
+             r = 8: coefficient 0.687; pairs above 0.6: 0.044; starts farther than 0.3 from the stationary law: 381; core subset: stays/mixes 1.097, Dobrushin r=8 0.679; classes inside EB 40 (largest 546)
+  banc     th  5: second eigenvalue 0.957; stationary mass on ER3a + ER3d + ER3m 0.843 (ER3d 0.684); types at the positive end: ER3m (+0.95), ER3a_c (+0.81), ER3a_a (+0.78), ER3a_b (+0.76)
+             r = 8: coefficient 0.895; pairs above 0.6: 0.330; starts farther than 0.3 from the stationary law: 515; core subset: stays/mixes 0.852, Dobrushin r=8 0.891; classes inside EB 47 (largest 508)
+  male     th  1: second eigenvalue 0.793; stationary mass on ER3a + ER3d + ER3m 0.214 (ER3d 0.144); types at the positive end: TuBu02 (+0.92), ER3a_a (+0.90), ER3a_d (+0.89), ER3a_b (+0.79)
+             r = 8: coefficient 0.255; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 0; core subset: stays/mixes 1.874, Dobrushin r=8 0.244; classes inside EB 1 (largest 691)
+  male     th  5: second eigenvalue 0.834; stationary mass on ER3a + ER3d + ER3m 0.249 (ER3d 0.193); types at the positive end: TuBu02 (+0.92), ER3a_a (+0.92), ER3a_d (+0.90), ER3a_b (+0.80)
+             r = 8: coefficient 0.364; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 0; core subset: stays/mixes 1.674, Dobrushin r=8 0.353; classes inside EB 4 (largest 688)
+  male     th 10: second eigenvalue 0.882; stationary mass on ER3a + ER3d + ER3m 0.385 (ER3d 0.344); types at the positive end: ER3d_b (+0.76), ER3d_d (+0.69), TuBu03 (+0.60), ER3d_c (+0.59)
+             r = 8: coefficient 0.569; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 3; core subset: stays/mixes 1.478, Dobrushin r=8 0.523; classes inside EB 23 (largest 669)
+  flywire  th  1: second eigenvalue 0.766; stationary mass on ER3a + ER3d + ER3m 0.166 (ER3d 0.130); types at the positive end: TuBu03 (+0.76), ER3d (+0.73), ExR3 (+0.63), TuBu02 (+0.50)
+             r = 8: coefficient 0.210; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 0; core subset: stays/mixes 2.720, Dobrushin r=8 0.198; classes inside EB 1 (largest 683)
+  flywire  th  5: second eigenvalue 0.829; stationary mass on ER3a + ER3d + ER3m 0.142 (ER3d 0.128); types at the positive end: ER3d (+0.79), TuBu03 (+0.75), ExR3 (+0.70), ER3p_b (+0.53)
+             r = 8: coefficient 0.381; pairs above 0.6: 0.000; starts farther than 0.3 from the stationary law: 0; core subset: stays/mixes 2.421, Dobrushin r=8 0.359; classes inside EB 12 (largest 663)

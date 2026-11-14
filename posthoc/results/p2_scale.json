@@ -1,0 +1,2527 @@
+{
+ "note": "POST HOC, EXPLORATORY",
+ "data": {
+  "banc": {
+   "N": 146769,
+   "edges": 12305034,
+   "synapses": 39297815,
+   "synapses_per_neuron": 267.752829275937,
+   "mean_per_edge": 3.193637254476501,
+   "median_per_edge": 1.0,
+   "share_edges_w1": 0.5358662154041997,
+   "share_edges_below5": 0.8537941463631876,
+   "share_synapses_in_edges_below5": 0.4249724571200714,
+   "EB": {
+    "neurons": 595,
+    "edges": 40044,
+    "synapses": 257977,
+    "synapses_inside_per_neuron": 433.5747899159664,
+    "mean_per_edge": 6.4423384277294975,
+    "weight_percentiles_10_25_50_75_90": [
+     1.0,
+     1.0,
+     3.0,
+     7.0,
+     16.0
+    ],
+    "share_edges_w1": 0.33168514633902707,
+    "share_edges_below5": 0.6579512536210169,
+    "share_synapses_in_edges_below5": 0.1893734712784473,
+    "out_all_per_neuron_median": 343.0,
+    "in_all_per_neuron_median": 330.0,
+    "out_inside_per_neuron_median": 327.0,
+    "in_inside_per_neuron_median": 305.0,
+    "side": {
+     "left": 292,
+     "right": 303
+    },
+    "neurons_strongest_inside_input_below5": 57,
+    "neurons_strongest_inside_output_below5": 25
+   },
+   "families": {
+    "ER": {
+     "neurons": 268,
+     "out_all_median": 398.0,
+     "in_all_median": 370.5,
+     "out_inside_median": 393.0,
+     "in_inside_median": 341.5,
+     "in_inside_min": 67.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 1
+    },
+    "EPG": {
+     "neurons": 45,
+     "out_all_median": 1367.0,
+     "in_all_median": 1281.0,
+     "out_inside_median": 789.0,
+     "in_inside_median": 1069.0,
+     "in_inside_min": 642.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "PEG": {
+     "neurons": 19,
+     "out_all_median": 544.0,
+     "in_all_median": 786.0,
+     "out_inside_median": 505.0,
+     "in_inside_median": 485.0,
+     "in_inside_min": 211.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "PEN": {
+     "neurons": 42,
+     "out_all_median": 733.0,
+     "in_all_median": 1117.5,
+     "out_inside_median": 655.0,
+     "in_inside_median": 909.0,
+     "in_inside_min": 529.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "EL": {
+     "neurons": 18,
+     "out_all_median": 106.0,
+     "in_all_median": 986.5,
+     "out_inside_median": 98.5,
+     "in_inside_median": 915.5,
+     "in_inside_min": 456.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 6
+    },
+    "ExR": {
+     "neurons": 14,
+     "out_all_median": 709.5,
+     "in_all_median": 3109.0,
+     "out_inside_median": 615.0,
+     "in_inside_median": 2238.5,
+     "in_inside_min": 88.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "TuBu": {
+     "neurons": 148,
+     "out_all_median": 71.0,
+     "in_all_median": 45.5,
+     "out_inside_median": 69.5,
+     "in_inside_median": 26.0,
+     "in_inside_min": 0.0,
+     "neurons_with_inside_input_below5_max_edge": 34,
+     "neurons_with_inside_output_below5_max_edge": 7
+    },
+    "MeTu2": {
+     "neurons": 27,
+     "out_all_median": 53.0,
+     "in_all_median": 68.0,
+     "out_inside_median": 9.0,
+     "in_inside_median": 2.0,
+     "in_inside_min": 0.0,
+     "neurons_with_inside_input_below5_max_edge": 23,
+     "neurons_with_inside_output_below5_max_edge": 11
+    },
+    "LPsP": {
+     "neurons": 2,
+     "out_all_median": 3982.5,
+     "in_all_median": 3938.5,
+     "out_inside_median": 2439.0,
+     "in_inside_median": 748.0,
+     "in_inside_min": 747.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "GLNO": {
+     "neurons": 4,
+     "out_all_median": 2002.0,
+     "in_all_median": 1062.0,
+     "out_inside_median": 1956.0,
+     "in_inside_median": 512.5,
+     "in_inside_min": 502.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "AOTU046": {
+     "neurons": 4,
+     "out_all_median": 943.0,
+     "in_all_median": 376.0,
+     "out_inside_median": 846.0,
+     "in_inside_median": 148.0,
+     "in_inside_min": 134.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "TuTuB": {
+     "neurons": 4,
+     "out_all_median": 370.5,
+     "in_all_median": 181.0,
+     "out_inside_median": 216.5,
+     "in_inside_median": 42.0,
+     "in_inside_min": 18.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    }
+   },
+   "blocks": {
+    "ER>ER": {
+     "possible": 71556,
+     "edges": 12486,
+     "synapses": 89927,
+     "density": 0.17449270501425457,
+     "mean_weight": 7.202226493672914,
+     "synapses_in_edges_ge5": 77165
+    },
+    "ER>EPG": {
+     "possible": 12060,
+     "edges": 7211,
+     "synapses": 26495,
+     "density": 0.5979270315091211,
+     "mean_weight": 3.6742476771598946,
+     "synapses_in_edges_ge5": 14927
+    },
+    "ER>PEG": {
+     "possible": 5092,
+     "edges": 310,
+     "synapses": 1862,
+     "density": 0.06087981146897094,
+     "mean_weight": 6.006451612903226,
+     "synapses_in_edges_ge5": 1515
+    },
+    "ER>PEN": {
+     "possible": 11256,
+     "edges": 984,
+     "synapses": 3459,
+     "density": 0.08742004264392324,
+     "mean_weight": 3.5152439024390243,
+     "synapses_in_edges_ge5": 2194
+    },
+    "ER>EL": {
+     "possible": 4824,
+     "edges": 2570,
+     "synapses": 7051,
+     "density": 0.5327529021558872,
+     "mean_weight": 2.743579766536965,
+     "synapses_in_edges_ge5": 2871
+    },
+    "ER>ExR": {
+     "possible": 3752,
+     "edges": 1066,
+     "synapses": 4508,
+     "density": 0.28411513859275056,
+     "mean_weight": 4.228893058161351,
+     "synapses_in_edges_ge5": 3170
+    },
+    "ER>TuBu": {
+     "possible": 39664,
+     "edges": 64,
+     "synapses": 91,
+     "density": 0.0016135538523598225,
+     "mean_weight": 1.421875,
+     "synapses_in_edges_ge5": 7
+    },
+    "ER>GLNO": {
+     "possible": 1072,
+     "edges": 6,
+     "synapses": 15,
+     "density": 0.005597014925373134,
+     "mean_weight": 2.5,
+     "synapses_in_edges_ge5": 0
+    },
+    "ER>AOTU046": {
+     "possible": 1072,
+     "edges": 15,
+     "synapses": 17,
+     "density": 0.013992537313432836,
+     "mean_weight": 1.1333333333333333,
+     "synapses_in_edges_ge5": 0
+    },
+    "EPG>ER": {
+     "possible": 12060,
+     "edges": 2554,
+     "synapses": 5184,
+     "density": 0.21177446102819236,
+     "mean_weight": 2.029757243539546,
+     "synapses_in_edges_ge5": 1577
+    },
+    "EPG>EPG": {
+     "possible": 1980,
+     "edges": 557,
+     "synapses": 2946,
+     "density": 0.2813131313131313,
+     "mean_weight": 5.289048473967684,
+     "synapses_in_edges_ge5": 2371
+    },
+    "EPG>PEG": {
+     "possible": 855,
+     "edges": 320,
+     "synapses": 4485,
+     "density": 0.3742690058479532,
+     "mean_weight": 14.015625,
+     "synapses_in_edges_ge5": 4097
+    },
+    "EPG>PEN": {
+     "possible": 1890,
+     "edges": 644,
+     "synapses": 8646,
+     "density": 0.34074074074074073,
+     "mean_weight": 13.425465838509316,
+     "synapses_in_edges_ge5": 8284
+    },
+    "EPG>EL": {
+     "possible": 810,
+     "edges": 215,
+     "synapses": 3118,
+     "density": 0.2654320987654321,
+     "mean_weight": 14.502325581395349,
+     "synapses_in_edges_ge5": 2936
+    },
+    "EPG>ExR": {
+     "possible": 630,
+     "edges": 479,
+     "synapses": 10035,
+     "density": 0.7603174603174603,
+     "mean_weight": 20.94989561586639,
+     "synapses_in_edges_ge5": 9679
+    },
+    "EPG>LPsP": {
+     "possible": 90,
+     "edges": 90,
+     "synapses": 1404,
+     "density": 1.0,
+     "mean_weight": 15.6,
+     "synapses_in_edges_ge5": 1400
+    },
+    "EPG>GLNO": {
+     "possible": 180,
+     "edges": 86,
+     "synapses": 517,
+     "density": 0.4777777777777778,
+     "mean_weight": 6.011627906976744,
+     "synapses_in_edges_ge5": 427
+    },
+    "PEG>ER": {
+     "possible": 5092,
+     "edges": 164,
+     "synapses": 1921,
+     "density": 0.03220738413197172,
+     "mean_weight": 11.713414634146341,
+     "synapses_in_edges_ge5": 1783
+    },
+    "PEG>EPG": {
+     "possible": 855,
+     "edges": 187,
+     "synapses": 413,
+     "density": 0.21871345029239767,
+     "mean_weight": 2.2085561497326203,
+     "synapses_in_edges_ge5": 106
+    },
+    "PEG>PEG": {
+     "possible": 342,
+     "edges": 76,
+     "synapses": 171,
+     "density": 0.2222222222222222,
+     "mean_weight": 2.25,
+     "synapses_in_edges_ge5": 57
+    },
+    "PEG>PEN": {
+     "possible": 798,
+     "edges": 167,
+     "synapses": 1709,
+     "density": 0.20927318295739347,
+     "mean_weight": 10.233532934131736,
+     "synapses_in_edges_ge5": 1535
+    },
+    "PEG>EL": {
+     "possible": 342,
+     "edges": 85,
+     "synapses": 233,
+     "density": 0.24853801169590642,
+     "mean_weight": 2.7411764705882353,
+     "synapses_in_edges_ge5": 89
+    },
+    "PEG>ExR": {
+     "possible": 266,
+     "edges": 187,
+     "synapses": 4512,
+     "density": 0.7030075187969925,
+     "mean_weight": 24.128342245989305,
+     "synapses_in_edges_ge5": 4316
+    },
+    "PEG>LPsP": {
+     "possible": 38,
+     "edges": 9,
+     "synapses": 46,
+     "density": 0.23684210526315788,
+     "mean_weight": 5.111111111111111,
+     "synapses_in_edges_ge5": 35
+    },
+    "PEG>GLNO": {
+     "possible": 76,
+     "edges": 28,
+     "synapses": 138,
+     "density": 0.3684210526315789,
+     "mean_weight": 4.928571428571429,
+     "synapses_in_edges_ge5": 109
+    },
+    "PEG>AOTU046": {
+     "possible": 76,
+     "edges": 1,
+     "synapses": 1,
+     "density": 0.013157894736842105,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "PEN>ER": {
+     "possible": 11256,
+     "edges": 1219,
+     "synapses": 3529,
+     "density": 0.10829779673063256,
+     "mean_weight": 2.8949958982772763,
+     "synapses_in_edges_ge5": 1607
+    },
+    "PEN>EPG": {
+     "possible": 1890,
+     "edges": 637,
+     "synapses": 10347,
+     "density": 0.337037037037037,
+     "mean_weight": 16.243328100470958,
+     "synapses_in_edges_ge5": 10005
+    },
+    "PEN>PEG": {
+     "possible": 798,
+     "edges": 122,
+     "synapses": 492,
+     "density": 0.15288220551378445,
+     "mean_weight": 4.032786885245901,
+     "synapses_in_edges_ge5": 340
+    },
+    "PEN>PEN": {
+     "possible": 1722,
+     "edges": 1032,
+     "synapses": 7627,
+     "density": 0.5993031358885017,
+     "mean_weight": 7.390503875968992,
+     "synapses_in_edges_ge5": 6655
+    },
+    "PEN>EL": {
+     "possible": 756,
+     "edges": 211,
+     "synapses": 3628,
+     "density": 0.2791005291005291,
+     "mean_weight": 17.194312796208532,
+     "synapses_in_edges_ge5": 3521
+    },
+    "PEN>ExR": {
+     "possible": 588,
+     "edges": 320,
+     "synapses": 1655,
+     "density": 0.54421768707483,
+     "mean_weight": 5.171875,
+     "synapses_in_edges_ge5": 1281
+    },
+    "PEN>LPsP": {
+     "possible": 84,
+     "edges": 11,
+     "synapses": 14,
+     "density": 0.13095238095238096,
+     "mean_weight": 1.2727272727272727,
+     "synapses_in_edges_ge5": 0
+    },
+    "PEN>GLNO": {
+     "possible": 168,
+     "edges": 84,
+     "synapses": 1319,
+     "density": 0.5,
+     "mean_weight": 15.702380952380953,
+     "synapses_in_edges_ge5": 1315
+    },
+    "EL>ER": {
+     "possible": 4824,
+     "edges": 982,
+     "synapses": 1324,
+     "density": 0.20356550580431176,
+     "mean_weight": 1.3482688391038697,
+     "synapses_in_edges_ge5": 20
+    },
+    "EL>EPG": {
+     "possible": 810,
+     "edges": 110,
+     "synapses": 274,
+     "density": 0.13580246913580246,
+     "mean_weight": 2.4909090909090907,
+     "synapses_in_edges_ge5": 102
+    },
+    "EL>PEG": {
+     "possible": 342,
+     "edges": 9,
+     "synapses": 11,
+     "density": 0.02631578947368421,
+     "mean_weight": 1.2222222222222223,
+     "synapses_in_edges_ge5": 0
+    },
+    "EL>PEN": {
+     "possible": 756,
+     "edges": 37,
+     "synapses": 49,
+     "density": 0.04894179894179894,
+     "mean_weight": 1.3243243243243243,
+     "synapses_in_edges_ge5": 5
+    },
+    "EL>EL": {
+     "possible": 306,
+     "edges": 34,
+     "synapses": 38,
+     "density": 0.1111111111111111,
+     "mean_weight": 1.1176470588235294,
+     "synapses_in_edges_ge5": 0
+    },
+    "EL>ExR": {
+     "possible": 252,
+     "edges": 74,
+     "synapses": 99,
+     "density": 0.29365079365079366,
+     "mean_weight": 1.337837837837838,
+     "synapses_in_edges_ge5": 0
+    },
+    "EL>TuBu": {
+     "possible": 2664,
+     "edges": 1,
+     "synapses": 1,
+     "density": 0.00037537537537537537,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "ExR>ER": {
+     "possible": 3752,
+     "edges": 807,
+     "synapses": 1633,
+     "density": 0.21508528784648187,
+     "mean_weight": 2.023543990086741,
+     "synapses_in_edges_ge5": 376
+    },
+    "ExR>EPG": {
+     "possible": 630,
+     "edges": 452,
+     "synapses": 5018,
+     "density": 0.7174603174603175,
+     "mean_weight": 11.101769911504425,
+     "synapses_in_edges_ge5": 4610
+    },
+    "ExR>PEG": {
+     "possible": 266,
+     "edges": 88,
+     "synapses": 362,
+     "density": 0.3308270676691729,
+     "mean_weight": 4.113636363636363,
+     "synapses_in_edges_ge5": 260
+    },
+    "ExR>PEN": {
+     "possible": 588,
+     "edges": 238,
+     "synapses": 8426,
+     "density": 0.40476190476190477,
+     "mean_weight": 35.403361344537814,
+     "synapses_in_edges_ge5": 8263
+    },
+    "ExR>EL": {
+     "possible": 252,
+     "edges": 165,
+     "synapses": 2494,
+     "density": 0.6547619047619048,
+     "mean_weight": 15.115151515151515,
+     "synapses_in_edges_ge5": 2319
+    },
+    "ExR>ExR": {
+     "possible": 182,
+     "edges": 145,
+     "synapses": 1645,
+     "density": 0.7967032967032966,
+     "mean_weight": 11.344827586206897,
+     "synapses_in_edges_ge5": 1461
+    },
+    "ExR>TuBu": {
+     "possible": 2072,
+     "edges": 128,
+     "synapses": 211,
+     "density": 0.06177606177606178,
+     "mean_weight": 1.6484375,
+     "synapses_in_edges_ge5": 15
+    },
+    "ExR>LPsP": {
+     "possible": 28,
+     "edges": 3,
+     "synapses": 3,
+     "density": 0.10714285714285714,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "ExR>GLNO": {
+     "possible": 56,
+     "edges": 24,
+     "synapses": 41,
+     "density": 0.42857142857142855,
+     "mean_weight": 1.7083333333333333,
+     "synapses_in_edges_ge5": 5
+    },
+    "ExR>AOTU046": {
+     "possible": 56,
+     "edges": 23,
+     "synapses": 47,
+     "density": 0.4107142857142857,
+     "mean_weight": 2.0434782608695654,
+     "synapses_in_edges_ge5": 11
+    },
+    "TuBu>ER": {
+     "possible": 39664,
+     "edges": 458,
+     "synapses": 7622,
+     "density": 0.01154699475594998,
+     "mean_weight": 16.641921397379914,
+     "synapses_in_edges_ge5": 7346
+    },
+    "TuBu>ExR": {
+     "possible": 2072,
+     "edges": 404,
+     "synapses": 3011,
+     "density": 0.19498069498069498,
+     "mean_weight": 7.452970297029703,
+     "synapses_in_edges_ge5": 2650
+    },
+    "TuBu>TuBu": {
+     "possible": 21756,
+     "edges": 182,
+     "synapses": 373,
+     "density": 0.008365508365508366,
+     "mean_weight": 2.0494505494505493,
+     "synapses_in_edges_ge5": 152
+    },
+    "TuBu>MeTu2": {
+     "possible": 3996,
+     "edges": 2,
+     "synapses": 2,
+     "density": 0.0005005005005005005,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "TuBu>AOTU046": {
+     "possible": 592,
+     "edges": 203,
+     "synapses": 485,
+     "density": 0.34290540540540543,
+     "mean_weight": 2.3891625615763545,
+     "synapses_in_edges_ge5": 193
+    },
+    "TuBu>TuTuB": {
+     "possible": 592,
+     "edges": 19,
+     "synapses": 27,
+     "density": 0.03209459459459459,
+     "mean_weight": 1.4210526315789473,
+     "synapses_in_edges_ge5": 0
+    },
+    "MeTu2>TuBu": {
+     "possible": 3996,
+     "edges": 56,
+     "synapses": 299,
+     "density": 0.014014014014014014,
+     "mean_weight": 5.339285714285714,
+     "synapses_in_edges_ge5": 246
+    },
+    "MeTu2>MeTu2": {
+     "possible": 702,
+     "edges": 15,
+     "synapses": 27,
+     "density": 0.021367521367521368,
+     "mean_weight": 1.8,
+     "synapses_in_edges_ge5": 8
+    },
+    "MeTu2>AOTU046": {
+     "possible": 108,
+     "edges": 3,
+     "synapses": 5,
+     "density": 0.027777777777777776,
+     "mean_weight": 1.6666666666666667,
+     "synapses_in_edges_ge5": 0
+    },
+    "MeTu2>TuTuB": {
+     "possible": 108,
+     "edges": 12,
+     "synapses": 59,
+     "density": 0.1111111111111111,
+     "mean_weight": 4.916666666666667,
+     "synapses_in_edges_ge5": 47
+    },
+    "LPsP>EPG": {
+     "possible": 90,
+     "edges": 90,
+     "synapses": 2090,
+     "density": 1.0,
+     "mean_weight": 23.22222222222222,
+     "synapses_in_edges_ge5": 2090
+    },
+    "LPsP>PEG": {
+     "possible": 38,
+     "edges": 38,
+     "synapses": 1457,
+     "density": 1.0,
+     "mean_weight": 38.3421052631579,
+     "synapses_in_edges_ge5": 1457
+    },
+    "LPsP>PEN": {
+     "possible": 84,
+     "edges": 80,
+     "synapses": 1302,
+     "density": 0.9523809523809523,
+     "mean_weight": 16.275,
+     "synapses_in_edges_ge5": 1238
+    },
+    "LPsP>ExR": {
+     "possible": 28,
+     "edges": 3,
+     "synapses": 3,
+     "density": 0.10714285714285714,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "LPsP>LPsP": {
+     "possible": 2,
+     "edges": 2,
+     "synapses": 26,
+     "density": 1.0,
+     "mean_weight": 13.0,
+     "synapses_in_edges_ge5": 26
+    },
+    "GLNO>ER": {
+     "possible": 1072,
+     "edges": 3,
+     "synapses": 3,
+     "density": 0.002798507462686567,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>PEG": {
+     "possible": 76,
+     "edges": 6,
+     "synapses": 6,
+     "density": 0.07894736842105263,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>PEN": {
+     "possible": 168,
+     "edges": 84,
+     "synapses": 7612,
+     "density": 0.5,
+     "mean_weight": 90.61904761904762,
+     "synapses_in_edges_ge5": 7612
+    },
+    "GLNO>ExR": {
+     "possible": 56,
+     "edges": 8,
+     "synapses": 10,
+     "density": 0.14285714285714285,
+     "mean_weight": 1.25,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>LPsP": {
+     "possible": 8,
+     "edges": 2,
+     "synapses": 3,
+     "density": 0.25,
+     "mean_weight": 1.5,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>GLNO": {
+     "possible": 12,
+     "edges": 4,
+     "synapses": 86,
+     "density": 0.3333333333333333,
+     "mean_weight": 21.5,
+     "synapses_in_edges_ge5": 86
+    },
+    "AOTU046>ER": {
+     "possible": 1072,
+     "edges": 220,
+     "synapses": 381,
+     "density": 0.20522388059701493,
+     "mean_weight": 1.731818181818182,
+     "synapses_in_edges_ge5": 34
+    },
+    "AOTU046>ExR": {
+     "possible": 56,
+     "edges": 31,
+     "synapses": 839,
+     "density": 0.5535714285714286,
+     "mean_weight": 27.06451612903226,
+     "synapses_in_edges_ge5": 815
+    },
+    "AOTU046>TuBu": {
+     "possible": 592,
+     "edges": 415,
+     "synapses": 2064,
+     "density": 0.7010135135135135,
+     "mean_weight": 4.973493975903614,
+     "synapses_in_edges_ge5": 1519
+    },
+    "AOTU046>MeTu2": {
+     "possible": 108,
+     "edges": 7,
+     "synapses": 9,
+     "density": 0.06481481481481481,
+     "mean_weight": 1.2857142857142858,
+     "synapses_in_edges_ge5": 0
+    },
+    "AOTU046>AOTU046": {
+     "possible": 12,
+     "edges": 11,
+     "synapses": 62,
+     "density": 0.9166666666666666,
+     "mean_weight": 5.636363636363637,
+     "synapses_in_edges_ge5": 43
+    },
+    "AOTU046>TuTuB": {
+     "possible": 16,
+     "edges": 9,
+     "synapses": 18,
+     "density": 0.5625,
+     "mean_weight": 2.0,
+     "synapses_in_edges_ge5": 5
+    },
+    "TuTuB>ER": {
+     "possible": 1072,
+     "edges": 4,
+     "synapses": 7,
+     "density": 0.0037313432835820895,
+     "mean_weight": 1.75,
+     "synapses_in_edges_ge5": 0
+    },
+    "TuTuB>TuBu": {
+     "possible": 592,
+     "edges": 133,
+     "synapses": 781,
+     "density": 0.22466216216216217,
+     "mean_weight": 5.87218045112782,
+     "synapses_in_edges_ge5": 642
+    },
+    "TuTuB>MeTu2": {
+     "possible": 108,
+     "edges": 13,
+     "synapses": 37,
+     "density": 0.12037037037037036,
+     "mean_weight": 2.8461538461538463,
+     "synapses_in_edges_ge5": 22
+    },
+    "TuTuB>AOTU046": {
+     "possible": 16,
+     "edges": 4,
+     "synapses": 5,
+     "density": 0.25,
+     "mean_weight": 1.25,
+     "synapses_in_edges_ge5": 0
+    },
+    "TuTuB>TuTuB": {
+     "possible": 12,
+     "edges": 6,
+     "synapses": 75,
+     "density": 0.5,
+     "mean_weight": 12.5,
+     "synapses_in_edges_ge5": 71
+    }
+   },
+   "banc_flags": {
+    "proofread_EB": {
+     "FALSE": 16,
+     "TRUE": 579
+    },
+    "proofread_all": {
+     "FALSE": 7311,
+     "TRUE": 139458
+    },
+    "status_EB": {
+     "ALIGNMENT_CELL_TYPE": 2,
+     "ALIGNMENT_CELL_TYPE,TRACING_ISSUE_2": 1,
+     "CX_REVIEW": 1,
+     "FAFB_ALT_MATCH": 157,
+     "FAFB_ALT_MATCH,HEMIBRAIN_MATCH_PREFERRED": 8,
+     "FAFB_ALT_MATCH,IN_VIGNETTE,MANUAL_MORPHOLOGY_MATCH,SENT_TO_AELYSIA_TRACING": 1,
+     "FAFB_ALT_MATCH,LR_TYPE_CONFLICT": 2,
+     "FAFB_MATCH_WRONG_SIDE": 1,
+     "HEMIBRAIN_MATCH_PREFERRED": 13,
+     "INVESTIGATE": 1,
+     "IN_VIGNETTE,SENT_TO_AELYSIA_TRACING": 1,
+     "MALECNS_ALT_MATCH": 2,
+     "PUTATIVE_MOTOR_EFFERENT_CHECK": 1,
+     "SENT_TO_AELYSIA_TRACING,IN_VIGNETTE": 7,
+     "TOO_SMALL": 3,
+     "TRACING_ISSUE": 17,
+     "TRACING_ISSUE,FAFB_ALT_MATCH": 1,
+     "TRACING_ISSUE,NO_MIRROR_MATCH,HEMIBRAIN_MATCH_PREFERRED": 1,
+     "TRACING_ISSUE,SENT_TO_AELYSIA_TRACING,IN_VIGNETTE": 1,
+     "TRACING_ISSUE,TRACING_ISSUE_2": 2,
+     "TRACING_ISSUE_2": 5,
+     "TRACING_ISSUE_2,SENT_TO_PRINCETON_TRACING": 1,
+     "TRACING_ISSUE_3,TRACING_ISSUE_MISSING_AXON": 1,
+     "TRACING_ISSUE_RESOLVED": 2,
+     "TRACING_ISSUE_TADPOLE": 1,
+     "TRACING_NT_ISSUE,SENT_TO_AELYSIA_TRACING": 1,
+     "UNROOTED": 1,
+     "nan": 360
+    }
+   }
+  },
+  "male": {
+   "N": 166700,
+   "edges": 25582938,
+   "synapses": 124177617,
+   "synapses_per_neuron": 744.9167186562687,
+   "mean_per_edge": 4.853923228051446,
+   "median_per_edge": 2.0,
+   "share_edges_w1": 0.4026003971865937,
+   "share_edges_below5": 0.7560046465343425,
+   "share_synapses_in_edges_below5": 0.2763568655049968,
+   "EB": {
+    "neurons": 691,
+    "edges": 67927,
+    "synapses": 838494,
+    "synapses_inside_per_neuron": 1213.4500723589001,
+    "mean_per_edge": 12.344045813888439,
+    "weight_percentiles_10_25_50_75_90": [
+     1.0,
+     2.0,
+     5.0,
+     14.0,
+     33.0
+    ],
+    "share_edges_w1": 0.19841889086813785,
+    "share_edges_below5": 0.463350361417404,
+    "share_synapses_in_edges_below5": 0.07590036422443094,
+    "out_all_per_neuron_median": 1213.0,
+    "in_all_per_neuron_median": 1080.0,
+    "out_inside_per_neuron_median": 1195.0,
+    "in_inside_per_neuron_median": 986.0,
+    "side": {
+     "L": 344,
+     "R": 347
+    },
+    "neurons_strongest_inside_input_below5": 3,
+    "neurons_strongest_inside_output_below5": 0
+   },
+   "families": {
+    "ER": {
+     "neurons": 282,
+     "out_all_median": 1463.5,
+     "in_all_median": 1257.0,
+     "out_inside_median": 1459.0,
+     "in_inside_median": 1252.0,
+     "in_inside_min": 307.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "EPG": {
+     "neurons": 46,
+     "out_all_median": 2477.5,
+     "in_all_median": 4350.0,
+     "out_inside_median": 1701.0,
+     "in_inside_median": 3972.5,
+     "in_inside_min": 2726.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "PEG": {
+     "neurons": 18,
+     "out_all_median": 1020.5,
+     "in_all_median": 1120.0,
+     "out_inside_median": 944.0,
+     "in_inside_median": 859.5,
+     "in_inside_min": 620.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "PEN": {
+     "neurons": 42,
+     "out_all_median": 1689.0,
+     "in_all_median": 2088.0,
+     "out_inside_median": 1547.0,
+     "in_inside_median": 1685.0,
+     "in_inside_min": 1183.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "EL": {
+     "neurons": 18,
+     "out_all_median": 1755.5,
+     "in_all_median": 4334.0,
+     "out_inside_median": 1648.0,
+     "in_inside_median": 4038.0,
+     "in_inside_min": 2599.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "ExR": {
+     "neurons": 14,
+     "out_all_median": 6894.0,
+     "in_all_median": 9759.5,
+     "out_inside_median": 5847.5,
+     "in_inside_median": 6785.0,
+     "in_inside_min": 1230.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "TuBu": {
+     "neurons": 156,
+     "out_all_median": 135.5,
+     "in_all_median": 490.0,
+     "out_inside_median": 132.0,
+     "in_inside_median": 118.0,
+     "in_inside_min": 18.0,
+     "neurons_with_inside_input_below5_max_edge": 1,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "MeTu2": {
+     "neurons": 101,
+     "out_all_median": 271.0,
+     "in_all_median": 287.0,
+     "out_inside_median": 205.0,
+     "in_inside_median": 48.0,
+     "in_inside_min": 12.0,
+     "neurons_with_inside_input_below5_max_edge": 2,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "LPsP": {
+     "neurons": 2,
+     "out_all_median": 7060.0,
+     "in_all_median": 6138.0,
+     "out_inside_median": 4760.0,
+     "in_inside_median": 1056.5,
+     "in_inside_min": 1020.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "GLNO": {
+     "neurons": 4,
+     "out_all_median": 4443.5,
+     "in_all_median": 2346.5,
+     "out_inside_median": 4203.5,
+     "in_inside_median": 1232.0,
+     "in_inside_min": 1103.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "AOTU046": {
+     "neurons": 4,
+     "out_all_median": 4962.5,
+     "in_all_median": 2811.5,
+     "out_inside_median": 4052.5,
+     "in_inside_median": 500.5,
+     "in_inside_min": 362.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "TuTuB": {
+     "neurons": 4,
+     "out_all_median": 3119.5,
+     "in_all_median": 4236.0,
+     "out_inside_median": 2154.0,
+     "in_inside_median": 1332.0,
+     "in_inside_min": 203.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    }
+   },
+   "blocks": {
+    "ER>ER": {
+     "possible": 79242,
+     "edges": 18437,
+     "synapses": 269271,
+     "density": 0.2326670200146387,
+     "mean_weight": 14.60492487931876,
+     "synapses_in_edges_ge5": 252897
+    },
+    "ER>EPG": {
+     "possible": 12972,
+     "edges": 11599,
+     "synapses": 123998,
+     "density": 0.8941566450817144,
+     "mean_weight": 10.690404345202172,
+     "synapses_in_edges_ge5": 117005
+    },
+    "ER>PEG": {
+     "possible": 5076,
+     "edges": 391,
+     "synapses": 4194,
+     "density": 0.07702915681639086,
+     "mean_weight": 10.726342710997443,
+     "synapses_in_edges_ge5": 3676
+    },
+    "ER>PEN": {
+     "possible": 11844,
+     "edges": 1650,
+     "synapses": 7538,
+     "density": 0.1393110435663627,
+     "mean_weight": 4.568484848484848,
+     "synapses_in_edges_ge5": 5471
+    },
+    "ER>EL": {
+     "possible": 5076,
+     "edges": 4576,
+     "synapses": 38339,
+     "density": 0.9014972419227738,
+     "mean_weight": 8.378277972027972,
+     "synapses_in_edges_ge5": 34155
+    },
+    "ER>ExR": {
+     "possible": 3948,
+     "edges": 1820,
+     "synapses": 33850,
+     "density": 0.46099290780141844,
+     "mean_weight": 18.5989010989011,
+     "synapses_in_edges_ge5": 32118
+    },
+    "ER>TuBu": {
+     "possible": 43992,
+     "edges": 151,
+     "synapses": 236,
+     "density": 0.0034324422622294963,
+     "mean_weight": 1.5629139072847682,
+     "synapses_in_edges_ge5": 50
+    },
+    "ER>GLNO": {
+     "possible": 1128,
+     "edges": 8,
+     "synapses": 69,
+     "density": 0.0070921985815602835,
+     "mean_weight": 8.625,
+     "synapses_in_edges_ge5": 66
+    },
+    "ER>AOTU046": {
+     "possible": 1128,
+     "edges": 42,
+     "synapses": 47,
+     "density": 0.03723404255319149,
+     "mean_weight": 1.119047619047619,
+     "synapses_in_edges_ge5": 0
+    },
+    "EPG>ER": {
+     "possible": 12972,
+     "edges": 5186,
+     "synapses": 20053,
+     "density": 0.3997841504779525,
+     "mean_weight": 3.8667566525260315,
+     "synapses_in_edges_ge5": 11803
+    },
+    "EPG>EPG": {
+     "possible": 2070,
+     "edges": 842,
+     "synapses": 11486,
+     "density": 0.4067632850241546,
+     "mean_weight": 13.641330166270784,
+     "synapses_in_edges_ge5": 10716
+    },
+    "EPG>PEG": {
+     "possible": 828,
+     "edges": 379,
+     "synapses": 6154,
+     "density": 0.4577294685990338,
+     "mean_weight": 16.23746701846966,
+     "synapses_in_edges_ge5": 5732
+    },
+    "EPG>PEN": {
+     "possible": 1932,
+     "edges": 664,
+     "synapses": 12330,
+     "density": 0.34368530020703936,
+     "mean_weight": 18.569277108433734,
+     "synapses_in_edges_ge5": 12051
+    },
+    "EPG>EL": {
+     "possible": 828,
+     "edges": 385,
+     "synapses": 9155,
+     "density": 0.46497584541062803,
+     "mean_weight": 23.77922077922078,
+     "synapses_in_edges_ge5": 8784
+    },
+    "EPG>ExR": {
+     "possible": 644,
+     "edges": 573,
+     "synapses": 16549,
+     "density": 0.889751552795031,
+     "mean_weight": 28.88132635253054,
+     "synapses_in_edges_ge5": 16163
+    },
+    "EPG>LPsP": {
+     "possible": 92,
+     "edges": 92,
+     "synapses": 2088,
+     "density": 1.0,
+     "mean_weight": 22.695652173913043,
+     "synapses_in_edges_ge5": 2088
+    },
+    "EPG>GLNO": {
+     "possible": 184,
+     "edges": 89,
+     "synapses": 766,
+     "density": 0.483695652173913,
+     "mean_weight": 8.606741573033707,
+     "synapses_in_edges_ge5": 708
+    },
+    "EPG>AOTU046": {
+     "possible": 184,
+     "edges": 12,
+     "synapses": 27,
+     "density": 0.06521739130434782,
+     "mean_weight": 2.25,
+     "synapses_in_edges_ge5": 5
+    },
+    "PEG>ER": {
+     "possible": 5076,
+     "edges": 212,
+     "synapses": 4642,
+     "density": 0.04176516942474389,
+     "mean_weight": 21.89622641509434,
+     "synapses_in_edges_ge5": 4447
+    },
+    "PEG>EPG": {
+     "possible": 828,
+     "edges": 290,
+     "synapses": 994,
+     "density": 0.3502415458937198,
+     "mean_weight": 3.4275862068965517,
+     "synapses_in_edges_ge5": 559
+    },
+    "PEG>PEG": {
+     "possible": 306,
+     "edges": 114,
+     "synapses": 543,
+     "density": 0.37254901960784315,
+     "mean_weight": 4.7631578947368425,
+     "synapses_in_edges_ge5": 358
+    },
+    "PEG>PEN": {
+     "possible": 756,
+     "edges": 169,
+     "synapses": 2424,
+     "density": 0.22354497354497355,
+     "mean_weight": 14.34319526627219,
+     "synapses_in_edges_ge5": 2228
+    },
+    "PEG>EL": {
+     "possible": 324,
+     "edges": 133,
+     "synapses": 569,
+     "density": 0.4104938271604938,
+     "mean_weight": 4.2781954887218046,
+     "synapses_in_edges_ge5": 370
+    },
+    "PEG>ExR": {
+     "possible": 252,
+     "edges": 205,
+     "synapses": 7617,
+     "density": 0.8134920634920635,
+     "mean_weight": 37.15609756097561,
+     "synapses_in_edges_ge5": 7342
+    },
+    "PEG>LPsP": {
+     "possible": 36,
+     "edges": 5,
+     "synapses": 9,
+     "density": 0.1388888888888889,
+     "mean_weight": 1.8,
+     "synapses_in_edges_ge5": 5
+    },
+    "PEG>GLNO": {
+     "possible": 72,
+     "edges": 22,
+     "synapses": 130,
+     "density": 0.3055555555555556,
+     "mean_weight": 5.909090909090909,
+     "synapses_in_edges_ge5": 114
+    },
+    "PEG>AOTU046": {
+     "possible": 72,
+     "edges": 2,
+     "synapses": 3,
+     "density": 0.027777777777777776,
+     "mean_weight": 1.5,
+     "synapses_in_edges_ge5": 0
+    },
+    "PEN>ER": {
+     "possible": 11844,
+     "edges": 2118,
+     "synapses": 9613,
+     "density": 0.17882472137791286,
+     "mean_weight": 4.538715769593956,
+     "synapses_in_edges_ge5": 6802
+    },
+    "PEN>EPG": {
+     "possible": 1932,
+     "edges": 735,
+     "synapses": 24069,
+     "density": 0.3804347826086957,
+     "mean_weight": 32.7469387755102,
+     "synapses_in_edges_ge5": 23780
+    },
+    "PEN>PEG": {
+     "possible": 756,
+     "edges": 127,
+     "synapses": 459,
+     "density": 0.167989417989418,
+     "mean_weight": 3.6141732283464565,
+     "synapses_in_edges_ge5": 270
+    },
+    "PEN>PEN": {
+     "possible": 1722,
+     "edges": 1069,
+     "synapses": 17916,
+     "density": 0.6207897793263647,
+     "mean_weight": 16.75958840037418,
+     "synapses_in_edges_ge5": 17628
+    },
+    "PEN>EL": {
+     "possible": 756,
+     "edges": 287,
+     "synapses": 8164,
+     "density": 0.37962962962962965,
+     "mean_weight": 28.445993031358885,
+     "synapses_in_edges_ge5": 8025
+    },
+    "PEN>ExR": {
+     "possible": 588,
+     "edges": 381,
+     "synapses": 4992,
+     "density": 0.6479591836734694,
+     "mean_weight": 13.10236220472441,
+     "synapses_in_edges_ge5": 4725
+    },
+    "PEN>GLNO": {
+     "possible": 168,
+     "edges": 84,
+     "synapses": 3496,
+     "density": 0.5,
+     "mean_weight": 41.61904761904762,
+     "synapses_in_edges_ge5": 3496
+    },
+    "EL>ER": {
+     "possible": 5076,
+     "edges": 4488,
+     "synapses": 23139,
+     "density": 0.8841607565011821,
+     "mean_weight": 5.155748663101604,
+     "synapses_in_edges_ge5": 17161
+    },
+    "EL>EPG": {
+     "possible": 828,
+     "edges": 293,
+     "synapses": 3709,
+     "density": 0.3538647342995169,
+     "mean_weight": 12.658703071672354,
+     "synapses_in_edges_ge5": 3413
+    },
+    "EL>PEG": {
+     "possible": 324,
+     "edges": 50,
+     "synapses": 83,
+     "density": 0.15432098765432098,
+     "mean_weight": 1.66,
+     "synapses_in_edges_ge5": 7
+    },
+    "EL>PEN": {
+     "possible": 756,
+     "edges": 130,
+     "synapses": 266,
+     "density": 0.17195767195767195,
+     "mean_weight": 2.046153846153846,
+     "synapses_in_edges_ge5": 55
+    },
+    "EL>EL": {
+     "possible": 306,
+     "edges": 194,
+     "synapses": 1493,
+     "density": 0.6339869281045751,
+     "mean_weight": 7.695876288659794,
+     "synapses_in_edges_ge5": 1383
+    },
+    "EL>ExR": {
+     "possible": 252,
+     "edges": 188,
+     "synapses": 1105,
+     "density": 0.746031746031746,
+     "mean_weight": 5.877659574468085,
+     "synapses_in_edges_ge5": 895
+    },
+    "ExR>ER": {
+     "possible": 3948,
+     "edges": 1940,
+     "synapses": 23452,
+     "density": 0.49138804457953394,
+     "mean_weight": 12.088659793814433,
+     "synapses_in_edges_ge5": 21611
+    },
+    "ExR>EPG": {
+     "possible": 644,
+     "edges": 643,
+     "synapses": 15813,
+     "density": 0.9984472049689441,
+     "mean_weight": 24.59253499222395,
+     "synapses_in_edges_ge5": 15509
+    },
+    "ExR>PEG": {
+     "possible": 252,
+     "edges": 138,
+     "synapses": 964,
+     "density": 0.5476190476190477,
+     "mean_weight": 6.9855072463768115,
+     "synapses_in_edges_ge5": 799
+    },
+    "ExR>PEN": {
+     "possible": 588,
+     "edges": 337,
+     "synapses": 12934,
+     "density": 0.5731292517006803,
+     "mean_weight": 38.37982195845697,
+     "synapses_in_edges_ge5": 12520
+    },
+    "ExR>EL": {
+     "possible": 252,
+     "edges": 244,
+     "synapses": 10458,
+     "density": 0.9682539682539683,
+     "mean_weight": 42.86065573770492,
+     "synapses_in_edges_ge5": 10330
+    },
+    "ExR>ExR": {
+     "possible": 182,
+     "edges": 166,
+     "synapses": 5848,
+     "density": 0.9120879120879121,
+     "mean_weight": 35.2289156626506,
+     "synapses_in_edges_ge5": 5761
+    },
+    "ExR>TuBu": {
+     "possible": 2184,
+     "edges": 382,
+     "synapses": 947,
+     "density": 0.1749084249084249,
+     "mean_weight": 2.479057591623037,
+     "synapses_in_edges_ge5": 323
+    },
+    "ExR>LPsP": {
+     "possible": 28,
+     "edges": 5,
+     "synapses": 9,
+     "density": 0.17857142857142858,
+     "mean_weight": 1.8,
+     "synapses_in_edges_ge5": 0
+    },
+    "ExR>GLNO": {
+     "possible": 56,
+     "edges": 34,
+     "synapses": 134,
+     "density": 0.6071428571428571,
+     "mean_weight": 3.9411764705882355,
+     "synapses_in_edges_ge5": 90
+    },
+    "ExR>AOTU046": {
+     "possible": 56,
+     "edges": 31,
+     "synapses": 411,
+     "density": 0.5535714285714286,
+     "mean_weight": 13.258064516129032,
+     "synapses_in_edges_ge5": 400
+    },
+    "TuBu>ER": {
+     "possible": 43992,
+     "edges": 568,
+     "synapses": 16055,
+     "density": 0.012911438443353337,
+     "mean_weight": 28.265845070422536,
+     "synapses_in_edges_ge5": 15763
+    },
+    "TuBu>EL": {
+     "possible": 2808,
+     "edges": 2,
+     "synapses": 2,
+     "density": 0.0007122507122507123,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "TuBu>ExR": {
+     "possible": 2184,
+     "edges": 638,
+     "synapses": 6315,
+     "density": 0.29212454212454214,
+     "mean_weight": 9.898119122257054,
+     "synapses_in_edges_ge5": 5853
+    },
+    "TuBu>TuBu": {
+     "possible": 24180,
+     "edges": 291,
+     "synapses": 344,
+     "density": 0.012034739454094293,
+     "mean_weight": 1.1821305841924399,
+     "synapses_in_edges_ge5": 0
+    },
+    "TuBu>MeTu2": {
+     "possible": 15756,
+     "edges": 40,
+     "synapses": 42,
+     "density": 0.002538715410002539,
+     "mean_weight": 1.05,
+     "synapses_in_edges_ge5": 0
+    },
+    "TuBu>AOTU046": {
+     "possible": 624,
+     "edges": 303,
+     "synapses": 1032,
+     "density": 0.4855769230769231,
+     "mean_weight": 3.405940594059406,
+     "synapses_in_edges_ge5": 581
+    },
+    "TuBu>TuTuB": {
+     "possible": 624,
+     "edges": 46,
+     "synapses": 63,
+     "density": 0.07371794871794872,
+     "mean_weight": 1.3695652173913044,
+     "synapses_in_edges_ge5": 0
+    },
+    "MeTu2>TuBu": {
+     "possible": 15756,
+     "edges": 542,
+     "synapses": 10262,
+     "density": 0.0343995938055344,
+     "mean_weight": 18.933579335793358,
+     "synapses_in_edges_ge5": 9940
+    },
+    "MeTu2>MeTu2": {
+     "possible": 10100,
+     "edges": 1276,
+     "synapses": 5872,
+     "density": 0.12633663366336634,
+     "mean_weight": 4.601880877742946,
+     "synapses_in_edges_ge5": 4069
+    },
+    "MeTu2>AOTU046": {
+     "possible": 404,
+     "edges": 25,
+     "synapses": 36,
+     "density": 0.06188118811881188,
+     "mean_weight": 1.44,
+     "synapses_in_edges_ge5": 0
+    },
+    "MeTu2>TuTuB": {
+     "possible": 404,
+     "edges": 216,
+     "synapses": 4714,
+     "density": 0.5346534653465347,
+     "mean_weight": 21.824074074074073,
+     "synapses_in_edges_ge5": 4688
+    },
+    "LPsP>EPG": {
+     "possible": 92,
+     "edges": 92,
+     "synapses": 3870,
+     "density": 1.0,
+     "mean_weight": 42.06521739130435,
+     "synapses_in_edges_ge5": 3870
+    },
+    "LPsP>PEG": {
+     "possible": 36,
+     "edges": 36,
+     "synapses": 2894,
+     "density": 1.0,
+     "mean_weight": 80.38888888888889,
+     "synapses_in_edges_ge5": 2894
+    },
+    "LPsP>PEN": {
+     "possible": 84,
+     "edges": 76,
+     "synapses": 2725,
+     "density": 0.9047619047619048,
+     "mean_weight": 35.85526315789474,
+     "synapses_in_edges_ge5": 2664
+    },
+    "LPsP>EL": {
+     "possible": 36,
+     "edges": 4,
+     "synapses": 15,
+     "density": 0.1111111111111111,
+     "mean_weight": 3.75,
+     "synapses_in_edges_ge5": 13
+    },
+    "LPsP>ExR": {
+     "possible": 28,
+     "edges": 4,
+     "synapses": 6,
+     "density": 0.14285714285714285,
+     "mean_weight": 1.5,
+     "synapses_in_edges_ge5": 0
+    },
+    "LPsP>LPsP": {
+     "possible": 2,
+     "edges": 2,
+     "synapses": 7,
+     "density": 1.0,
+     "mean_weight": 3.5,
+     "synapses_in_edges_ge5": 5
+    },
+    "LPsP>GLNO": {
+     "possible": 8,
+     "edges": 3,
+     "synapses": 3,
+     "density": 0.375,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>ER": {
+     "possible": 1128,
+     "edges": 2,
+     "synapses": 3,
+     "density": 0.0017730496453900709,
+     "mean_weight": 1.5,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>EPG": {
+     "possible": 184,
+     "edges": 2,
+     "synapses": 2,
+     "density": 0.010869565217391304,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>PEG": {
+     "possible": 72,
+     "edges": 2,
+     "synapses": 2,
+     "density": 0.027777777777777776,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>PEN": {
+     "possible": 168,
+     "edges": 84,
+     "synapses": 16371,
+     "density": 0.5,
+     "mean_weight": 194.89285714285714,
+     "synapses_in_edges_ge5": 16371
+    },
+    "GLNO>ExR": {
+     "possible": 56,
+     "edges": 5,
+     "synapses": 6,
+     "density": 0.08928571428571429,
+     "mean_weight": 1.2,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>GLNO": {
+     "possible": 12,
+     "edges": 4,
+     "synapses": 400,
+     "density": 0.3333333333333333,
+     "mean_weight": 100.0,
+     "synapses_in_edges_ge5": 400
+    },
+    "AOTU046>ER": {
+     "possible": 1128,
+     "edges": 410,
+     "synapses": 1437,
+     "density": 0.36347517730496454,
+     "mean_weight": 3.504878048780488,
+     "synapses_in_edges_ge5": 778
+    },
+    "AOTU046>EL": {
+     "possible": 72,
+     "edges": 1,
+     "synapses": 1,
+     "density": 0.013888888888888888,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "AOTU046>ExR": {
+     "possible": 56,
+     "edges": 41,
+     "synapses": 3779,
+     "density": 0.7321428571428571,
+     "mean_weight": 92.17073170731707,
+     "synapses_in_edges_ge5": 3752
+    },
+    "AOTU046>TuBu": {
+     "possible": 624,
+     "edges": 596,
+     "synapses": 10561,
+     "density": 0.9551282051282052,
+     "mean_weight": 17.719798657718123,
+     "synapses_in_edges_ge5": 10414
+    },
+    "AOTU046>MeTu2": {
+     "possible": 404,
+     "edges": 8,
+     "synapses": 10,
+     "density": 0.019801980198019802,
+     "mean_weight": 1.25,
+     "synapses_in_edges_ge5": 0
+    },
+    "AOTU046>AOTU046": {
+     "possible": 12,
+     "edges": 12,
+     "synapses": 369,
+     "density": 1.0,
+     "mean_weight": 30.75,
+     "synapses_in_edges_ge5": 369
+    },
+    "AOTU046>TuTuB": {
+     "possible": 16,
+     "edges": 14,
+     "synapses": 185,
+     "density": 0.875,
+     "mean_weight": 13.214285714285714,
+     "synapses_in_edges_ge5": 173
+    },
+    "TuTuB>TuBu": {
+     "possible": 624,
+     "edges": 212,
+     "synapses": 5066,
+     "density": 0.33974358974358976,
+     "mean_weight": 23.89622641509434,
+     "synapses_in_edges_ge5": 4951
+    },
+    "TuTuB>MeTu2": {
+     "possible": 404,
+     "edges": 236,
+     "synapses": 3012,
+     "density": 0.5841584158415841,
+     "mean_weight": 12.76271186440678,
+     "synapses_in_edges_ge5": 2954
+    },
+    "TuTuB>AOTU046": {
+     "possible": 16,
+     "edges": 11,
+     "synapses": 22,
+     "density": 0.6875,
+     "mean_weight": 2.0,
+     "synapses_in_edges_ge5": 5
+    },
+    "TuTuB>TuTuB": {
+     "possible": 12,
+     "edges": 11,
+     "synapses": 456,
+     "density": 0.9166666666666666,
+     "mean_weight": 41.45454545454545,
+     "synapses_in_edges_ge5": 451
+    }
+   }
+  },
+  "flywire": {
+   "N": 139336,
+   "edges": 15023799,
+   "synapses": 68912106,
+   "synapses_per_neuron": 494.5750272722053,
+   "mean_per_edge": 4.586862883349278,
+   "median_per_edge": 2.0,
+   "share_edges_w1": 0.4078700067805753,
+   "share_edges_below5": 0.7648719208770032,
+   "share_synapses_in_edges_below5": 0.29613515221839254,
+   "EB": {
+    "neurons": 683,
+    "edges": 47134,
+    "synapses": 456718,
+    "synapses_inside_per_neuron": 668.6939970717423,
+    "mean_per_edge": 9.68977807951797,
+    "weight_percentiles_10_25_50_75_90": [
+     1.0,
+     2.0,
+     4.0,
+     10.0,
+     25.0
+    ],
+    "share_edges_w1": 0.2400390376373743,
+    "share_edges_below5": 0.5438112615097382,
+    "share_synapses_in_edges_below5": 0.11159402519716762,
+    "out_all_per_neuron_median": 603.0,
+    "in_all_per_neuron_median": 582.0,
+    "out_inside_per_neuron_median": 586.0,
+    "in_inside_per_neuron_median": 509.0,
+    "side": {
+     "left": 341,
+     "right": 342
+    },
+    "neurons_strongest_inside_input_below5": 11,
+    "neurons_strongest_inside_output_below5": 10
+   },
+   "families": {
+    "ER": {
+     "neurons": 278,
+     "out_all_median": 797.0,
+     "in_all_median": 722.5,
+     "out_inside_median": 792.5,
+     "in_inside_median": 717.5,
+     "in_inside_min": 52.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 6
+    },
+    "EPG": {
+     "neurons": 47,
+     "out_all_median": 1425.0,
+     "in_all_median": 1948.0,
+     "out_inside_median": 1090.0,
+     "in_inside_median": 1762.0,
+     "in_inside_min": 140.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "PEG": {
+     "neurons": 20,
+     "out_all_median": 615.5,
+     "in_all_median": 620.0,
+     "out_inside_median": 562.0,
+     "in_inside_median": 505.0,
+     "in_inside_min": 226.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "PEN": {
+     "neurons": 42,
+     "out_all_median": 971.0,
+     "in_all_median": 1095.5,
+     "out_inside_median": 809.0,
+     "in_inside_median": 950.5,
+     "in_inside_min": 676.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "EL": {
+     "neurons": 17,
+     "out_all_median": 510.0,
+     "in_all_median": 3365.0,
+     "out_inside_median": 486.0,
+     "in_inside_median": 3173.0,
+     "in_inside_min": 1729.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "ExR": {
+     "neurons": 14,
+     "out_all_median": 2812.0,
+     "in_all_median": 6190.5,
+     "out_inside_median": 2171.0,
+     "in_inside_median": 2759.5,
+     "in_inside_min": 436.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "TuBu": {
+     "neurons": 150,
+     "out_all_median": 172.0,
+     "in_all_median": 255.0,
+     "out_inside_median": 168.5,
+     "in_inside_median": 77.5,
+     "in_inside_min": 9.0,
+     "neurons_with_inside_input_below5_max_edge": 3,
+     "neurons_with_inside_output_below5_max_edge": 3
+    },
+    "MeTu2": {
+     "neurons": 101,
+     "out_all_median": 165.0,
+     "in_all_median": 169.0,
+     "out_inside_median": 120.0,
+     "in_inside_median": 27.0,
+     "in_inside_min": 2.0,
+     "neurons_with_inside_input_below5_max_edge": 8,
+     "neurons_with_inside_output_below5_max_edge": 1
+    },
+    "LPsP": {
+     "neurons": 2,
+     "out_all_median": 3654.5,
+     "in_all_median": 2378.5,
+     "out_inside_median": 2618.0,
+     "in_inside_median": 386.0,
+     "in_inside_min": 329.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "GLNO": {
+     "neurons": 4,
+     "out_all_median": 2525.0,
+     "in_all_median": 1281.5,
+     "out_inside_median": 2307.5,
+     "in_inside_median": 540.0,
+     "in_inside_min": 449.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "AOTU046": {
+     "neurons": 4,
+     "out_all_median": 3621.5,
+     "in_all_median": 1767.5,
+     "out_inside_median": 3025.0,
+     "in_inside_median": 426.0,
+     "in_inside_min": 364.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    },
+    "TuTuB": {
+     "neurons": 4,
+     "out_all_median": 1987.5,
+     "in_all_median": 1743.5,
+     "out_inside_median": 1221.0,
+     "in_inside_median": 694.5,
+     "in_inside_min": 88.0,
+     "neurons_with_inside_input_below5_max_edge": 0,
+     "neurons_with_inside_output_below5_max_edge": 0
+    }
+   },
+   "blocks": {
+    "ER>ER": {
+     "possible": 77006,
+     "edges": 12204,
+     "synapses": 143544,
+     "density": 0.15848115731241721,
+     "mean_weight": 11.76204523107178,
+     "synapses_in_edges_ge5": 132827
+    },
+    "ER>EPG": {
+     "possible": 13066,
+     "edges": 8451,
+     "synapses": 49844,
+     "density": 0.6467932037348845,
+     "mean_weight": 5.898000236658383,
+     "synapses_in_edges_ge5": 39664
+    },
+    "ER>PEG": {
+     "possible": 5560,
+     "edges": 336,
+     "synapses": 3079,
+     "density": 0.060431654676258995,
+     "mean_weight": 9.163690476190476,
+     "synapses_in_edges_ge5": 2661
+    },
+    "ER>PEN": {
+     "possible": 11676,
+     "edges": 1195,
+     "synapses": 5247,
+     "density": 0.10234669407331277,
+     "mean_weight": 4.390794979079498,
+     "synapses_in_edges_ge5": 3538
+    },
+    "ER>EL": {
+     "possible": 4726,
+     "edges": 3517,
+     "synapses": 26548,
+     "density": 0.7441811256876851,
+     "mean_weight": 7.548478817173728,
+     "synapses_in_edges_ge5": 23102
+    },
+    "ER>ExR": {
+     "possible": 3892,
+     "edges": 1296,
+     "synapses": 21623,
+     "density": 0.3329907502569373,
+     "mean_weight": 16.684413580246915,
+     "synapses_in_edges_ge5": 20476
+    },
+    "ER>TuBu": {
+     "possible": 41700,
+     "edges": 128,
+     "synapses": 265,
+     "density": 0.003069544364508393,
+     "mean_weight": 2.0703125,
+     "synapses_in_edges_ge5": 80
+    },
+    "ER>GLNO": {
+     "possible": 1112,
+     "edges": 7,
+     "synapses": 17,
+     "density": 0.006294964028776978,
+     "mean_weight": 2.4285714285714284,
+     "synapses_in_edges_ge5": 5
+    },
+    "ER>AOTU046": {
+     "possible": 1112,
+     "edges": 25,
+     "synapses": 29,
+     "density": 0.022482014388489208,
+     "mean_weight": 1.16,
+     "synapses_in_edges_ge5": 0
+    },
+    "EPG>ER": {
+     "possible": 13066,
+     "edges": 2692,
+     "synapses": 8526,
+     "density": 0.20603091994489514,
+     "mean_weight": 3.1671619613670132,
+     "synapses_in_edges_ge5": 4545
+    },
+    "EPG>EPG": {
+     "possible": 2162,
+     "edges": 501,
+     "synapses": 3513,
+     "density": 0.23172987974098058,
+     "mean_weight": 7.0119760479041915,
+     "synapses_in_edges_ge5": 2969
+    },
+    "EPG>PEG": {
+     "possible": 940,
+     "edges": 341,
+     "synapses": 4061,
+     "density": 0.3627659574468085,
+     "mean_weight": 11.909090909090908,
+     "synapses_in_edges_ge5": 3625
+    },
+    "EPG>PEN": {
+     "possible": 1974,
+     "edges": 566,
+     "synapses": 8319,
+     "density": 0.2867274569402229,
+     "mean_weight": 14.697879858657243,
+     "synapses_in_edges_ge5": 7955
+    },
+    "EPG>EL": {
+     "possible": 799,
+     "edges": 404,
+     "synapses": 8610,
+     "density": 0.5056320400500626,
+     "mean_weight": 21.31188118811881,
+     "synapses_in_edges_ge5": 8167
+    },
+    "EPG>ExR": {
+     "possible": 658,
+     "edges": 439,
+     "synapses": 10422,
+     "density": 0.6671732522796353,
+     "mean_weight": 23.74031890660592,
+     "synapses_in_edges_ge5": 10031
+    },
+    "EPG>LPsP": {
+     "possible": 94,
+     "edges": 88,
+     "synapses": 665,
+     "density": 0.9361702127659575,
+     "mean_weight": 7.556818181818182,
+     "synapses_in_edges_ge5": 604
+    },
+    "EPG>GLNO": {
+     "possible": 188,
+     "edges": 76,
+     "synapses": 375,
+     "density": 0.40425531914893614,
+     "mean_weight": 4.934210526315789,
+     "synapses_in_edges_ge5": 276
+    },
+    "PEG>ER": {
+     "possible": 5560,
+     "edges": 119,
+     "synapses": 3090,
+     "density": 0.021402877697841726,
+     "mean_weight": 25.96638655462185,
+     "synapses_in_edges_ge5": 3011
+    },
+    "PEG>EPG": {
+     "possible": 940,
+     "edges": 187,
+     "synapses": 393,
+     "density": 0.19893617021276597,
+     "mean_weight": 2.1016042780748663,
+     "synapses_in_edges_ge5": 89
+    },
+    "PEG>PEG": {
+     "possible": 380,
+     "edges": 67,
+     "synapses": 253,
+     "density": 0.1763157894736842,
+     "mean_weight": 3.7761194029850746,
+     "synapses_in_edges_ge5": 131
+    },
+    "PEG>PEN": {
+     "possible": 840,
+     "edges": 152,
+     "synapses": 1775,
+     "density": 0.18095238095238095,
+     "mean_weight": 11.677631578947368,
+     "synapses_in_edges_ge5": 1607
+    },
+    "PEG>EL": {
+     "possible": 340,
+     "edges": 101,
+     "synapses": 330,
+     "density": 0.29705882352941176,
+     "mean_weight": 3.267326732673267,
+     "synapses_in_edges_ge5": 188
+    },
+    "PEG>ExR": {
+     "possible": 280,
+     "edges": 178,
+     "synapses": 4034,
+     "density": 0.6357142857142857,
+     "mean_weight": 22.662921348314608,
+     "synapses_in_edges_ge5": 3817
+    },
+    "PEG>LPsP": {
+     "possible": 40,
+     "edges": 6,
+     "synapses": 95,
+     "density": 0.15,
+     "mean_weight": 15.833333333333334,
+     "synapses_in_edges_ge5": 90
+    },
+    "PEG>GLNO": {
+     "possible": 80,
+     "edges": 18,
+     "synapses": 82,
+     "density": 0.225,
+     "mean_weight": 4.555555555555555,
+     "synapses_in_edges_ge5": 61
+    },
+    "PEG>AOTU046": {
+     "possible": 80,
+     "edges": 3,
+     "synapses": 3,
+     "density": 0.0375,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "PEN>ER": {
+     "possible": 11676,
+     "edges": 1550,
+     "synapses": 5048,
+     "density": 0.13275094210346008,
+     "mean_weight": 3.256774193548387,
+     "synapses_in_edges_ge5": 2639
+    },
+    "PEN>EPG": {
+     "possible": 1974,
+     "edges": 592,
+     "synapses": 12600,
+     "density": 0.2998986828774063,
+     "mean_weight": 21.283783783783782,
+     "synapses_in_edges_ge5": 12301
+    },
+    "PEN>PEG": {
+     "possible": 840,
+     "edges": 103,
+     "synapses": 353,
+     "density": 0.12261904761904761,
+     "mean_weight": 3.4271844660194173,
+     "synapses_in_edges_ge5": 202
+    },
+    "PEN>PEN": {
+     "possible": 1722,
+     "edges": 976,
+     "synapses": 8095,
+     "density": 0.5667828106852497,
+     "mean_weight": 8.29405737704918,
+     "synapses_in_edges_ge5": 7298
+    },
+    "PEN>EL": {
+     "possible": 714,
+     "edges": 262,
+     "synapses": 6911,
+     "density": 0.36694677871148457,
+     "mean_weight": 26.37786259541985,
+     "synapses_in_edges_ge5": 6773
+    },
+    "PEN>ExR": {
+     "possible": 588,
+     "edges": 281,
+     "synapses": 2227,
+     "density": 0.477891156462585,
+     "mean_weight": 7.925266903914591,
+     "synapses_in_edges_ge5": 1887
+    },
+    "PEN>LPsP": {
+     "possible": 84,
+     "edges": 5,
+     "synapses": 5,
+     "density": 0.05952380952380952,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "PEN>GLNO": {
+     "possible": 168,
+     "edges": 84,
+     "synapses": 1490,
+     "density": 0.5,
+     "mean_weight": 17.738095238095237,
+     "synapses_in_edges_ge5": 1480
+    },
+    "EL>ER": {
+     "possible": 4726,
+     "edges": 2318,
+     "synapses": 6534,
+     "density": 0.4904782056707575,
+     "mean_weight": 2.818809318377912,
+     "synapses_in_edges_ge5": 2997
+    },
+    "EL>EPG": {
+     "possible": 799,
+     "edges": 167,
+     "synapses": 729,
+     "density": 0.20901126408010012,
+     "mean_weight": 4.365269461077844,
+     "synapses_in_edges_ge5": 535
+    },
+    "EL>PEG": {
+     "possible": 340,
+     "edges": 19,
+     "synapses": 31,
+     "density": 0.05588235294117647,
+     "mean_weight": 1.631578947368421,
+     "synapses_in_edges_ge5": 7
+    },
+    "EL>PEN": {
+     "possible": 714,
+     "edges": 83,
+     "synapses": 118,
+     "density": 0.11624649859943978,
+     "mean_weight": 1.4216867469879517,
+     "synapses_in_edges_ge5": 0
+    },
+    "EL>EL": {
+     "possible": 272,
+     "edges": 140,
+     "synapses": 360,
+     "density": 0.5147058823529411,
+     "mean_weight": 2.5714285714285716,
+     "synapses_in_edges_ge5": 119
+    },
+    "EL>ExR": {
+     "possible": 238,
+     "edges": 125,
+     "synapses": 386,
+     "density": 0.5252100840336135,
+     "mean_weight": 3.088,
+     "synapses_in_edges_ge5": 201
+    },
+    "ExR>ER": {
+     "possible": 3892,
+     "edges": 1193,
+     "synapses": 7357,
+     "density": 0.30652620760534427,
+     "mean_weight": 6.166806370494552,
+     "synapses_in_edges_ge5": 5731
+    },
+    "ExR>EPG": {
+     "possible": 658,
+     "edges": 491,
+     "synapses": 7416,
+     "density": 0.7462006079027356,
+     "mean_weight": 15.103869653767822,
+     "synapses_in_edges_ge5": 7010
+    },
+    "ExR>PEG": {
+     "possible": 280,
+     "edges": 69,
+     "synapses": 296,
+     "density": 0.24642857142857144,
+     "mean_weight": 4.2898550724637685,
+     "synapses_in_edges_ge5": 202
+    },
+    "ExR>PEN": {
+     "possible": 588,
+     "edges": 225,
+     "synapses": 6804,
+     "density": 0.3826530612244898,
+     "mean_weight": 30.24,
+     "synapses_in_edges_ge5": 6552
+    },
+    "ExR>EL": {
+     "possible": 238,
+     "edges": 189,
+     "synapses": 9320,
+     "density": 0.7941176470588235,
+     "mean_weight": 49.31216931216931,
+     "synapses_in_edges_ge5": 9224
+    },
+    "ExR>ExR": {
+     "possible": 182,
+     "edges": 141,
+     "synapses": 1827,
+     "density": 0.7747252747252747,
+     "mean_weight": 12.957446808510639,
+     "synapses_in_edges_ge5": 1695
+    },
+    "ExR>TuBu": {
+     "possible": 2100,
+     "edges": 208,
+     "synapses": 528,
+     "density": 0.09904761904761905,
+     "mean_weight": 2.5384615384615383,
+     "synapses_in_edges_ge5": 249
+    },
+    "ExR>LPsP": {
+     "possible": 28,
+     "edges": 2,
+     "synapses": 3,
+     "density": 0.07142857142857142,
+     "mean_weight": 1.5,
+     "synapses_in_edges_ge5": 0
+    },
+    "ExR>GLNO": {
+     "possible": 56,
+     "edges": 25,
+     "synapses": 75,
+     "density": 0.44642857142857145,
+     "mean_weight": 3.0,
+     "synapses_in_edges_ge5": 39
+    },
+    "ExR>AOTU046": {
+     "possible": 56,
+     "edges": 30,
+     "synapses": 182,
+     "density": 0.5357142857142857,
+     "mean_weight": 6.066666666666666,
+     "synapses_in_edges_ge5": 163
+    },
+    "TuBu>ER": {
+     "possible": 41700,
+     "edges": 479,
+     "synapses": 22271,
+     "density": 0.011486810551558754,
+     "mean_weight": 46.494780793319414,
+     "synapses_in_edges_ge5": 22024
+    },
+    "TuBu>ExR": {
+     "possible": 2100,
+     "edges": 533,
+     "synapses": 5550,
+     "density": 0.2538095238095238,
+     "mean_weight": 10.412757973733584,
+     "synapses_in_edges_ge5": 5109
+    },
+    "TuBu>TuBu": {
+     "possible": 22350,
+     "edges": 157,
+     "synapses": 227,
+     "density": 0.007024608501118568,
+     "mean_weight": 1.4458598726114649,
+     "synapses_in_edges_ge5": 31
+    },
+    "TuBu>MeTu2": {
+     "possible": 15150,
+     "edges": 54,
+     "synapses": 71,
+     "density": 0.0035643564356435645,
+     "mean_weight": 1.3148148148148149,
+     "synapses_in_edges_ge5": 5
+    },
+    "TuBu>AOTU046": {
+     "possible": 600,
+     "edges": 287,
+     "synapses": 1038,
+     "density": 0.47833333333333333,
+     "mean_weight": 3.6167247386759582,
+     "synapses_in_edges_ge5": 648
+    },
+    "TuBu>TuTuB": {
+     "possible": 600,
+     "edges": 30,
+     "synapses": 38,
+     "density": 0.05,
+     "mean_weight": 1.2666666666666666,
+     "synapses_in_edges_ge5": 0
+    },
+    "MeTu2>TuBu": {
+     "possible": 15150,
+     "edges": 419,
+     "synapses": 7411,
+     "density": 0.027656765676567656,
+     "mean_weight": 17.687350835322196,
+     "synapses_in_edges_ge5": 7173
+    },
+    "MeTu2>MeTu2": {
+     "possible": 10100,
+     "edges": 896,
+     "synapses": 2360,
+     "density": 0.08871287128712871,
+     "mean_weight": 2.6339285714285716,
+     "synapses_in_edges_ge5": 989
+    },
+    "MeTu2>AOTU046": {
+     "possible": 404,
+     "edges": 22,
+     "synapses": 27,
+     "density": 0.054455445544554455,
+     "mean_weight": 1.2272727272727273,
+     "synapses_in_edges_ge5": 0
+    },
+    "MeTu2>TuTuB": {
+     "possible": 404,
+     "edges": 187,
+     "synapses": 2422,
+     "density": 0.4628712871287129,
+     "mean_weight": 12.95187165775401,
+     "synapses_in_edges_ge5": 2323
+    },
+    "LPsP>EPG": {
+     "possible": 94,
+     "edges": 94,
+     "synapses": 1862,
+     "density": 1.0,
+     "mean_weight": 19.80851063829787,
+     "synapses_in_edges_ge5": 1836
+    },
+    "LPsP>PEG": {
+     "possible": 40,
+     "edges": 40,
+     "synapses": 1615,
+     "density": 1.0,
+     "mean_weight": 40.375,
+     "synapses_in_edges_ge5": 1615
+    },
+    "LPsP>PEN": {
+     "possible": 84,
+     "edges": 68,
+     "synapses": 1755,
+     "density": 0.8095238095238095,
+     "mean_weight": 25.808823529411764,
+     "synapses_in_edges_ge5": 1712
+    },
+    "LPsP>LPsP": {
+     "possible": 2,
+     "edges": 1,
+     "synapses": 4,
+     "density": 0.5,
+     "mean_weight": 4.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>ER": {
+     "possible": 1112,
+     "edges": 1,
+     "synapses": 1,
+     "density": 0.0008992805755395684,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>EPG": {
+     "possible": 188,
+     "edges": 1,
+     "synapses": 1,
+     "density": 0.005319148936170213,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>PEN": {
+     "possible": 168,
+     "edges": 84,
+     "synapses": 9153,
+     "density": 0.5,
+     "mean_weight": 108.96428571428571,
+     "synapses_in_edges_ge5": 9153
+    },
+    "GLNO>ExR": {
+     "possible": 56,
+     "edges": 9,
+     "synapses": 11,
+     "density": 0.16071428571428573,
+     "mean_weight": 1.2222222222222223,
+     "synapses_in_edges_ge5": 0
+    },
+    "GLNO>GLNO": {
+     "possible": 12,
+     "edges": 4,
+     "synapses": 115,
+     "density": 0.3333333333333333,
+     "mean_weight": 28.75,
+     "synapses_in_edges_ge5": 115
+    },
+    "AOTU046>ER": {
+     "possible": 1112,
+     "edges": 318,
+     "synapses": 1052,
+     "density": 0.28597122302158273,
+     "mean_weight": 3.308176100628931,
+     "synapses_in_edges_ge5": 544
+    },
+    "AOTU046>EL": {
+     "possible": 68,
+     "edges": 1,
+     "synapses": 1,
+     "density": 0.014705882352941176,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "AOTU046>ExR": {
+     "possible": 56,
+     "edges": 38,
+     "synapses": 2841,
+     "density": 0.6785714285714286,
+     "mean_weight": 74.76315789473684,
+     "synapses_in_edges_ge5": 2817
+    },
+    "AOTU046>TuBu": {
+     "possible": 600,
+     "edges": 560,
+     "synapses": 8039,
+     "density": 0.9333333333333333,
+     "mean_weight": 14.355357142857143,
+     "synapses_in_edges_ge5": 7796
+    },
+    "AOTU046>MeTu2": {
+     "possible": 404,
+     "edges": 3,
+     "synapses": 3,
+     "density": 0.007425742574257425,
+     "mean_weight": 1.0,
+     "synapses_in_edges_ge5": 0
+    },
+    "AOTU046>AOTU046": {
+     "possible": 12,
+     "edges": 12,
+     "synapses": 352,
+     "density": 1.0,
+     "mean_weight": 29.333333333333332,
+     "synapses_in_edges_ge5": 352
+    },
+    "AOTU046>TuTuB": {
+     "possible": 16,
+     "edges": 14,
+     "synapses": 70,
+     "density": 0.875,
+     "mean_weight": 5.0,
+     "synapses_in_edges_ge5": 54
+    },
+    "TuTuB>TuBu": {
+     "possible": 600,
+     "edges": 187,
+     "synapses": 2864,
+     "density": 0.31166666666666665,
+     "mean_weight": 15.315508021390375,
+     "synapses_in_edges_ge5": 2727
+    },
+    "TuTuB>MeTu2": {
+     "possible": 404,
+     "edges": 237,
+     "synapses": 1761,
+     "density": 0.5866336633663366,
+     "mean_weight": 7.430379746835443,
+     "synapses_in_edges_ge5": 1569
+    },
+    "TuTuB>AOTU046": {
+     "possible": 16,
+     "edges": 13,
+     "synapses": 41,
+     "density": 0.8125,
+     "mean_weight": 3.1538461538461537,
+     "synapses_in_edges_ge5": 13
+    },
+    "TuTuB>TuTuB": {
+     "possible": 12,
+     "edges": 10,
+     "synapses": 325,
+     "density": 0.8333333333333334,
+     "mean_weight": 32.5,
+     "synapses_in_edges_ge5": 323
+    }
+   }
+  }
+ },
+ "summary_banc_over_male": {
+  "blocks_compared": 42,
+  "median_ratio_syn_per_pair": 0.37356246781758634,
+  "median_ratio_mean_weight": 0.4594383994073207,
+  "median_ratio_density": 0.7345693359566334,
+  "weighted_mean_ratio_syn_per_pair": 0.32699092854792083,
+  "weighted_mean_ratio_mean_weight": 0.44805721855595104,
+  "ratio_inside_synapses_per_neuron_banc_male": 0.3573074820236433,
+  "ratio_inside_synapses_per_neuron_banc_flywire": 0.648390432416951,
+  "ratio_synapses_per_neuron_whole_banc_male": 0.3594399515679118,
+  "ratio_synapses_per_neuron_whole_banc_flywire": 0.5413795976572239
+ }
+}

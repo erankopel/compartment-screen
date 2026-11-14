@@ -1,0 +1,14 @@
+flywire: N 139,336; edges 15,023,799; synapses 68,912,106; inside EB: edges 47,134, synapses 456,718
+th  1: scc 134,486 EB 683 kept syn 1.000 EBsyn 1.000 | loss 0.0940 stays 11.97 mixes 4.27 ratio 2.801 | Dob4 0.687 Dob8 0.210 Dob16 0.027 drop 0 | exit mean 0.231 below 0.966 | classes 1 largest 683 | CX 1.65 MB 0.40 AL 0.14 | 233 s
+th  2: scc 131,470 EB 681 kept syn 0.911 EBsyn 0.975 | loss 0.0875 stays 12.65 mixes 4.49 ratio 2.816 | Dob4 0.685 Dob8 0.238 Dob16 0.034 drop 1 | exit mean 0.224 below 0.963 | classes 2 largest 680 | CX 1.87 MB 0.53 AL 0.13 | 65 s
+th  3: scc 128,632 EB 676 kept syn 0.830 EBsyn 0.946 | loss 0.0822 stays 13.34 mixes 4.88 ratio 2.737 | Dob4 0.710 Dob8 0.276 Dob16 0.048 drop 1 | exit mean 0.191 below 0.998 | classes 2 largest 675 | CX 2.06 MB 0.68 AL 0.12 | 50 s
+th  4: scc 126,279 EB 674 kept syn 0.761 EBsyn 0.917 | loss 0.0775 stays 13.95 mixes 5.40 ratio 2.585 | Dob4 0.762 Dob8 0.342 Dob16 0.073 drop 1 | exit mean 0.204 below 0.991 | classes 6 largest 669 | CX 2.25 MB 0.66 AL 0.12 | 40 s
+th  5: scc 123,875 EB 674 kept syn 0.704 EBsyn 0.888 | loss 0.0736 stays 14.58 mixes 5.85 ratio 2.490 | Dob4 0.771 Dob8 0.381 Dob16 0.094 drop 1 | exit mean 0.197 below 0.991 | classes 12 largest 663 | CX 2.44 MB 0.64 AL 0.12 | 41 s
+th  6: scc 121,432 EB 671 kept syn 0.655 EBsyn 0.861 | loss 0.0697 stays 15.23 mixes 6.32 ratio 2.410 | Dob4 0.777 Dob8 0.413 Dob16 0.113 drop 1 | exit mean 0.189 below 0.992 | classes 18 largest 654 | CX 2.61 MB 0.59 AL 0.11 | 42 s
+th  7: scc 118,561 EB 669 kept syn 0.612 EBsyn 0.834 | loss 0.0658 stays 15.92 mixes 6.56 ratio 2.426 | Dob4 0.802 Dob8 0.445 Dob16 0.127 drop 1 | exit mean 0.182 below 0.992 | classes 22 largest 648 | CX 2.76 MB 0.39 AL 0.11 | 38 s
+th  8: scc 115,526 EB 667 kept syn 0.575 EBsyn 0.808 | loss 0.0630 stays 16.73 mixes 6.79 ratio 2.466 | Dob4 0.908 Dob8 0.487 Dob16 0.143 drop 1 | exit mean 0.200 below 0.971 | classes 38 largest 630 | CX 2.99 MB 0.28 AL 0.11 | 28 s
+th 10: scc 107,915 EB 658 kept syn 0.512 EBsyn 0.759 | loss 0.0562 stays 18.93 mixes 8.48 ratio 2.231 | Dob4 0.893 Dob8 0.607 Dob16 0.234 drop 1 | exit mean 0.206 below 0.967 | classes 68 largest 591 | CX 2.53 MB 0.13 AL 0.10 | 29 s
+th 12: scc 98,939 EB 645 kept syn 0.462 EBsyn 0.715 | loss 0.0444 stays 24.83 mixes 16.41 ratio 1.513 | Dob4 0.959 Dob8 0.755 Dob16 0.446 drop 1 | exit mean 0.207 below 0.967 | classes 95 largest 544 | CX 2.27 MB 0.21 AL 0.10 | 29 s
+th 15: scc 83,599 EB 599 kept syn 0.403 EBsyn 0.657 | loss 0.0327 stays 37.73 mixes 44.18 ratio 0.854 | Dob4 0.994 Dob8 0.908 Dob16 0.753 drop 1 | exit mean 0.226 below 0.890 | classes 88 largest 506 | CX 1.25 MB 0.27 AL 0.11 | 8 s
+th 20: scc 58,188 EB 492 kept syn 0.331 EBsyn 0.577 | loss 0.0291 stays 85.92 mixes 68.08 ratio 1.262 | Dob4 1.000 Dob8 0.998 Dob16 0.979 drop 0 | exit mean 0.330 below 0.827 | classes 158 largest 327 | CX 1.05 MB 0.48 AL 0.11 | 4 s
+saved results/p1_sweep_flywire.json
