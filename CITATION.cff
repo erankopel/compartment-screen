@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or registration, please cite it as below."
-title: "compartment-screen: pre-registration and code for a compartment screen on fly connectomes"
+title: "compartment-screen: pre-registration, code and confirmatory results for a compartment screen on fly connectomes"
 authors:
   - family-names: Kopel
     given-names: Eran
