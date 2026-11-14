@@ -1,0 +1,8 @@
+# data are downloaded, never committed
+data/
+data_*/
+*.feather
+*.parquet
+*.npz
+__pycache__/
+*.pyc

@@ -1,0 +1,7 @@
+ellipsoid-body cut (727)         n   727 steps  86 max 0.777 mean 0.298 median 0.274 <0.5: 0.890 >0.9: 0.000 same type 0.17283444541690324 diff type 0.301 (46 s)
+class CX (all)                   n 2,950 steps 120 max 0.970 mean 0.526 median 0.526 <0.5: 0.459 >0.9: 0.067 same type 0.17948434834099516 diff type 0.530 (80 s)
+class CX outside the cut         n 2,524 steps  54 max 0.976 mean 0.517 median 0.475 <0.5: 0.540 >0.9: 0.108 same type 0.20137537374691628 diff type 0.521 (36 s)
+mushroom body (KC, MBON, DAN)    n 4,501 steps  30 max 0.986 mean 0.499 median 0.537 <0.5: 0.448 >0.9: 0.020 same type 0.3085934488944729 diff type 0.530 (65 s)
+Kenyon cells                     n 4,064 steps  18 max 0.990 mean 0.710 median 0.772 <0.5: 0.186 >0.9: 0.275 same type 0.5083903983991025 diff type 0.756 (6 s)
+antennal lobe (ALPN, ALLN)       n 1,106 steps  23 max 1.000 mean 0.826 median 0.863 <0.5: 0.043 >0.9: 0.410 same type 0.6086279311045218 diff type 0.827 (79 s)
+saved

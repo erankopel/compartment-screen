@@ -1,0 +1,433 @@
+{
+ "note": "EXPLORATORY; flow-weighted consensus transmitter of the presynaptic neuron; weight >= 1 chain",
+ "whole_CNS": {
+  "shares": {
+   "acetylcholine": 0.41207002754704986,
+   "gaba": 0.2607753505683055,
+   "glutamate": 0.18759267399446658,
+   "unclear": 0.12801608090270947,
+   "octopamine": 0.007427773520760812,
+   "dopamine": 0.0030010328745768873,
+   "serotonin": 0.0006017454391150675,
+   "histamine": 0.0005153151530159168
+  },
+  "entropy_bits": 1.9550342020305,
+  "classes_above_1_percent": 4,
+  "aminergic_share": 0.011545866987468683
+ },
+ "into_the_set": {
+  "shares": {
+   "acetylcholine": 0.45163939981629503,
+   "glutamate": 0.30895295746270984,
+   "gaba": 0.0886778366351603,
+   "unclear": 0.07580577053119786,
+   "serotonin": 0.048801885102770975,
+   "dopamine": 0.020900121647081122,
+   "octopamine": 0.004870540591842467,
+   "histamine": 0.0003514882129425375
+  },
+  "entropy_bits": 2.004225772107975,
+  "classes_above_1_percent": 6,
+  "aminergic_share": 0.0749240355546371
+ },
+ "inside_the_set": {
+  "shares": {
+   "gaba": 0.44845072273511116,
+   "acetylcholine": 0.36452428852299973,
+   "octopamine": 0.0888829664455501,
+   "glutamate": 0.06139604374800791,
+   "serotonin": 0.015244439263237153,
+   "unclear": 0.011355215602189994,
+   "dopamine": 0.01014418263719314,
+   "histamine": 2.141045710831082e-06
+  },
+  "entropy_bits": 1.8396977305209004,
+  "classes_above_1_percent": 7,
+  "aminergic_share": 0.11427372939169123
+ },
+ "out_of_the_set": {
+  "shares": {
+   "acetylcholine": 0.7386930704659798,
+   "serotonin": 0.08242053795038395,
+   "glutamate": 0.07731929377636582,
+   "gaba": 0.048870497588608244,
+   "octopamine": 0.03025124356556462,
+   "dopamine": 0.013196416290982768,
+   "unclear": 0.009233920094145281,
+   "histamine": 1.5020267969542757e-05
+  },
+  "entropy_bits": 1.4156461332760575,
+  "classes_above_1_percent": 6,
+  "aminergic_share": 0.12588321807490088
+ },
+ "neurons_in_set_by_transmitter": {
+  "acetylcholine": 389,
+  "gaba": 284,
+  "glutamate": 21,
+  "octopamine": 18,
+  "unclear": 6,
+  "dopamine": 4,
+  "histamine": 3,
+  "serotonin": 2
+ },
+ "aminergic_types_in_set": {
+  "EL / octopamine": 18,
+  "ExR2 / dopamine": 4,
+  "R7d / histamine": 3,
+  "ExR3 / serotonin": 2
+ },
+ "aminergic_sources_share_of_inflow": {
+  "FB4Y / serotonin": 0.04837406374757508,
+  "FB1C / dopamine": 0.01301349454388,
+  "OA-VUMa1 / octopamine": 0.0034940573001446323,
+  "FB4M / dopamine": 0.002494077966184907,
+  "FB4L / dopamine": 0.0017250896872457373,
+  "OA-VPM3 / octopamine": 0.0008723240440422391,
+  "LoVC22 / dopamine": 0.0007816920823563959,
+  "FB1H / dopamine": 0.0005736060453980303,
+  "LAL128 / dopamine": 0.0004260832294807345,
+  "PPM1205 / dopamine": 0.0003974135835849271
+ },
+ "comparison_sets": {
+  "ellipsoid-body set": {
+   "into": {
+    "aminergic_share": 0.0749240355546371,
+    "entropy_bits": 2.004225772107975,
+    "top": [
+     [
+      "acetylcholine",
+      0.45163939981629503
+     ],
+     [
+      "glutamate",
+      0.30895295746270984
+     ],
+     [
+      "gaba",
+      0.0886778366351603
+     ],
+     [
+      "unclear",
+      0.07580577053119786
+     ]
+    ]
+   },
+   "inside": {
+    "aminergic_share": 0.11427372939169123,
+    "entropy_bits": 1.8396977305209004,
+    "top": [
+     [
+      "gaba",
+      0.44845072273511116
+     ],
+     [
+      "acetylcholine",
+      0.36452428852299973
+     ],
+     [
+      "octopamine",
+      0.0888829664455501
+     ],
+     [
+      "glutamate",
+      0.06139604374800791
+     ]
+    ]
+   },
+   "out": {
+    "aminergic_share": 0.12588321807490088,
+    "entropy_bits": 1.4156461332760575,
+    "top": [
+     [
+      "acetylcholine",
+      0.7386930704659798
+     ],
+     [
+      "serotonin",
+      0.08242053795038395
+     ],
+     [
+      "glutamate",
+      0.07731929377636582
+     ],
+     [
+      "gaba",
+      0.048870497588608244
+     ]
+    ]
+   }
+  },
+  "class CX (all)": {
+   "into": {
+    "aminergic_share": 0.027543538178749518,
+    "entropy_bits": 1.734986016585399,
+    "top": [
+     [
+      "acetylcholine",
+      0.5341378927924226
+     ],
+     [
+      "glutamate",
+      0.2621466416590643
+     ],
+     [
+      "gaba",
+      0.13956392847489713
+     ],
+     [
+      "unclear",
+      0.036607998894866496
+     ]
+    ]
+   },
+   "inside": {
+    "aminergic_share": 0.05234851815165594,
+    "entropy_bits": 1.8608177212982406,
+    "top": [
+     [
+      "acetylcholine",
+      0.5001988948174032
+     ],
+     [
+      "glutamate",
+      0.2973552524426589
+     ],
+     [
+      "gaba",
+      0.10995250150077918
+     ],
+     [
+      "unclear",
+      0.04014483308750276
+     ]
+    ]
+   },
+   "out": {
+    "aminergic_share": 0.02105847420973185,
+    "entropy_bits": 0.7425168379878326,
+    "top": [
+     [
+      "acetylcholine",
+      0.8662126735374854
+     ],
+     [
+      "glutamate",
+      0.10072027761832418
+     ],
+     [
+      "dopamine",
+      0.014364129215884166
+     ],
+     [
+      "unclear",
+      0.007403096210079812
+     ]
+    ]
+   }
+  },
+  "class CX outside the set": {
+   "into": {
+    "aminergic_share": 0.04168371014394094,
+    "entropy_bits": 1.742655471399268,
+    "top": [
+     [
+      "acetylcholine",
+      0.56609800075198
+     ],
+     [
+      "glutamate",
+      0.23687361114236233
+     ],
+     [
+      "gaba",
+      0.12418837468405483
+     ],
+     [
+      "unclear",
+      0.031156303277661817
+     ]
+    ]
+   },
+   "inside": {
+    "aminergic_share": 0.03395410343489623,
+    "entropy_bits": 1.5595042192786337,
+    "top": [
+     [
+      "acetylcholine",
+      0.5306437879600379
+     ],
+     [
+      "glutamate",
+      0.3609958377467708
+     ],
+     [
+      "unclear",
+      0.04715116918810507
+     ],
+     [
+      "gaba",
+      0.0272551016701901
+     ]
+    ]
+   },
+   "out": {
+    "aminergic_share": 0.02292196617595809,
+    "entropy_bits": 0.8837939797109756,
+    "top": [
+     [
+      "acetylcholine",
+      0.827194824059804
+     ],
+     [
+      "glutamate",
+      0.12930011111618364
+     ],
+     [
+      "unclear",
+      0.01730478370300305
+     ],
+     [
+      "dopamine",
+      0.013044650360281256
+     ]
+    ]
+   }
+  },
+  "mushroom body (KC, MBON, DAN)": {
+   "into": {
+    "aminergic_share": 0.07475928416223855,
+    "entropy_bits": 1.9409652135971915,
+    "top": [
+     [
+      "acetylcholine",
+      0.43529319212839573
+     ],
+     [
+      "gaba",
+      0.26823877024391796
+     ],
+     [
+      "glutamate",
+      0.20010142566123734
+     ],
+     [
+      "dopamine",
+      0.06479208256929506
+     ]
+    ]
+   },
+   "inside": {
+    "aminergic_share": 0.2500257838693017,
+    "entropy_bits": 1.2285459919066293,
+    "top": [
+     [
+      "acetylcholine",
+      0.6770013021663137
+     ],
+     [
+      "dopamine",
+      0.2500257838693017
+     ],
+     [
+      "glutamate",
+      0.04193714148059563
+     ],
+     [
+      "gaba",
+      0.0310231538750908
+     ]
+    ]
+   },
+   "out": {
+    "aminergic_share": 0.14589792543377259,
+    "entropy_bits": 1.7796334140445647,
+    "top": [
+     [
+      "acetylcholine",
+      0.5223551905918777
+     ],
+     [
+      "glutamate",
+      0.16485825601505524
+     ],
+     [
+      "gaba",
+      0.1632528756343099
+     ],
+     [
+      "dopamine",
+      0.14589792543377259
+     ]
+    ]
+   }
+  },
+  "antennal lobe (ALPN, ALLN)": {
+   "into": {
+    "aminergic_share": 0.05902229031354722,
+    "entropy_bits": 2.0376884255222736,
+    "top": [
+     [
+      "acetylcholine",
+      0.4584587618535804
+     ],
+     [
+      "gaba",
+      0.2791322299917121
+     ],
+     [
+      "unclear",
+      0.10336537109793519
+     ],
+     [
+      "glutamate",
+      0.10002134674322515
+     ]
+    ]
+   },
+   "inside": {
+    "aminergic_share": 0.008227197808247084,
+    "entropy_bits": 1.4306202160529136,
+    "top": [
+     [
+      "acetylcholine",
+      0.647128067887028
+     ],
+     [
+      "gaba",
+      0.2134066730559324
+     ],
+     [
+      "unclear",
+      0.09790369749488327
+     ],
+     [
+      "glutamate",
+      0.033334363753909184
+     ]
+    ]
+   },
+   "out": {
+    "aminergic_share": 0.0024372960093654193,
+    "entropy_bits": 1.1643164105170334,
+    "top": [
+     [
+      "acetylcholine",
+      0.6839102981143834
+     ],
+     [
+      "gaba",
+      0.26305072712828326
+     ],
+     [
+      "unclear",
+      0.03614040962446092
+     ],
+     [
+      "glutamate",
+      0.014461269123506914
+     ]
+    ]
+   }
+  }
+ }
+}

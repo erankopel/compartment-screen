@@ -1,0 +1,13 @@
+inclusive [0, pi/2]                      tol 1e-12  N=1 0.415 distinct  86 cutoff  26 n 3812 product [0.59, 1.63] median 1.087
+inclusive [0, pi/2]                      tol 1e-09  N=1 0.415 distinct  86 cutoff  26 n 3812 product [0.59, 1.63] median 1.087
+inclusive [0, pi/2]                      tol 0      N=1 0.415 distinct  86 cutoff  26 n 3814 product [0.59, 1.63] median 1.087
+endpoint excluded                        tol 1e-12  N=1 0.399 distinct  86 cutoff  24 n 3916 product [0.59, 1.62] median 1.086
+endpoint excluded                        tol 1e-09  N=1 0.399 distinct  86 cutoff  24 n 3916 product [0.59, 1.62] median 1.086
+endpoint excluded                        tol 0      N=1 0.399 distinct  86 cutoff  24 n 3916 product [0.59, 1.62] median 1.086
+cell centred                             tol 1e-12  N=1 0.405 distinct  81 cutoff  24 n 3878 product [0.56, 1.62] median 1.089
+cell centred                             tol 1e-09  N=1 0.405 distinct  81 cutoff  24 n 3878 product [0.56, 1.62] median 1.089
+cell centred                             tol 0      N=1 0.405 distinct  81 cutoff  24 n 3878 product [0.56, 1.62] median 1.089
+open interval (83 points, ends dropped)  tol 1e-12  N=1 0.398 distinct  81 cutoff  19 n 3929 product [0.59, 1.63] median 1.092
+open interval (83 points, ends dropped)  tol 1e-09  N=1 0.398 distinct  81 cutoff  19 n 3929 product [0.59, 1.63] median 1.092
+open interval (83 points, ends dropped)  tol 0      N=1 0.398 distinct  81 cutoff  19 n 3929 product [0.59, 1.63] median 1.092
+paper: N=1 0.388, distinct 93, cutoff 18, n 3997, product [0.60, 1.50], median 1.047

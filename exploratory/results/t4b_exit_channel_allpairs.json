@@ -1,0 +1,73 @@
+{
+ "note": "EXPLORATORY; exit channel of the E1 cut in the weight >= 1 chain; lower bounds on the maximum over all pairs because only K starts are used",
+ "K": 727,
+ "seed": 20261114,
+ "core_starts": 450,
+ "TMAX": 96,
+ "truncation_error_bound_on_each_TV": 3.02125268448397e-05,
+ "outside_neurons_reached": 5932,
+ "target_types": 1565,
+ "time_and_neuron": {
+  "all_pairs": {
+   "pairs": 263901,
+   "max": 0.7769202986738885,
+   "mean": 0.2878228097529244,
+   "median": 0.2683742694196292,
+   "p10": 0.09506219597676639,
+   "share_below_0.5": 0.8989014819951421,
+   "share_below_0.25": 0.4631926366326766,
+   "share_above_0.9": 0.0
+  },
+  "core_core_pairs": {
+   "pairs": 101025,
+   "max": 0.7769202986738885,
+   "mean": 0.250253969081606,
+   "median": 0.21555373403240854,
+   "p10": 0.06537170463864524,
+   "share_below_0.5": 0.921088839396189,
+   "share_below_0.25": 0.6024845335313042,
+   "share_above_0.9": 0.0
+  },
+  "same_type_pairs": {
+   "pairs": 8007,
+   "mean": 0.17474330081291392,
+   "median": 0.16411593077236095
+  },
+  "different_type_pairs": {
+   "pairs": 255894,
+   "mean": 0.2913611014990484,
+   "median": 0.2711923354303336
+  }
+ },
+ "neuron_only": {
+  "all_pairs": {
+   "pairs": 263901,
+   "max": 0.7755644421635001,
+   "mean": 0.2155872681803347,
+   "median": 0.1803667066437737,
+   "p10": 0.042196404562680104,
+   "share_below_0.5": 0.9177721948761088,
+   "share_below_0.25": 0.6739497008347828,
+   "share_above_0.9": 0.0
+  },
+  "core_core_pairs": {
+   "pairs": 101025,
+   "max": 0.7755644421635001,
+   "mean": 0.16903562545404927,
+   "median": 0.13052132772333852,
+   "p10": 0.03268024018694243,
+   "share_below_0.5": 0.9221974758723088,
+   "share_below_0.25": 0.8871368473150211,
+   "share_above_0.9": 0.0
+  }
+ },
+ "worst_pair_types": [
+  "LPsP",
+  "Dm-DRA1"
+ ],
+ "per_start_max": {
+  "min": 0.6912687969407056,
+  "median": 0.7727080973233531,
+  "max": 0.7769202986738885
+ }
+}

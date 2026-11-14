@@ -1,0 +1,108 @@
+{
+ "note": "EXPLORATORY; exit channel of the E1 cut in the weight >= 1 chain; lower bounds on the maximum over all pairs because only K starts are used",
+ "K": 240,
+ "seed": 20261114,
+ "core_starts": 145,
+ "TMAX": 160,
+ "truncation_error_bound_on_each_TV": 2.0391196262552013e-08,
+ "outside_neurons_reached": 5932,
+ "target_types": 1565,
+ "time_and_neuron": {
+  "all_pairs": {
+   "pairs": 28680,
+   "max": 0.7769217399268905,
+   "mean": 0.29764260388622116,
+   "median": 0.27383091072771426,
+   "p10": 0.10372296549644275,
+   "share_below_0.5": 0.8903765690376569,
+   "share_below_0.25": 0.45034867503486753,
+   "share_above_0.9": 0.0
+  },
+  "core_core_pairs": {
+   "pairs": 10440,
+   "max": 0.7769217399268905,
+   "mean": 0.25889660800658276,
+   "median": 0.21371335027318816,
+   "p10": 0.07313016910183154,
+   "share_below_0.5": 0.9042145593869731,
+   "share_below_0.25": 0.6218390804597701,
+   "share_above_0.9": 0.0
+  },
+  "same_type_pairs": {
+   "pairs": 787,
+   "mean": 0.17283602477719262,
+   "median": 0.15682838683364053
+  },
+  "different_type_pairs": {
+   "pairs": 27893,
+   "mean": 0.30116401706367796,
+   "median": 0.27706393254984374
+  }
+ },
+ "neuron_only": {
+  "all_pairs": {
+   "pairs": 28680,
+   "max": 0.7755658245252436,
+   "mean": 0.22893202928238623,
+   "median": 0.1854367697314299,
+   "p10": 0.044313058675846825,
+   "share_below_0.5": 0.9046025104602511,
+   "share_below_0.25": 0.6488493723849372,
+   "share_above_0.9": 0.0
+  },
+  "core_core_pairs": {
+   "pairs": 10440,
+   "max": 0.7755658245252436,
+   "mean": 0.18669144037804378,
+   "median": 0.14330235522564228,
+   "p10": 0.036687028716092175,
+   "share_below_0.5": 0.9058429118773946,
+   "share_below_0.25": 0.8509578544061303,
+   "share_above_0.9": 0.0
+  }
+ },
+ "time_and_type": {
+  "all_pairs": {
+   "pairs": 28680,
+   "max": 0.7764636311640946,
+   "mean": 0.2891848142470331,
+   "median": 0.262996699596928,
+   "p10": 0.096999484406453,
+   "share_below_0.5": 0.8936889818688982,
+   "share_below_0.25": 0.472768479776848,
+   "share_above_0.9": 0.0
+  },
+  "core_core_pairs": {
+   "pairs": 10440,
+   "max": 0.7764636311640946,
+   "mean": 0.24900171790544262,
+   "median": 0.20274470523969595,
+   "p10": 0.06631116472375864,
+   "share_below_0.5": 0.9055555555555556,
+   "share_below_0.25": 0.6511494252873563,
+   "share_above_0.9": 0.0
+  }
+ },
+ "type_only": {
+  "all_pairs": {
+   "pairs": 28680,
+   "max": 0.7749118048778867,
+   "mean": 0.21261249594554196,
+   "median": 0.15204829793358587,
+   "p10": 0.03938059756334804,
+   "share_below_0.5": 0.9132147838214784,
+   "share_below_0.25": 0.675836820083682,
+   "share_above_0.9": 0.0
+  },
+  "core_core_pairs": {
+   "pairs": 10440,
+   "max": 0.7749118048778867,
+   "mean": 0.1653194991256891,
+   "median": 0.09844911762188677,
+   "p10": 0.0315323254747175,
+   "share_below_0.5": 0.9069923371647509,
+   "share_below_0.25": 0.8739463601532567,
+   "share_above_0.9": 0.0
+  }
+ }
+}

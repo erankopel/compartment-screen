@@ -1,0 +1,3 @@
+tol 0      {'share_index_1': 0.3880506020423716, 'distinct': 93, 'cutoff': 18, 'n': 3997, 'max_resolved': 199, 'product_min': 0.6038282527091821, 'product_max': 1.4948539245115495, 'product_median': 1.0468286549996655}
+tol 1e-12  {'share_index_1': 0.3880506020423716, 'distinct': 93, 'cutoff': 18, 'n': 3997, 'max_resolved': 199, 'product_min': 0.6038282527091821, 'product_max': 1.4948539245115495, 'product_median': 1.0468286549996655}
+published  {'share_index_1': 0.388, 'distinct': 93, 'cutoff': 18, 'n': 3997, 'max_resolved': 199, 'product_min': 0.6, 'product_max': 1.5, 'product_median': 1.047}

@@ -1,0 +1,267 @@
+{
+ "verify_py_exit_code": 0,
+ "verify_py_last_lines": [
+  "==============================================================================",
+  "ALL CHECKS PASSED. Every quoted value reproduces from its defining formula.",
+  "=============================================================================="
+ ],
+ "table3": [
+  {
+   "carrier": "Cortical gamma",
+   "nu_Hz": 40,
+   "tau_s": 0.15,
+   "Q": 37.69911184307752,
+   "Q_printed": 38,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "pass",
+   "C5_printed": "pass"
+  },
+  {
+   "carrier": "Cortical gamma, sustained",
+   "nu_Hz": 40,
+   "tau_s": 0.3,
+   "Q": 75.39822368615503,
+   "Q_printed": 75,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "pass",
+   "C5_printed": "pass"
+  },
+  {
+   "carrier": "Cortical alpha",
+   "nu_Hz": 10,
+   "tau_s": 0.5,
+   "Q": 31.41592653589793,
+   "Q_printed": 31,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "pass",
+   "C5_printed": "pass"
+  },
+  {
+   "carrier": "Hippocampal ripple",
+   "nu_Hz": 180,
+   "tau_s": 0.05,
+   "Q": 56.54866776461628,
+   "Q_printed": 57,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "pass",
+   "C5_printed": "pass"
+  },
+  {
+   "carrier": "Cortical theta",
+   "nu_Hz": 6,
+   "tau_s": 1.0,
+   "Q": 37.69911184307752,
+   "Q_printed": 38,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "fail",
+   "C5_printed": "fail"
+  },
+  {
+   "carrier": "Calcium wave",
+   "nu_Hz": 0.1,
+   "tau_s": 100.0,
+   "Q": 62.83185307179586,
+   "Q_printed": 63,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "fail",
+   "C5_printed": "fail"
+  },
+  {
+   "carrier": "Protein vibrational mode",
+   "nu_Hz": 10000000000000.0,
+   "tau_s": 1e-12,
+   "Q": 62.831853071795855,
+   "Q_printed": 63,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "fail",
+   "C5_printed": "fail"
+  },
+  {
+   "carrier": "Microtubule terahertz mode",
+   "nu_Hz": 10000000000000.0,
+   "tau_s": 1e-13,
+   "Q": 6.283185307179586,
+   "Q_printed": 6.3,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "marginal",
+   "C5": "fail",
+   "C5_printed": "fail"
+  },
+  {
+   "carrier": "Microwave carrier, generous proxy",
+   "nu_Hz": 30000000000.0,
+   "tau_s": 1e-12,
+   "Q": 0.18849555921538758,
+   "Q_printed": 0.19,
+   "Q_agrees": true,
+   "C1": "fail",
+   "C1_printed": "fail",
+   "C5": "fail",
+   "C5_printed": "fail"
+  },
+  {
+   "carrier": "Microwave carrier, continuum estimate",
+   "nu_Hz": 30000000000.0,
+   "tau_s": 2.7e-14,
+   "Q": 0.005089380098815465,
+   "Q_printed": 0.005,
+   "Q_agrees": true,
+   "C1": "fail",
+   "C1_printed": "fail",
+   "C5": "fail",
+   "C5_printed": "fail"
+  },
+  {
+   "carrier": "Microwave carrier, as its model requires",
+   "nu_Hz": 30000000000.0,
+   "tau_s": 0.001,
+   "Q": 188495559.21538758,
+   "Q_printed": 190000000.0,
+   "Q_agrees": true,
+   "C1": "pass",
+   "C1_printed": "pass",
+   "C5": "fail",
+   "C5_printed": "fail"
+  }
+ ],
+ "table3_reproduced": true,
+ "table2_required_snr": {
+  "10": 0.42217159850974073,
+  "25": 2.6385724906858794,
+  "50": 10.554289962743518,
+  "100": 42.21715985097407,
+  "200": 168.86863940389628
+ },
+ "table2_printed": {
+  "10": 0.42,
+  "25": 2.6,
+  "50": 10.6,
+  "100": 42,
+  "200": 169
+ },
+ "phase_bins_gamma_one_cycle": 5.441398092702653,
+ "design_rule_nu_max_Hz": {
+  "t_read 0.1 s": 100.0,
+  "t_read 0.05 s": 200.0
+ },
+ "rounds_form": [
+  {
+   "carrier": "Cortical gamma",
+   "Q": 37.69911184307752,
+   "cycles_per_coherence_time": 6.0,
+   "phase_bins_after_n_cycles": {
+    "1": 5.441398092702653,
+    "2": 3.8476494904855922,
+    "4": 2.7206990463513265,
+    "8": 1.9238247452427961,
+    "16": 1.3603495231756633
+   },
+   "cycles_with_at_least_one_bit": 7.4022033008170185,
+   "time_with_at_least_one_bit_s": 0.18505508252042546,
+   "time_with_five_bins_s": 0.029608813203268074,
+   "inside_C5_window": true,
+   "one_bit_hold_inside_C5_window": true
+  },
+  {
+   "carrier": "Cortical gamma, sustained",
+   "Q": 75.39822368615503,
+   "cycles_per_coherence_time": 12.0,
+   "phase_bins_after_n_cycles": {
+    "1": 7.6952989809711845,
+    "2": 5.441398092702653,
+    "4": 3.8476494904855922,
+    "8": 2.7206990463513265,
+    "16": 1.9238247452427961
+   },
+   "cycles_with_at_least_one_bit": 14.804406601634037,
+   "time_with_at_least_one_bit_s": 0.3701101650408509,
+   "time_with_five_bins_s": 0.05921762640653615,
+   "inside_C5_window": true,
+   "one_bit_hold_inside_C5_window": true
+  },
+  {
+   "carrier": "Cortical alpha",
+   "Q": 31.41592653589793,
+   "cycles_per_coherence_time": 5.0,
+   "phase_bins_after_n_cycles": {
+    "1": 4.967294132898051,
+    "2": 3.512407365520363,
+    "4": 2.4836470664490253,
+    "8": 1.7562036827601815,
+    "16": 1.2418235332245127
+   },
+   "cycles_with_at_least_one_bit": 6.168502750680848,
+   "time_with_at_least_one_bit_s": 0.6168502750680849,
+   "time_with_five_bins_s": 0.09869604401089357,
+   "inside_C5_window": true,
+   "one_bit_hold_inside_C5_window": false
+  },
+  {
+   "carrier": "Hippocampal ripple",
+   "Q": 56.54866776461628,
+   "cycles_per_coherence_time": 9.0,
+   "phase_bins_after_n_cycles": {
+    "1": 6.664324407237549,
+    "2": 4.71238898038469,
+    "4": 3.3321622036187746,
+    "8": 2.356194490192345,
+    "16": 1.6660811018093873
+   },
+   "cycles_with_at_least_one_bit": 11.103304951225528,
+   "time_with_at_least_one_bit_s": 0.06168502750680849,
+   "time_with_five_bins_s": 0.009869604401089358,
+   "inside_C5_window": true,
+   "one_bit_hold_inside_C5_window": true
+  },
+  {
+   "carrier": "Cortical theta",
+   "Q": 37.69911184307752,
+   "cycles_per_coherence_time": 6.0,
+   "phase_bins_after_n_cycles": {
+    "1": 5.441398092702653,
+    "2": 3.8476494904855922,
+    "4": 2.7206990463513265,
+    "8": 1.9238247452427961,
+    "16": 1.3603495231756633
+   },
+   "cycles_with_at_least_one_bit": 7.4022033008170185,
+   "time_with_at_least_one_bit_s": 1.2337005501361697,
+   "time_with_five_bins_s": 0.19739208802178715,
+   "inside_C5_window": false,
+   "one_bit_hold_inside_C5_window": false
+  },
+  {
+   "carrier": "Calcium wave",
+   "Q": 62.83185307179586,
+   "cycles_per_coherence_time": 10.0,
+   "phase_bins_after_n_cycles": {
+    "1": 7.024814731040726,
+    "2": 4.967294132898051,
+    "4": 3.512407365520363,
+    "8": 2.4836470664490253,
+    "16": 1.7562036827601815
+   },
+   "cycles_with_at_least_one_bit": 12.337005501361697,
+   "time_with_at_least_one_bit_s": 123.37005501361698,
+   "time_with_five_bins_s": 19.739208802178716,
+   "inside_C5_window": false,
+   "one_bit_hold_inside_C5_window": false
+  }
+ ],
+ "identity_checked": "K >= 2 holds for t <= pi^2 tau / 8, that is 1.234 coherence times, at any frequency"
+}

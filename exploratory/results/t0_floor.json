@@ -1,0 +1,107 @@
+{
+ "T_K": 310.0,
+ "kT_J": 4.2800119e-21,
+ "kT_meV": 26.713733112650054,
+ "landauer_J_per_bit": 2.9666781812480147e-21,
+ "margolus_levitin_s": {
+  "E = kT": 3.870357317230823e-14,
+  "E = kT ln2": 5.583745308037221e-14
+ },
+ "FGL2021_empirical_time_limit_s": 2e-13,
+ "ratio_200fs_over_ML_at_kT": 5.1674815425852385,
+ "planck_length_m": 1.6162550244237053e-35,
+ "planck_time_s": 5.391246448313604e-44,
+ "holographic_ceiling": {
+  "human brain, 1.3 L sphere": {
+   "area_m2": 0.05760316672609495,
+   "holographic_ceiling_bits": 7.953185847704182e+67
+  },
+  "neuron soma, r = 10 um": {
+   "area_m2": 1.2566370614359174e-09,
+   "holographic_ceiling_bits": 1.7350206005575702e+60
+  },
+  "protein site, r = 1.5 nm (FGL 2021 lower limit 1 to 2 nm)": {
+   "area_m2": 2.8274333882308137e-17,
+   "holographic_ceiling_bits": 3.9037963512545324e+52
+  }
+ },
+ "brain_power_W": 20.0,
+ "max_bit_rewrites_per_s_brain": 6.741546867610173e+21,
+ "max_bit_rewrites_per_s_per_neuron": 78390079855.93225,
+ "ATP_per_s_at_20W": 2.408856304e+20,
+ "landauer_units_per_ATP": 27.986504867125415,
+ "screen_capacity_by_round": {
+  "200 fs (FGL 2021 time limit)": {
+   "round_s": 2e-13,
+   "max_screen_bits_brain": 1348309373.5220346,
+   "max_screen_bits_per_neuron": 0.01567801597118645,
+   "max_bits_per_synapse_lo_hi": [
+    1.3483093735220345e-06,
+    1.3483093735220347e-05
+   ],
+   "ML_ticks_per_round_at_kT": 5.1674815425852385,
+   "planck_times_per_round": 3.709717259587726e+30
+  },
+  "1 ps": {
+   "round_s": 1e-12,
+   "max_screen_bits_brain": 6741546867.610173,
+   "max_screen_bits_per_neuron": 0.07839007985593224,
+   "max_bits_per_synapse_lo_hi": [
+    6.741546867610173e-06,
+    6.741546867610173e-05
+   ],
+   "ML_ticks_per_round_at_kT": 25.837407712926193,
+   "planck_times_per_round": 1.8548586297938627e+31
+  },
+  "1 ms": {
+   "round_s": 0.001,
+   "max_screen_bits_brain": 6.741546867610173e+18,
+   "max_screen_bits_per_neuron": 78390079.85593225,
+   "max_bits_per_synapse_lo_hi": [
+    6741.546867610174,
+    67415.46867610174
+   ],
+   "ML_ticks_per_round_at_kT": 25837407712.926193,
+   "planck_times_per_round": 1.8548586297938628e+40
+  },
+  "25 ms (40 Hz gamma cycle)": {
+   "round_s": 0.025,
+   "max_screen_bits_brain": 1.6853867169025435e+20,
+   "max_screen_bits_per_neuron": 1959751996.3983064,
+   "max_bits_per_synapse_lo_hi": [
+    168538.67169025436,
+    1685386.7169025436
+   ],
+   "ML_ticks_per_round_at_kT": 645935192823.1549,
+   "planck_times_per_round": 4.6371465744846575e+41
+  },
+  "100 ms (alpha cycle)": {
+   "round_s": 0.1,
+   "max_screen_bits_brain": 6.741546867610174e+20,
+   "max_screen_bits_per_neuron": 7839007985.5932255,
+   "max_bits_per_synapse_lo_hi": [
+    674154.6867610174,
+    6741546.867610174
+   ],
+   "ML_ticks_per_round_at_kT": 2583740771292.6196,
+   "planck_times_per_round": 1.854858629793863e+42
+  },
+  "300 ms": {
+   "round_s": 0.3,
+   "max_screen_bits_brain": 2.0224640602830518e+21,
+   "max_screen_bits_per_neuron": 23517023956.77967,
+   "max_bits_per_synapse_lo_hi": [
+    2022464.0602830518,
+    20224640.602830518
+   ],
+   "ML_ticks_per_round_at_kT": 7751222313877.857,
+   "planck_times_per_round": 5.5645758893815884e+42
+  }
+ },
+ "product_bound_bits_per_s": 6.741546867610173e+21,
+ "max_round_frequency_Hz": {
+  "screen = 1 bit per neuron": 78390079855.93225,
+  "screen = 1 bit per synapse (1e14)": 67415468.67610173,
+  "screen = 1 bit per synapse (1e15)": 6741546.867610173
+ }
+}

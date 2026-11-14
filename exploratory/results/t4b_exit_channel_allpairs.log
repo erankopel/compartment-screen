@@ -1,0 +1,15 @@
+set 727; outside neurons reached directly from the set: 5,932; exit edges 21,961
+exit targets grouped into 1565 cell types
+t =   1: largest mass still inside 1.00e+00 (9 s)
+t =   2: largest mass still inside 9.89e-01 (17 s)
+t =   4: largest mass still inside 8.87e-01 (33 s)
+t =   8: largest mass still inside 6.34e-01 (66 s)
+t =  16: largest mass still inside 2.71e-01 (131 s)
+t =  32: largest mass still inside 4.43e-02 (265 s)
+t =  64: largest mass still inside 1.16e-03 (539 s)
+t =  96: largest mass still inside 3.02e-05 (795 s)
+time_and_neuron  all pairs: max 0.777 mean 0.288 median 0.268 <0.5: 0.899 >0.9: 0.000 | core-core: max 0.777 mean 0.250 median 0.216 <0.5: 0.921
+neuron_only      all pairs: max 0.776 mean 0.216 median 0.180 <0.5: 0.918 >0.9: 0.000 | core-core: max 0.776 mean 0.169 median 0.131 <0.5: 0.922
+same type pairs: 8007, mean 0.175; different type: mean 0.291
+worst pair types ['LPsP', 'Dm-DRA1']; per-start maximum: {'min': 0.6912687969407056, 'median': 0.7727080973233531, 'max': 0.7769202986738885}
+saved

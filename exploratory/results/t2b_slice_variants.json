@@ -1,0 +1,110 @@
+{
+ "inclusive [0, pi/2]; tol 1e-12": {
+  "share_index_1": 0.415028196921201,
+  "distinct": 86,
+  "cutoff": 26,
+  "n": 3812,
+  "min": 0.5889210724296581,
+  "max": 1.6278167275065727,
+  "median": 1.0868871785158345
+ },
+ "inclusive [0, pi/2]; tol 1e-09": {
+  "share_index_1": 0.415028196921201,
+  "distinct": 86,
+  "cutoff": 26,
+  "n": 3812,
+  "min": 0.5889210724296581,
+  "max": 1.6278167275065727,
+  "median": 1.0868871785158345
+ },
+ "inclusive [0, pi/2]; tol 0": {
+  "share_index_1": 0.4147233653406493,
+  "distinct": 86,
+  "cutoff": 26,
+  "n": 3814,
+  "min": 0.5889210724296581,
+  "max": 1.6278167275065727,
+  "median": 1.0867323718523985
+ },
+ "endpoint excluded; tol 1e-12": {
+  "share_index_1": 0.399481786313062,
+  "distinct": 86,
+  "cutoff": 24,
+  "n": 3916,
+  "min": 0.5885056035182212,
+  "max": 1.6238793959461808,
+  "median": 1.0859228829465604
+ },
+ "endpoint excluded; tol 1e-09": {
+  "share_index_1": 0.399481786313062,
+  "distinct": 86,
+  "cutoff": 24,
+  "n": 3916,
+  "min": 0.5885056035182212,
+  "max": 1.6238793959461808,
+  "median": 1.0859228829465604
+ },
+ "endpoint excluded; tol 0": {
+  "share_index_1": 0.399481786313062,
+  "distinct": 86,
+  "cutoff": 24,
+  "n": 3916,
+  "min": 0.5885056035182212,
+  "max": 1.6238793959461808,
+  "median": 1.0859228829465604
+ },
+ "cell centred; tol 1e-12": {
+  "share_index_1": 0.4052735863435452,
+  "distinct": 81,
+  "cutoff": 24,
+  "n": 3878,
+  "min": 0.5635850991572582,
+  "max": 1.6204871743139722,
+  "median": 1.0890915846629474
+ },
+ "cell centred; tol 1e-09": {
+  "share_index_1": 0.4052735863435452,
+  "distinct": 81,
+  "cutoff": 24,
+  "n": 3878,
+  "min": 0.5635850991572582,
+  "max": 1.6204871743139722,
+  "median": 1.0890915846629474
+ },
+ "cell centred; tol 0": {
+  "share_index_1": 0.4052735863435452,
+  "distinct": 81,
+  "cutoff": 24,
+  "n": 3878,
+  "min": 0.5635850991572582,
+  "max": 1.6204871743139722,
+  "median": 1.0890915846629474
+ },
+ "open interval (83 points, ends dropped); tol 1e-12": {
+  "share_index_1": 0.3982624599908551,
+  "distinct": 81,
+  "cutoff": 19,
+  "n": 3929,
+  "min": 0.5880918030747544,
+  "max": 1.6279868954542327,
+  "median": 1.092495454520872
+ },
+ "open interval (83 points, ends dropped); tol 1e-09": {
+  "share_index_1": 0.3982624599908551,
+  "distinct": 81,
+  "cutoff": 19,
+  "n": 3929,
+  "min": 0.5880918030747544,
+  "max": 1.6279868954542327,
+  "median": 1.092495454520872
+ },
+ "open interval (83 points, ends dropped); tol 0": {
+  "share_index_1": 0.3982624599908551,
+  "distinct": 81,
+  "cutoff": 19,
+  "n": 3929,
+  "min": 0.5880918030747544,
+  "max": 1.6279868954542327,
+  "median": 1.092495454520872
+ }
+}

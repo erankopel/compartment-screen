@@ -1,0 +1,38 @@
+G = 166,700; cut ids found in G: 727 of 727
+
+=== weight >= 1: SCC n = 165,314, nnz = 25,545,360, stationary in 480 iterations (delta 1.0e-13)
+AVP/CX cut (727)                   n    727 mass 0.0047 escape 0.1161 lam1 0.8923 |lam2| 0.7079 residence 9.29 relaxation 4.84 ratio 1.92 internal SCC 726
+layers: sizes {'outside': 164587, 'AVP (MeTu, TuBu)': 277, 'core (rest of the cut)': 450}
+flow per step (rows = from outside, AVP, core; columns = to outside, AVP, core):
+   9.948e-01  5.403e-05  4.908e-04
+   4.927e-06  1.372e-05  7.231e-05
+   5.399e-04  2.321e-05  4.037e-03
+AVP layer alone                    n    277 mass 0.0001 escape 0.8492 lam1 0.4686 |lam2| 0.4415 residence 1.88 relaxation 17.31 ratio 0.11 internal SCC 110
+core alone                         n    450 mass 0.0046 escape 0.1224 lam1 0.8906 |lam2| 0.7077 residence 9.14 relaxation 4.87 ratio 1.88 internal SCC 434
+entry: 50% of inflow on 19 neurons, 90% on 214; types [['ExR3', 0.1723644397046115], ['EPG', 0.10752477968716027], ['ExR1', 0.08984257215233292], ['ExR6', 0.08161679568694695], ['LPsP', 0.06214546379412387], ['PEN_b(PEN2)', 0.051518266746106205]]
+exit : 50% of outflow on 32 neurons, 90% on 109; types [['EPG', 0.5472585899710815], ['ExR3', 0.08242053795038462], ['PEN_b(PEN2)', 0.06952823383967353], ['ExR4', 0.0384600098178641], ['PEN_a(PEN1)', 0.03363249906737803], ['ExR6', 0.03248328090332979]]
+Jaccard of the two 90% sets 0.509; neurons in neither 513
+external sources [['Delta7', 0.10404200405995918], ['ExR5', 0.05101737795833921], ['FB4Y', 0.04837406374757504], ['PFGs', 0.04638863387377786], ['hDeltaK', 0.04332092205642936], ['ExR7', 0.02924252821912912]]
+external targets [['Delta7', 0.30418192194151056], ['ExR7', 0.07058244066796103], ['ExR5', 0.05996068978067059], ['ExR8', 0.053885353739817815], ['FB4Y', 0.053546680042854664], ['hDeltaK', 0.05097410519623887]]
+survival inside after t steps (entry distribution): t=1: 0.813, t=2: 0.726, t=4: 0.580, t=8: 0.370, t=16: 0.149, t=32: 0.024, t=64: 0.001; mean 8.61 steps
+Doob transform: row sums in [1.000000, 1.000000], min h 1.43e-02
+Dobrushin coefficient of the conditioned walk, all pairs: r=1: 1.0000, r=2: 1.0000, r=4: 0.7669, r=8: 0.2550, r=16: 0.0432, r=32: 0.0011, r=64: 0.0000
+class CX (all)                     n  2,950 mass 0.0239 escape 0.1133 lam1 0.9184 |lam2| 0.8201 residence 12.26 relaxation 9.35 ratio 1.31 internal SCC 2950
+Kenyon cells                       n  4,064 mass 0.0038 escape 0.4859 lam1 0.5588 |lam2| 0.5489 residence 2.27 relaxation 56.37 ratio 0.04 internal SCC 4064
+mushroom body (KC, MBON, DAN)      n  4,501 mass 0.0077 escape 0.3670 lam1 0.7178 |lam2| 0.6743 residence 3.54 relaxation 16.52 ratio 0.21 internal SCC 4501
+antennal lobe (ALPN, ALLN)         n  1,106 mass 0.0012 escape 0.4727 lam1 0.6409 |lam2| 0.5938 residence 2.78 relaxation 13.62 ratio 0.20 internal SCC 1106
+antennal lobe with olfactory sensory n  3,745 mass 0.0014 escape 0.3682 lam1 0.7371 |lam2| 0.6103 residence 3.80 relaxation 5.81 ratio 0.65 internal SCC 3745
+class CX outside the cut           n  2,524 mass 0.0193 escape 0.1513 lam1 0.8279 |lam2| 0.7044 residence 5.81 relaxation 6.70 ratio 0.87 internal SCC 2524
+cut plus the rest of class CX      n  3,251 mass 0.0240 escape 0.1127 lam1 0.9204 |lam2| 0.8201 residence 12.57 relaxation 9.18 ratio 1.37 internal SCC 3250
+20 random sets of 727 neurons: escape per step in [0.9946, 0.9980]
+T4b r= 1: inside mass 0.898; TV max total 1.0000 inside 1.0000 outside 0.6423; mean total 0.8975 inside 0.7987 outside 0.0988  (37 s)
+T4b r= 2: inside mass 0.830; TV max total 1.0000 inside 0.9189 outside 0.6013; mean total 0.6580 inside 0.5251 outside 0.1329  (71 s)
+T4b r= 4: inside mass 0.711; TV max total 0.8760 inside 0.4854 outside 0.5243; mean total 0.3472 inside 0.2146 outside 0.1326  (116 s)
+T4b r= 8: inside mass 0.515; TV max total 0.5555 inside 0.2091 outside 0.4205; mean total 0.1685 inside 0.0626 outside 0.1059  (176 s)
+T4b r=16: inside mass 0.269; TV max total 0.3355 inside 0.0850 outside 0.2542; mean total 0.0866 inside 0.0242 outside 0.0624  (274 s)
+T4b r=32: inside mass 0.080; TV max total 0.1362 inside 0.0223 outside 0.1143; mean total 0.0357 inside 0.0063 outside 0.0294  (440 s)
+
+=== weight >= 5: SCC n = 157,821, nnz = 6,120,084, stationary in 6573 iterations (delta 1.0e-13)
+AVP/CX cut in the w >= 5 chain     n    727 mass 0.0022 escape 0.1016 lam1 0.9020 |lam2| 0.7519 residence 10.20 relaxation 6.01 ratio 1.70 internal SCC 694
+core alone, w >= 5                 n    450 mass 0.0022 escape 0.1077 lam1 0.9011 |lam2| 0.7517 residence 10.12 relaxation 6.03 ratio 1.68 internal SCC 432
+saved ./results/t3_subsystem.json (571.8 s)

@@ -1,0 +1,23 @@
+verify.py exit code: 0 | ============================================================================== / ALL CHECKS PASSED. Every quoted value reproduces from its defining formula. / ==============================================================================
+Table 3 reproduced: True
+  Cortical gamma                             Q       37.7 (printed 38) C1 pass  C5 pass
+  Cortical gamma, sustained                  Q       75.4 (printed 75) C1 pass  C5 pass
+  Cortical alpha                             Q      31.42 (printed 31) C1 pass  C5 pass
+  Hippocampal ripple                         Q      56.55 (printed 57) C1 pass  C5 pass
+  Cortical theta                             Q       37.7 (printed 38) C1 pass  C5 fail
+  Calcium wave                               Q      62.83 (printed 63) C1 pass  C5 fail
+  Protein vibrational mode                   Q      62.83 (printed 63) C1 pass  C5 fail
+  Microtubule terahertz mode                 Q      6.283 (printed 6.3) C1 pass  C5 fail
+  Microwave carrier, generous proxy          Q     0.1885 (printed 0.19) C1 fail  C5 fail
+  Microwave carrier, continuum estimate      Q   0.005089 (printed 0.005) C1 fail  C5 fail
+  Microwave carrier, as its model requires   Q  1.885e+08 (printed 1.9e+08) C1 pass  C5 fail
+Table 2 required SNR: {'10': 0.42, '25': 2.64, '50': 10.55, '100': 42.22, '200': 168.87} printed {'10': 0.42, '25': 2.6, '50': 10.6, '100': 42, '200': 169}
+phase bins, gamma, one cycle: 5.44 (article: about five)
+design rule nu_max: {'t_read 0.1 s': 100.0, 't_read 0.05 s': 200.0}
+rounds form (cycles per tau; bins after 1, 2, 4, 8, 16 cycles; cycles with >= 1 bit; hold time s; in window):
+  Cortical gamma                 6.0    5.4  3.8  2.7  1.9  1.4     7.4     0.185   True
+  Cortical gamma, sustained     12.0    7.7  5.4  3.8  2.7  1.9    14.8     0.370   True
+  Cortical alpha                 5.0    5.0  3.5  2.5  1.8  1.2     6.2     0.617   False
+  Hippocampal ripple             9.0    6.7  4.7  3.3  2.4  1.7    11.1     0.062   True
+  Cortical theta                 6.0    5.4  3.8  2.7  1.9  1.4     7.4     1.234   False
+  Calcium wave                  10.0    7.0  5.0  3.5  2.5  1.8    12.3   123.370   False

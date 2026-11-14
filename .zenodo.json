@@ -1,0 +1,48 @@
+{
+  "upload_type": "software",
+  "title": "compartment-screen: pre-registration and code for a compartment screen on fly connectomes",
+  "description": "<p>Pre-registration (<code>prereg/PREREG.md</code>) and frozen code for a confirmatory test, on the BANC connectome (release 888), of two structural hypotheses about the <em>Drosophila</em> central brain: that the ellipsoid-body set of the central complex is a compartment of the synapse-flow Markov chain (a walker mixes inside it before it leaves, and the law of its first exit depends only weakly on where it started), and that the mushroom body and the central complex are preferentially coupled.</p><p>This release is the registration. When it was made the BANC edge list had not been downloaded; only file headers and the names in the metadata table had been read (<code>prereg/PREREG.md</code>, Section 2).</p><p>The exploratory analyses behind the registration are in <code>exploratory/</code> and are not confirmatory: the male CNS v1.0 connectome, three null models, and a rehearsal of the frozen code on FlyWire v783.</p>",
+  "creators": [
+    {
+      "name": "Kopel, Eran",
+      "affiliation": "Tel Aviv University",
+      "orcid": "0000-0003-4657-8636"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "connectomics",
+    "Drosophila",
+    "central complex",
+    "ellipsoid body",
+    "mushroom body",
+    "Markov chains",
+    "metastability",
+    "Dobrushin coefficient",
+    "pre-registration",
+    "reproducible research"
+  ],
+  "language": "eng",
+  "version": "0.1.0-prereg",
+  "related_identifiers": [
+    {
+      "relation": "continues",
+      "identifier": "arXiv:2609.33054",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.1038/s41586-026-10735-w",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.1098/rstb.2024.0301",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}

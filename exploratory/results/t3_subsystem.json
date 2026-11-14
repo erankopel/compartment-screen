@@ -1,0 +1,542 @@
+{
+ "note": "EXPLORATORY, not pre-registered; male CNS v1.0; cut ids from exploratory/results/e1_slow_mode.json",
+ "w1": {
+  "n": 165314,
+  "cut": {
+   "name": "AVP/CX cut (727)",
+   "size": 727,
+   "stationary_mass": 0.004691383238015613,
+   "escape_per_step": 0.11614300931966659,
+   "kac_sojourn_steps": 8.610074819463708,
+   "lambda1": 0.8923200325371093,
+   "lambda2_abs": 0.7079434045194234,
+   "lambda2_is_complex": false,
+   "residence_steps_qsd": 9.28677843763861,
+   "relaxation_steps": 4.83965913755357,
+   "ratio_residence_over_relaxation": 1.9188910156042607,
+   "largest_internal_scc": 726,
+   "check_against_repo": {
+    "cut_mass_repo": 0.004691383238015613,
+    "escape_repo": 0.11614300931966659
+   }
+  },
+  "layers": {
+   "sizes": {
+    "outside": 164587,
+    "AVP (MeTu, TuBu)": 277,
+    "core (rest of the cut)": 450
+   },
+   "mass": [
+    0.9953086167619845,
+    9.095200846682871e-05,
+    0.004600431229548784
+   ],
+   "flow_per_step_rows_from_cols_to": [
+    [
+     0.9947637453949928,
+     5.403010230214931e-05,
+     0.0004908412648288943
+    ],
+    [
+     4.927486880267916e-06,
+     1.3716871091261818e-05,
+     7.230765049529895e-05
+    ],
+    [
+     0.0005399438802546999,
+     2.320503507339666e-05,
+     0.004037282314220649
+    ]
+   ]
+  },
+  "AVP layer alone": {
+   "name": "AVP layer alone",
+   "size": 277,
+   "stationary_mass": 9.095200846682871e-05,
+   "escape_per_step": 0.84918561643128,
+   "kac_sojourn_steps": 1.1775988437045373,
+   "lambda1": 0.468602485209284,
+   "lambda2_abs": 0.4415323423492809,
+   "lambda2_is_complex": false,
+   "residence_steps_qsd": 1.881830404106871,
+   "relaxation_steps": 17.31067647602471,
+   "ratio_residence_over_relaxation": 0.10870923540817173,
+   "largest_internal_scc": 110
+  },
+  "core alone": {
+   "name": "core alone",
+   "size": 450,
+   "stationary_mass": 0.004600431229548784,
+   "escape_per_step": 0.12241220164557008,
+   "kac_sojourn_steps": 8.169120288313911,
+   "lambda1": 0.890617337023688,
+   "lambda2_abs": 0.7077120540301278,
+   "lambda2_is_complex": false,
+   "residence_steps_qsd": 9.142216625467972,
+   "relaxation_steps": 4.869281643740414,
+   "ratio_residence_over_relaxation": 1.8775288213653702,
+   "largest_internal_scc": 434
+  },
+  "interfaces": {
+   "entry": {
+    "total_flow": 0.000544871367131044,
+    "neurons_for_50_percent": 19,
+    "neurons_for_90_percent": 214,
+    "types_by_flow": [
+     [
+      "ExR3",
+      0.1723644397046115
+     ],
+     [
+      "EPG",
+      0.10752477968716027
+     ],
+     [
+      "ExR1",
+      0.08984257215233292
+     ],
+     [
+      "ExR6",
+      0.08161679568694695
+     ],
+     [
+      "LPsP",
+      0.06214546379412387
+     ],
+     [
+      "PEN_b(PEN2)",
+      0.051518266746106205
+     ],
+     [
+      "ExR4",
+      0.050125640748498075
+     ],
+     [
+      "EL",
+      0.03830268997044781
+     ],
+     [
+      "PEN_a(PEN1)",
+      0.033758435008635054
+     ],
+     [
+      "PEG",
+      0.029471430417118364
+     ]
+    ]
+   },
+   "exit": {
+    "total_flow": 0.0005448713671349751,
+    "neurons_for_50_percent": 32,
+    "neurons_for_90_percent": 109,
+    "types_by_flow": [
+     [
+      "EPG",
+      0.5472585899710815
+     ],
+     [
+      "ExR3",
+      0.08242053795038462
+     ],
+     [
+      "PEN_b(PEN2)",
+      0.06952823383967353
+     ],
+     [
+      "ExR4",
+      0.0384600098178641
+     ],
+     [
+      "PEN_a(PEN1)",
+      0.03363249906737803
+     ],
+     [
+      "ExR6",
+      0.03248328090332979
+     ],
+     [
+      "ExR1",
+      0.03230666370289006
+     ],
+     [
+      "LPsP",
+      0.030663955784215248
+     ],
+     [
+      "EL",
+      0.03025124356556464
+     ],
+     [
+      "ER4d",
+      0.017930407592305485
+     ]
+    ]
+   },
+   "jaccard_of_90_percent_sets": 0.5093457943925234,
+   "neurons_in_neither_90_percent_set": 513,
+   "external_sources_by_type": [
+    [
+     "Delta7",
+     0.10404200405995918
+    ],
+    [
+     "ExR5",
+     0.05101737795833921
+    ],
+    [
+     "FB4Y",
+     0.04837406374757504
+    ],
+    [
+     "PFGs",
+     0.04638863387377786
+    ],
+    [
+     "hDeltaK",
+     0.04332092205642936
+    ],
+    [
+     "ExR7",
+     0.02924252821912912
+    ],
+    [
+     "PS196_b",
+     0.024419380966582836
+    ],
+    [
+     "hDeltaD",
+     0.018946290405953217
+    ],
+    [
+     "IbSpsP",
+     0.01727190753228128
+    ],
+    [
+     "MeTu1",
+     0.01623595897492787
+    ]
+   ],
+   "external_sources_by_superclass": [
+    [
+     "cb_intrinsic",
+     0.8640545124116085
+    ],
+    [
+     "visual_projection",
+     0.08643766291928687
+    ],
+    [
+     "visual_centrifugal",
+     0.01524629998985377
+    ],
+    [
+     "ol_intrinsic",
+     0.01318309820606642
+    ],
+    [
+     "descending_neuron",
+     0.008068275806978631
+    ],
+    [
+     "ascending_neuron",
+     0.00787544523383975
+    ]
+   ],
+   "external_targets_by_type": [
+    [
+     "Delta7",
+     0.30418192194151056
+    ],
+    [
+     "ExR7",
+     0.07058244066796103
+    ],
+    [
+     "ExR5",
+     0.05996068978067059
+    ],
+    [
+     "ExR8",
+     0.053885353739817815
+    ],
+    [
+     "FB4Y",
+     0.053546680042854664
+    ],
+    [
+     "hDeltaK",
+     0.05097410519623887
+    ],
+    [
+     "PFGs",
+     0.03369439980974237
+    ],
+    [
+     "PFNd",
+     0.03245406499440937
+    ],
+    [
+     "PFL3",
+     0.021281602034570822
+    ],
+    [
+     "PFL2",
+     0.0191657257991326
+    ]
+   ],
+   "external_targets_by_superclass": [
+    [
+     "cb_intrinsic",
+     0.9732654908934415
+    ],
+    [
+     "visual_projection",
+     0.012941967083533778
+    ],
+    [
+     "ol_intrinsic",
+     0.005030678005237396
+    ],
+    [
+     "visual_centrifugal",
+     0.0041860974333223135
+    ],
+    [
+     "descending_neuron",
+     0.0023538430605175146
+    ],
+    [
+     "ascending_neuron",
+     0.0014167086324187188
+    ]
+   ]
+  },
+  "sojourn": {
+   "survival": {
+    "0": 1.0,
+    "1": 0.8126203468516955,
+    "2": 0.7258167675443116,
+    "4": 0.5801883782107051,
+    "8": 0.3700576675708522,
+    "16": 0.14928457075412568,
+    "32": 0.02413386939134534,
+    "64": 0.0006299334047941526,
+    "128": 4.291565985233031e-07
+   },
+   "mean_steps": 8.610071263133662,
+   "kac": 8.610074819463708
+  },
+  "dobrushin_conditioned_walk": {
+   "1": 1.0000000000000004,
+   "2": 0.9999999999999931,
+   "4": 0.7669180246731481,
+   "8": 0.2549928865209689,
+   "16": 0.04322689608998602,
+   "32": 0.0011169767157695764,
+   "64": 6.895513213782225e-07
+  },
+  "comparison_sets": [
+   {
+    "name": "class CX (all)",
+    "size": 2950,
+    "stationary_mass": 0.02390085021569361,
+    "escape_per_step": 0.11334230784294014,
+    "kac_sojourn_steps": 8.822830759593431,
+    "lambda1": 0.918404214901015,
+    "lambda2_abs": 0.8201314853955093,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 12.255534998368919,
+    "relaxation_steps": 9.345463584071526,
+    "ratio_residence_over_relaxation": 1.3113886633999987,
+    "largest_internal_scc": 2950
+   },
+   {
+    "name": "Kenyon cells",
+    "size": 4064,
+    "stationary_mass": 0.003835878344738422,
+    "escape_per_step": 0.4859341658164147,
+    "kac_sojourn_steps": 2.057891933406055,
+    "lambda1": 0.5588297491311838,
+    "lambda2_abs": 0.5489166399216034,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 2.2666986226533985,
+    "relaxation_steps": 56.372802651171796,
+    "ratio_residence_over_relaxation": 0.0402090816147542,
+    "largest_internal_scc": 4064
+   },
+   {
+    "name": "mushroom body (KC, MBON, DAN)",
+    "size": 4501,
+    "stationary_mass": 0.007735424366903632,
+    "escape_per_step": 0.36698536308388147,
+    "kac_sojourn_steps": 2.724904316610118,
+    "lambda1": 0.717773869566422,
+    "lambda2_abs": 0.6743233139341911,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 3.543258019601945,
+    "relaxation_steps": 16.51932545216958,
+    "ratio_residence_over_relaxation": 0.21449168913471517,
+    "largest_internal_scc": 4501
+   },
+   {
+    "name": "antennal lobe (ALPN, ALLN)",
+    "size": 1106,
+    "stationary_mass": 0.0012383335718671737,
+    "escape_per_step": 0.47271778694845495,
+    "kac_sojourn_steps": 2.115427063693374,
+    "lambda1": 0.640863989083098,
+    "lambda2_abs": 0.5938185434949032,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 2.784460398295684,
+    "relaxation_steps": 13.622232313257335,
+    "ratio_residence_over_relaxation": 0.20440558744441692,
+    "largest_internal_scc": 1106
+   },
+   {
+    "name": "antennal lobe with olfactory sensory",
+    "size": 3745,
+    "stationary_mass": 0.0013501405809191501,
+    "escape_per_step": 0.3682490040993547,
+    "kac_sojourn_steps": 2.7155538477171195,
+    "lambda1": 0.7370921789673524,
+    "lambda2_abs": 0.6103234125831575,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 3.8036144990750236,
+    "relaxation_steps": 5.8144620318656886,
+    "ratio_residence_over_relaxation": 0.6541644744139049,
+    "largest_internal_scc": 3745
+   },
+   {
+    "name": "class CX outside the cut",
+    "size": 2524,
+    "stationary_mass": 0.01932804227688533,
+    "escape_per_step": 0.1513239874377027,
+    "kac_sojourn_steps": 6.60833762665474,
+    "lambda1": 0.8278688720525853,
+    "lambda2_abs": 0.704370533577502,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 5.8095244708179425,
+    "relaxation_steps": 6.703481862791328,
+    "ratio_residence_over_relaxation": 0.8666428267770173,
+    "largest_internal_scc": 2524
+   },
+   {
+    "name": "cut plus the rest of class CX",
+    "size": 3251,
+    "stationary_mass": 0.024019425514900945,
+    "escape_per_step": 0.11272167699934611,
+    "kac_sojourn_steps": 8.871408114393125,
+    "lambda1": 0.9204140138159763,
+    "lambda2_abs": 0.8201432703543786,
+    "lambda2_is_complex": false,
+    "residence_steps_qsd": 12.565026180460183,
+    "relaxation_steps": 9.179287816575155,
+    "ratio_residence_over_relaxation": 1.3688454302273165,
+    "largest_internal_scc": 3250
+   }
+  ],
+  "random_sets_of_same_size_escape": {
+   "min": 0.9946300221347436,
+   "max": 0.9979593674341996,
+   "mean": 0.9968458368562493
+  },
+  "t4b_inside_outside": {
+   "starts": 200,
+   "seed": 20261114,
+   "rows": [
+    {
+     "r": 1,
+     "mass_still_inside_mean": 0.8976764219739011,
+     "tv_total_max": 1.0000000000000102,
+     "tv_inside_max": 1.0,
+     "tv_outside_max": 0.6422589620984935,
+     "tv_total_mean": 0.8974686920171673,
+     "tv_inside_mean": 0.7986596360260966,
+     "tv_outside_mean": 0.09880905599107069
+    },
+    {
+     "r": 2,
+     "mass_still_inside_mean": 0.830159501961294,
+     "tv_total_max": 0.9999846178027734,
+     "tv_inside_max": 0.9189252248246423,
+     "tv_outside_max": 0.6012746461052043,
+     "tv_total_mean": 0.6579679540022197,
+     "tv_inside_mean": 0.5251170855624709,
+     "tv_outside_mean": 0.13285086843974878
+    },
+    {
+     "r": 4,
+     "mass_still_inside_mean": 0.7107108676986936,
+     "tv_total_max": 0.875992808410415,
+     "tv_inside_max": 0.4853593684404899,
+     "tv_outside_max": 0.5243133782086926,
+     "tv_total_mean": 0.34716050257945885,
+     "tv_inside_mean": 0.21457119425568644,
+     "tv_outside_mean": 0.13258930832377244
+    },
+    {
+     "r": 8,
+     "mass_still_inside_mean": 0.5154747377403677,
+     "tv_total_max": 0.5555421648563622,
+     "tv_inside_max": 0.20911170076969732,
+     "tv_outside_max": 0.42048951327159606,
+     "tv_total_mean": 0.16852706379786347,
+     "tv_inside_mean": 0.0626306794471432,
+     "tv_outside_mean": 0.10589638435072025
+    },
+    {
+     "r": 16,
+     "mass_still_inside_mean": 0.26854114319336037,
+     "tv_total_max": 0.3355162741214755,
+     "tv_inside_max": 0.08497138486467819,
+     "tv_outside_max": 0.2542312252261141,
+     "tv_total_mean": 0.0865745019653701,
+     "tv_inside_mean": 0.024214504456201803,
+     "tv_outside_mean": 0.0623599975091683
+    },
+    {
+     "r": 32,
+     "mass_still_inside_mean": 0.07996812107226052,
+     "tv_total_max": 0.13620330121064847,
+     "tv_inside_max": 0.022255348267770515,
+     "tv_outside_max": 0.11430048265464635,
+     "tv_total_mean": 0.03573805696854689,
+     "tv_inside_mean": 0.006334248150830046,
+     "tv_outside_mean": 0.02940380881771685
+    }
+   ]
+  }
+ },
+ "w5": {
+  "n": 157821,
+  "cut": {
+   "name": "AVP/CX cut in the w >= 5 chain",
+   "size": 727,
+   "stationary_mass": 0.002243744003160302,
+   "escape_per_step": 0.10163766279532609,
+   "kac_sojourn_steps": 9.83887244646466,
+   "lambda1": 0.9019596178659448,
+   "lambda2_abs": 0.7518634661314143,
+   "lambda2_is_complex": false,
+   "residence_steps_qsd": 10.19987864421676,
+   "relaxation_steps": 6.009212144633844,
+   "ratio_residence_over_relaxation": 1.697373698701107,
+   "largest_internal_scc": 694
+  },
+  "core": {
+   "name": "core alone, w >= 5",
+   "size": 450,
+   "stationary_mass": 0.002199277506756319,
+   "escape_per_step": 0.1076869119549698,
+   "kac_sojourn_steps": 9.28617955372477,
+   "lambda1": 0.9011490718185727,
+   "lambda2_abs": 0.7517086842892904,
+   "lambda2_is_complex": false,
+   "residence_steps_qsd": 10.116242896218816,
+   "relaxation_steps": 6.030157487660392,
+   "ratio_residence_over_relaxation": 1.677608406898136,
+   "largest_internal_scc": 432
+  }
+ },
+ "wall_s": 571.8
+}

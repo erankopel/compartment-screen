@@ -1,0 +1,17 @@
+set 727; outside neurons reached directly from the set: 5,932; exit edges 21,961
+exit targets grouped into 1565 cell types
+t =   1: largest mass still inside 1.00e+00 (1 s)
+t =   2: largest mass still inside 9.78e-01 (1 s)
+t =   4: largest mass still inside 8.80e-01 (3 s)
+t =   8: largest mass still inside 6.28e-01 (6 s)
+t =  16: largest mass still inside 2.69e-01 (11 s)
+t =  32: largest mass still inside 4.39e-02 (23 s)
+t =  64: largest mass still inside 1.15e-03 (44 s)
+t = 128: largest mass still inside 7.81e-07 (90 s)
+t = 160: largest mass still inside 2.04e-08 (112 s)
+time_and_neuron  all pairs: max 0.777 mean 0.298 median 0.274 <0.5: 0.890 >0.9: 0.000 | core-core: max 0.777 mean 0.259 median 0.214 <0.5: 0.904
+neuron_only      all pairs: max 0.776 mean 0.229 median 0.185 <0.5: 0.905 >0.9: 0.000 | core-core: max 0.776 mean 0.187 median 0.143 <0.5: 0.906
+time_and_type    all pairs: max 0.776 mean 0.289 median 0.263 <0.5: 0.894 >0.9: 0.000 | core-core: max 0.776 mean 0.249 median 0.203 <0.5: 0.906
+type_only        all pairs: max 0.775 mean 0.213 median 0.152 <0.5: 0.913 >0.9: 0.000 | core-core: max 0.775 mean 0.165 median 0.098 <0.5: 0.907
+same type pairs: 787, mean 0.173; different type: mean 0.301
+saved

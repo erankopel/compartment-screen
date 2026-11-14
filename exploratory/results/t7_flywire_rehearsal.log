@@ -1,0 +1,32 @@
+graph nodes 139,336; sets: EB 683, CX 3124, MB 5604, AL 1112; amine by type list 432, by this data set's own prediction 8410
+EB types selected: 42: ['AOTU046', 'EL', 'EPG', 'ER1', 'ER2', 'ER3a_a,ER3a_d', 'ER3a_b,ER3a_c', 'ER3d', 'ER3m', 'ER3p_a', 'ER3p_b', 'ER3w', 'ER4d', 'ER4m', 'ER5', 'ER6', 'ExR1', 'ExR2_1', 'ExR2_2', 'ExR3', 'ExR4', 'ExR6', 'GLNO', 'LPsP', 'MeTu2a', 'MeTu2b', 'PEG', 'PEN_a(PEN1)', 'PEN_b(PEN2)', 'TuBu01a', 'TuBu01b', 'TuBu02', 'TuBu03', 'TuBu04', 'TuBu05', 'TuBu06a', 'TuBu06b', 'TuBu07', 'TuBu08', 'TuBu09,TuBu10', 'TuTuB_a', 'TuTuB_b']; family rules with no match: []
+  class central_complex_intrinsic_neuron: 1349
+  class central_complex_input_neuron: 989
+  class central_complex_output_neuron: 527
+  class kenyon_cell: 5177
+  class mushroom_body_output_neuron: 96
+  class mushroom_body_dopaminergic_neuron: 331
+  class antennal_lobe_projection_neuron: 685
+  class antennal_lobe_local_neuron: 427
+edges inside the graph: 15,023,799; synapses 68,912,106
+--- >= 1 synapses: SCC 134,486 of 139,336; stationary in 5000 iterations (last change 4.2e-09); EB neurons in the SCC 683
+  EB: n   683 mass 0.0167 escape 0.0940 stays 11.97 mixes 4.27 ratio 2.80
+  CX: n  3123 mass 0.0589 escape 0.0930 stays 15.52 mixes 9.42 ratio 1.65
+  MB: n  5604 mass 0.0139 escape 0.4132 stays 3.50 mixes 8.71 ratio 0.40
+  AL: n  1112 mass 0.0030 escape 0.5543 stays 2.38 mixes 17.33 ratio 0.14
+  escape of the union of CX and MB 0.1491
+  Dobrushin EB {'dropped': 0, '4': 0.6865665655018199, '8': 0.2102482051174327, '16': 0.026861279051855258}; exit EB mean 0.231 max 0.679
+  exit MB mean 0.539 max 0.983; exit CX mean 0.508 max 0.984
+  amine share: whole 0.0115; EB into 0.011 inside 0.135 out 0.146; MB inside 0.281
+  reach MB->CX 1 step 0.0324 (x5.6), 4 steps 0.1044 (x4.8); CX->MB x5.9, x4.7; AL->CX x0.4, x1.4
+--- >= 5 synapses: SCC 123,875 of 139,336; stationary in 449 iterations (last change 9.5e-13); EB neurons in the SCC 674
+  EB: n   674 mass 0.0167 escape 0.0736 stays 14.58 mixes 5.85 ratio 2.49
+  CX: n  3046 mass 0.0442 escape 0.0785 stays 19.03 mixes 7.81 ratio 2.44
+  MB: n  5550 mass 0.0056 escape 0.6609 stays 2.27 mixes 3.54 ratio 0.64
+  AL: n  1111 mass 0.0022 escape 0.5222 stays 2.61 mixes 22.35 ratio 0.12
+  escape of the union of CX and MB 0.1405
+  Dobrushin EB {'dropped': 1, '4': 0.7709073538910575, '8': 0.38096095847193245, '16': 0.09370373952335997}; exit EB mean 0.197 max 0.752
+  exit MB mean 0.705 max 1.000; exit CX mean 0.621 max 1.000
+  amine share: whole 0.0081; EB into 0.012 inside 0.135 out 0.110; MB inside 0.416
+  reach MB->CX 1 step 0.0252 (x6.9), 4 steps 0.0951 (x7.0); CX->MB x7.3, x5.8; AL->CX x0.4, x2.0
+saved results/t7_flywire_rehearsal.json

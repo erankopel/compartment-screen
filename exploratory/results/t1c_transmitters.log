@@ -1,0 +1,12 @@
+whole_CNS        entropy 1.96 bits, classes > 1%: 4, aminergic 0.012; acetylcholine 0.412, gaba 0.261, glutamate 0.188, unclear 0.128, octopamine 0.007, dopamine 0.003, serotonin 0.001
+into_the_set     entropy 2.00 bits, classes > 1%: 6, aminergic 0.075; acetylcholine 0.452, glutamate 0.309, gaba 0.089, unclear 0.076, serotonin 0.049, dopamine 0.021, octopamine 0.005
+inside_the_set   entropy 1.84 bits, classes > 1%: 7, aminergic 0.114; gaba 0.448, acetylcholine 0.365, octopamine 0.089, glutamate 0.061, serotonin 0.015, unclear 0.011, dopamine 0.010
+out_of_the_set   entropy 1.42 bits, classes > 1%: 6, aminergic 0.126; acetylcholine 0.739, serotonin 0.082, glutamate 0.077, gaba 0.049, octopamine 0.030, dopamine 0.013, unclear 0.009
+neurons in set by transmitter: {'acetylcholine': 389, 'gaba': 284, 'glutamate': 21, 'octopamine': 18, 'unclear': 6, 'dopamine': 4, 'histamine': 3, 'serotonin': 2}
+aminergic types in set: {'EL / octopamine': 18, 'ExR2 / dopamine': 4, 'R7d / histamine': 3, 'ExR3 / serotonin': 2}
+aminergic sources (share of inflow): {'FB4Y / serotonin': 0.0484, 'FB1C / dopamine': 0.013, 'OA-VUMa1 / octopamine': 0.0035, 'FB4M / dopamine': 0.0025, 'FB4L / dopamine': 0.0017, 'OA-VPM3 / octopamine': 0.0009, 'LoVC22 / dopamine': 0.0008, 'FB1H / dopamine': 0.0006, 'LAL128 / dopamine': 0.0004, 'PPM1205 / dopamine': 0.0004}
+ellipsoid-body set               aminergic share into 0.075 inside 0.114 out 0.126; entropy bits 2.00 / 1.84 / 1.42
+class CX (all)                   aminergic share into 0.028 inside 0.052 out 0.021; entropy bits 1.73 / 1.86 / 0.74
+class CX outside the set         aminergic share into 0.042 inside 0.034 out 0.023; entropy bits 1.74 / 1.56 / 0.88
+mushroom body (KC, MBON, DAN)    aminergic share into 0.075 inside 0.250 out 0.146; entropy bits 1.94 / 1.23 / 1.78
+antennal lobe (ALPN, ALLN)       aminergic share into 0.059 inside 0.008 out 0.002; entropy bits 2.04 / 1.43 / 1.16
