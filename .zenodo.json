@@ -1,6 +1,6 @@
 {
   "upload_type": "software",
-  "title": "compartment-screen: pre-registration and code for a compartment screen on fly connectomes",
+  "title": "compartment-screen: pre-registration, code and confirmatory results for a compartment screen on fly connectomes",
   "description": "<p>Pre-registration, frozen code and confirmatory results for a compartment screen on the BANC connectome (release 888).</p><p>Registration: release v0.1.0-prereg, doi:10.5281/zenodo.24223802, record created 2026-11-14T15:59:33Z (<code>prereg/PREREG.md</code>, code fixed by <code>prereg/MANIFEST.sha256</code>). The registered analysis was run once, on 14 November 2026 from 16:03 to 16:07 UTC, after the registration. Both registered hypotheses hold in the primary analysis (all edges): the ellipsoid-body set of the central complex is a compartment of the synapse-flow Markov chain (criteria C1 to C4), and the mushroom body and the central complex are preferentially coupled (criterion C5). At a threshold of 5 synapses, which was registered as reported and not scored, C2 and C3 would not hold. Verdicts and every reported number: <code>RESULTS.md</code>; result file and log: <code>results/</code>.</p><p>The exploratory analyses behind the registration are in <code>exploratory/</code> and are not confirmatory.</p>",
   "creators": [
     {
