@@ -1,0 +1,46 @@
+registration: doi:10.5281/zenodo.24223802 (created 2026-11-14T15:59:33Z)
+run start (UTC): 2026-11-14T16:03:09Z
+python 3.13.18 numpy 2.5.3 scipy 1.18.1 pandas 3.0.5 pyarrow 26.0.1
+threads: OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2; cpus 2
+e062d1348db67a14691cfead50743f1c3e409796531804d734a67bb8d48ee3d8  screen_lib.py
+958a7293796a72b57e7072409db98bf4417674585bc057a7c9938e059677846c  transfer_screen.py
+5f0afeebb996f4b3f5945ebc96a5582e4bb09eb5dd32d5963fbffdb4e1e88ce2  crosswalk_types.json
+60a7c2252841c9f05aef0803c84bc3be7802b211f6bd2a40cef123ee3ad6265f  banc_888_meta.feather
+8c296e946f3c69a8c7222f30ad75fa8a98eeb189124fec6df829c9125f4be64b  banc_888_edgelist_simple_v3.feather
+command: python3 transfer_screen.py banc_888_id banc_888_meta.feather banc_888_edgelist_simple_v3.feather results_banc.json 1 5
+----
+graph nodes 146,769; sets: EB 595, CX 3164, MB 4957, AL 1128; amine by type list 386, by this data set's own prediction 11428
+EB types selected: 54: ['AOTU046', 'EL', 'EPG', 'ER1', 'ER1_a', 'ER1_b', 'ER2_a', 'ER2_b', 'ER2_c', 'ER2_d', 'ER3a_a', 'ER3a_b', 'ER3a_c', 'ER3a_d', 'ER3d_a', 'ER3d_b', 'ER3d_c', 'ER3d_d', 'ER3m', 'ER3p_a', 'ER3p_b', 'ER3w_a', 'ER3w_b', 'ER4d', 'ER4m', 'ER5', 'ER6', 'ExR1', 'ExR2', 'ExR2_1', 'ExR2_2', 'ExR3', 'ExR4', 'ExR6', 'GLNO', 'LPsP', 'MeTu2a', 'MeTu2b', 'PEG', 'PEN_a(PEN1)', 'PEN_b(PEN2)', 'TuBu01a', 'TuBu01b', 'TuBu02', 'TuBu03', 'TuBu04', 'TuBu05', 'TuBu06a', 'TuBu06b', 'TuBu07', 'TuBu08', 'TuBu09,TuBu10', 'TuTuB_a', 'TuTuB_b']; family rules with no match: []
+  class central_complex_intrinsic_neuron: 1184
+  class central_complex_input_neuron: 984
+  class central_complex_output_neuron: 813
+  class kenyon_cell: 4552
+  class mushroom_body_output_neuron: 104
+  class mushroom_body_dopaminergic_neuron: 301
+  class antennal_lobe_projection_neuron: 699
+  class antennal_lobe_local_neuron: 429
+edges inside the graph: 12,305,034; synapses 39,297,815
+--- >= 1 synapses: SCC 144,122 of 146,769; stationary in 477 iterations (last change 9.5e-13); EB neurons in the SCC 589
+  EB: n   589 mass 0.0033 escape 0.1333 stays 9.57 mixes 6.86 ratio 1.40
+  CX: n  3065 mass 0.0204 escape 0.1660 stays 13.25 mixes 16.87 ratio 0.79
+  MB: n  4898 mass 0.0049 escape 0.3111 stays 5.80 mixes 16.36 ratio 0.35
+  AL: n  1128 mass 0.0016 escape 0.4225 stays 3.31 mixes 17.39 ratio 0.19
+  escape of the union of CX and MB 0.1903
+  Dobrushin EB {'dropped': 4, '4': 0.7531721970471351, '8': 0.4132745898855731, '16': 0.12152495101678878}; exit EB mean 0.307 max 1.000
+  exit MB mean 0.582 max 1.000; exit CX mean 0.444 max 0.973
+  amine share: whole 0.0021; EB into 0.006 inside 0.079 out 0.144; MB inside 0.138
+  reach MB->CX 1 step 0.0396 (x11.5), 4 steps 0.1219 (x9.4); CX->MB x6.7, x6.4; AL->CX x0.9, x2.4
+--- >= 5 synapses: SCC 113,971 of 146,769; stationary in 1726 iterations (last change 1.0e-12); EB neurons in the SCC 555
+  EB: n   555 mass 0.0017 escape 0.1246 stays 19.36 mixes 23.01 ratio 0.84
+  CX: n  2602 mass 0.0089 escape 0.1923 stays 21.59 mixes 59.55 ratio 0.36
+  MB: n  2147 mass 0.0007 escape 0.7094 stays 19.37 mixes 6.77 ratio 2.86
+  AL: n  1068 mass 0.0006 escape 0.2774 stays 5.61 mixes 14.05 ratio 0.40
+  escape of the union of CX and MB 0.2278
+  Dobrushin EB {'dropped': 5, '4': 0.9787648258144117, '8': 0.8954120489625013, '16': 0.7256738040665965}; exit EB mean 0.360 max 1.000
+  exit MB mean 0.719 max 1.000; exit CX mean 0.523 max 1.000
+  amine share: whole 0.0005; EB into 0.006 inside 0.067 out 0.156; MB inside 0.259
+  reach MB->CX 1 step 0.0139 (x8.1), 4 steps 0.0761 (x11.8); CX->MB x1.6, x7.1; AL->CX x1.0, x4.2
+saved results_banc.json
+----
+exit code: 0
+run end (UTC): 2026-11-14T16:07:21Z
