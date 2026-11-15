@@ -1,0 +1,7 @@
+banc_888_edgelist_simple_v2.feather: synapses in the graph 33,338,533; inside the EB set 201,418
+  EL    n 18: ring neurons onto X 285; X onto ring neurons 52; EPG, PEN, PEG onto X 289; X onto EPG, PEN, PEG 9
+  ExR1  n 4: ring neurons onto X 694; X onto ring neurons 129; EPG, PEN, PEG onto X 352; X onto EPG, PEN, PEG 180
+  ExR2  n 4: ring neurons onto X 64; X onto ring neurons 32; EPG, PEN, PEG onto X 229; X onto EPG, PEN, PEG 38
+  ExR3  n 2: ring neurons onto X 30; X onto ring neurons 86; EPG, PEN, PEG onto X 2; X onto EPG, PEN, PEG 2
+  ExR4  n 2: ring neurons onto X 100; X onto ring neurons 20; EPG, PEN, PEG onto X 2088; X onto EPG, PEN, PEG 2316
+  ExR6  n 2: ring neurons onto X 39; X onto ring neurons 48; EPG, PEN, PEG onto X 2979; X onto EPG, PEN, PEG 2796

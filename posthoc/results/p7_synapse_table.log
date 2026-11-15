@@ -1,0 +1,11 @@
+  batch 0: 2,000,000 rows, 167,857 keys, 3 s
+  batch 20: 42,000,000 rows, 2,721,948 keys, 15 s
+  batch 40: 82,000,000 rows, 4,553,394 keys, 30 s
+  batch 60: 122,000,000 rows, 6,425,973 keys, 43 s
+  batch 80: 162,000,000 rows, 8,297,748 keys, 57 s
+  batch 100: 202,000,000 rows, 9,967,136 keys, 71 s
+  batch 120: 242,000,000 rows, 11,770,345 keys, 83 s
+rows 259,393,451; autapses dropped 3,618,545; graph pairs 12,305,034; 91 s
+check against the registered edge list: pairs at size >= 10: 12,305,034 (registered 12,305,034); synapses 39,297,815 (registered 39,297,815); identical pairs True; identical counts True
+{"note": "POST HOC, EXPLORATORY", "rows": 259393451, "autapses_dropped": 3618545, "graph_pairs_any_size": 12305034, "check_registered": {"pairs_ge10": 12305034, "registered_pairs": 12305034, "synapses_ge10": 39297815, "registered_synapses": 39297815, "identical_pairs": true, "identical_counts": true}, "graph_synapses_by_size_bin": {"lt5": 0, "5to9": 0, "ge10": 39297815}, "eb_rows": 917016}
+saved

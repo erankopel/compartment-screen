@@ -9,6 +9,7 @@ Pre-registration and code for a compartment screen on fly connectomes. ASCII, no
 | Registration (release v0.1.0-prereg) | doi:10.5281/zenodo.24223802 (concept doi:10.5281/zenodo.24223801), record created 2026-11-14T15:59:33Z |
 | Confirmatory run on BANC release 888 | one run, 2026-11-14, 16:03:09 to 16:07:21 UTC, after the registration |
 | Results (release v0.2.0) | H-EB confirmed (C1 to C4 hold), H-PIT confirmed (C5 holds), primary analysis; see RESULTS.md, including the values at 5 synapses, where C2 and C3 would not hold |
+| Additions of 14 and 15 Nov 2026, after the run | exploratory, not registered: `posthoc/` part 1 (release v0.2.1), `posthoc/` part 2 and the T8 files in `exploratory/` (release v0.3.0); `posthoc/` asks why C2 and C3 do not hold at 5 synapses, T8 is a population-code row from published imaging |
 
 ## What is registered
 
@@ -24,9 +25,11 @@ the decision rule, what is reported without being scored, and the protocol. The 
 - `prereg/` the registration: PREREG.md, screen_lib.py, transfer_screen.py, crosswalk_types.json, MANIFEST.sha256.
 - `exploratory/` everything that led to it and is NOT confirmatory: scripts t0 to t7, their results and
   logs (male CNS v1.0, null models, FlyWire v783 rehearsal), with its own README.
+  Added after the run: T8_population_code.md with t8_population_code.py and t8b_standing_bouts.py.
+- `posthoc/` analyses made after the confirmatory run, exploratory and not registered: POSTHOC.md and
+  POSTHOC_2.md, scripts p1 to p13 and their results, with its own README.
 - `RESULTS.md` verdicts and every reported number.
 - `results/` the result file, the run log and the wrapper used to start the run.
-- `posthoc/` POST HOC, EXPLORATORY, written after the confirmatory run: why C2 and C3 weaken with the synapse threshold in BANC; report POSTHOC.md.
 - `DEVIATIONS.md` none from the registered analysis; four notes for the record.
 
 ## The run (made once, on 14 Nov 2026; the commands are kept for reference and must not be repeated as a confirmatory run)

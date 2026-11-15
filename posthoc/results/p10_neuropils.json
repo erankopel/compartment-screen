@@ -1,0 +1,1239 @@
+{
+ "note": "POST HOC, EXPLORATORY",
+ "graph_graph_synapses": 39297815,
+ "neuropils": {
+  "ME": {
+   "synapses": 38036205,
+   "pre_graph_share": 0.8054353740074752,
+   "post_graph_share": 0.2921067966691209,
+   "both_graph_share": 0.19024839623195847
+  },
+  "outside": {
+   "synapses": 2351700,
+   "pre_graph_share": 0.7337836458731981,
+   "post_graph_share": 0.21333333333333335,
+   "both_graph_share": 0.12086150444359399
+  },
+  "LOP": {
+   "synapses": 7747144,
+   "pre_graph_share": 0.8393120096902807,
+   "post_graph_share": 0.33058518080985716,
+   "both_graph_share": 0.23034578936444192
+  },
+  "LO": {
+   "synapses": 16233826,
+   "pre_graph_share": 0.7917997889098971,
+   "post_graph_share": 0.29972004135069574,
+   "both_graph_share": 0.1778384220700653
+  },
+  "AME": {
+   "synapses": 52516,
+   "pre_graph_share": 0.8098865107776677,
+   "post_graph_share": 0.2272069464544139,
+   "both_graph_share": 0.12889405133673548
+  },
+  "LH": {
+   "synapses": 4128035,
+   "pre_graph_share": 0.932106680297042,
+   "post_graph_share": 0.17442778464814374,
+   "both_graph_share": 0.10923308547529273
+  },
+  "AVLP": {
+   "synapses": 11957918,
+   "pre_graph_share": 0.930781428673453,
+   "post_graph_share": 0.23894820151802346,
+   "both_graph_share": 0.17579924866519406
+  },
+  "PVLP": {
+   "synapses": 2040296,
+   "pre_graph_share": 0.921437869799284,
+   "post_graph_share": 0.26309907974137087,
+   "both_graph_share": 0.19470459188274641
+  },
+  "SLP": {
+   "synapses": 3451698,
+   "pre_graph_share": 0.9037601203813311,
+   "post_graph_share": 0.18749960164533513,
+   "both_graph_share": 0.09662085153452012
+  },
+  "PLP": {
+   "synapses": 4859197,
+   "pre_graph_share": 0.9284957987914464,
+   "post_graph_share": 0.22531747529478635,
+   "both_graph_share": 0.16279191808852367
+  },
+  "AOTU": {
+   "synapses": 1000768,
+   "pre_graph_share": 0.8780256762806165,
+   "post_graph_share": 0.3015044445865575,
+   "both_graph_share": 0.191275100722645
+  },
+  "WED": {
+   "synapses": 1320027,
+   "pre_graph_share": 0.9519396194168755,
+   "post_graph_share": 0.23777771212255508,
+   "both_graph_share": 0.19092033723552623
+  },
+  "MB_CA": {
+   "synapses": 1259842,
+   "pre_graph_share": 0.9357736922566481,
+   "post_graph_share": 0.2903729197788294,
+   "both_graph_share": 0.23729404163379217
+  },
+  "IPS": {
+   "synapses": 4086881,
+   "pre_graph_share": 0.9528124259062106,
+   "post_graph_share": 0.2298970779917497,
+   "both_graph_share": 0.1842143189390638
+  },
+  "SCL": {
+   "synapses": 1913969,
+   "pre_graph_share": 0.9357110799600202,
+   "post_graph_share": 0.18631231749312555,
+   "both_graph_share": 0.12583955121530183
+  },
+  "ABDNM": {
+   "synapses": 5790809,
+   "pre_graph_share": 0.9264520725860583,
+   "post_graph_share": 0.25291889267976203,
+   "both_graph_share": 0.19477831163141454
+  },
+  "ANm": {
+   "synapses": 27842,
+   "pre_graph_share": 0.8698728539616407,
+   "post_graph_share": 0.24294231736225846,
+   "both_graph_share": 0.15110265067164716
+  },
+  "AMMC": {
+   "synapses": 850026,
+   "pre_graph_share": 0.9205753706357217,
+   "post_graph_share": 0.3435883137692259,
+   "both_graph_share": 0.26768828247606546
+  },
+  "SAD": {
+   "synapses": 488206,
+   "pre_graph_share": 0.9359327824729725,
+   "post_graph_share": 0.2733784508998251,
+   "both_graph_share": 0.2117364391261066
+  },
+  "SIP": {
+   "synapses": 1423616,
+   "pre_graph_share": 0.9212540460348858,
+   "post_graph_share": 0.1987965855961158,
+   "both_graph_share": 0.12234408716957382
+  },
+  "LNp_T3": {
+   "synapses": 41851,
+   "pre_graph_share": 0.9156292561707008,
+   "post_graph_share": 0.2692886669374686,
+   "both_graph_share": 0.20496523380564383
+  },
+  "MetaNM-T3": {
+   "synapses": 11412528,
+   "pre_graph_share": 0.9275329707843871,
+   "post_graph_share": 0.2653583851010048,
+   "both_graph_share": 0.20355744143628826
+  },
+  "MB_PED": {
+   "synapses": 229329,
+   "pre_graph_share": 0.8349183923533439,
+   "post_graph_share": 0.4580580737717428,
+   "both_graph_share": 0.31305678741022724
+  },
+  "ICL": {
+   "synapses": 3007110,
+   "pre_graph_share": 0.9370608324936567,
+   "post_graph_share": 0.22859722457775072,
+   "both_graph_share": 0.16740591464894866
+  },
+  "GNG": {
+   "synapses": 11552410,
+   "pre_graph_share": 0.9415175707925879,
+   "post_graph_share": 0.23875780032045263,
+   "both_graph_share": 0.18148464259838423
+  },
+  "SPS": {
+   "synapses": 3872394,
+   "pre_graph_share": 0.9441658054423181,
+   "post_graph_share": 0.25183207080684455,
+   "both_graph_share": 0.1982597845157285
+  },
+  "MB_VL": {
+   "synapses": 557635,
+   "pre_graph_share": 0.858948954064935,
+   "post_graph_share": 0.286022218834901,
+   "both_graph_share": 0.1561074896661795
+  },
+  "AL": {
+   "synapses": 4077052,
+   "pre_graph_share": 0.8864520246491828,
+   "post_graph_share": 0.5315284180824772,
+   "both_graph_share": 0.41871528741845826
+  },
+  "LAL": {
+   "synapses": 2759051,
+   "pre_graph_share": 0.9601805113424869,
+   "post_graph_share": 0.2459262260828089,
+   "both_graph_share": 0.20707989812439132
+  },
+  "GA": {
+   "synapses": 70215,
+   "pre_graph_share": 0.9531154311756748,
+   "post_graph_share": 0.32354909919532865,
+   "both_graph_share": 0.27880082603432316
+  },
+  "MB_ML": {
+   "synapses": 166513,
+   "pre_graph_share": 0.8098046398779675,
+   "post_graph_share": 0.45930948334364285,
+   "both_graph_share": 0.28147351858413455
+  },
+  "GOR": {
+   "synapses": 536419,
+   "pre_graph_share": 0.926022381757544,
+   "post_graph_share": 0.23679437156401992,
+   "both_graph_share": 0.16469960981993553
+  },
+  "EPA": {
+   "synapses": 413458,
+   "pre_graph_share": 0.9447731087559075,
+   "post_graph_share": 0.2382974812435604,
+   "both_graph_share": 0.18541181933836084
+  },
+  "MesoNM-T2": {
+   "synapses": 10551781,
+   "pre_graph_share": 0.9277484056956831,
+   "post_graph_share": 0.314449949255012,
+   "both_graph_share": 0.25530666339644464
+  },
+  "LNp_T2": {
+   "synapses": 39801,
+   "pre_graph_share": 0.8849526393809201,
+   "post_graph_share": 0.2752694655913168,
+   "both_graph_share": 0.200120599984925
+  },
+  "SMP": {
+   "synapses": 4928989,
+   "pre_graph_share": 0.9316663112861482,
+   "post_graph_share": 0.21663144308092389,
+   "both_graph_share": 0.1498970681411543
+  },
+  "ATL": {
+   "synapses": 521691,
+   "pre_graph_share": 0.9412276615851145,
+   "post_graph_share": 0.2499238054710547,
+   "both_graph_share": 0.1920849698384676
+  },
+  "CRE": {
+   "synapses": 3790100,
+   "pre_graph_share": 0.9119566766048389,
+   "post_graph_share": 0.24665787182396243,
+   "both_graph_share": 0.16095643914408592
+  },
+  "VES": {
+   "synapses": 2157613,
+   "pre_graph_share": 0.9640955073963681,
+   "post_graph_share": 0.24666888825753275,
+   "both_graph_share": 0.21161255517092267
+  },
+  "WTct_UTct_T2": {
+   "synapses": 115342,
+   "pre_graph_share": 0.8718593400495916,
+   "post_graph_share": 0.36703022316242134,
+   "both_graph_share": 0.2575818002115448
+  },
+  "BU": {
+   "synapses": 64382,
+   "pre_graph_share": 0.9518188313503775,
+   "post_graph_share": 0.19766394333820012,
+   "both_graph_share": 0.15007300177068125
+  },
+  "WTct": {
+   "synapses": 1595890,
+   "pre_graph_share": 0.9202269579983583,
+   "post_graph_share": 0.31758705173915497,
+   "both_graph_share": 0.2484055918641009
+  },
+  "ProNM-T1": {
+   "synapses": 10617205,
+   "pre_graph_share": 0.9326636341673726,
+   "post_graph_share": 0.29019831490491144,
+   "both_graph_share": 0.232085186261356
+  },
+  "Xnerve": {
+   "synapses": 168,
+   "pre_graph_share": 0.9226190476190477,
+   "post_graph_share": 0.24404761904761904,
+   "both_graph_share": 0.19642857142857142
+  },
+  "PB": {
+   "synapses": 287247,
+   "pre_graph_share": 0.9686228228667314,
+   "post_graph_share": 0.3549871713194568,
+   "both_graph_share": 0.32449773191713055
+  },
+  "LNp_T1": {
+   "synapses": 11379,
+   "pre_graph_share": 0.8812725195535636,
+   "post_graph_share": 0.28174707795061077,
+   "both_graph_share": 0.20696018982335881
+  },
+  "AMNP": {
+   "synapses": 1744564,
+   "pre_graph_share": 0.8992533377967217,
+   "post_graph_share": 0.29555292898397534,
+   "both_graph_share": 0.2205668579656579
+  },
+  "IB": {
+   "synapses": 1690728,
+   "pre_graph_share": 0.9434344258804491,
+   "post_graph_share": 0.21692903885190284,
+   "both_graph_share": 0.16172264255397675
+  },
+  "HTct_UTct_T3": {
+   "synapses": 66506,
+   "pre_graph_share": 0.9020238775448832,
+   "post_graph_share": 0.25355607012901094,
+   "both_graph_share": 0.18341202297537065
+  },
+  "HTct": {
+   "synapses": 2486410,
+   "pre_graph_share": 0.9404390265483167,
+   "post_graph_share": 0.2585840629662847,
+   "both_graph_share": 0.2094248333943316
+  },
+  "FB": {
+   "synapses": 1934233,
+   "pre_graph_share": 0.905019198824547,
+   "post_graph_share": 0.37545735182886447,
+   "both_graph_share": 0.2811755357291495
+  },
+  "IntTct": {
+   "synapses": 3938747,
+   "pre_graph_share": 0.9533463306985699,
+   "post_graph_share": 0.23804854691098465,
+   "both_graph_share": 0.19470049739168319
+  },
+  "FLA": {
+   "synapses": 1019743,
+   "pre_graph_share": 0.963832063568958,
+   "post_graph_share": 0.2624406345520391,
+   "both_graph_share": 0.2271464476833869
+  },
+  "NTct_UTct_T1": {
+   "synapses": 32776,
+   "pre_graph_share": 0.9320234317793508,
+   "post_graph_share": 0.22235782279716865,
+   "both_graph_share": 0.17341957529899926
+  },
+  "AMNp": {
+   "synapses": 924,
+   "pre_graph_share": 0.9448051948051948,
+   "post_graph_share": 0.17965367965367965,
+   "both_graph_share": 0.14177489177489178
+  },
+  "PRW": {
+   "synapses": 451787,
+   "pre_graph_share": 0.9561319825492987,
+   "post_graph_share": 0.2688191559296748,
+   "both_graph_share": 0.22627034421087813
+  },
+  "NTct": {
+   "synapses": 989194,
+   "pre_graph_share": 0.9565616047003924,
+   "post_graph_share": 0.25704664605729516,
+   "both_graph_share": 0.2173982050032653
+  },
+  "CAN": {
+   "synapses": 154669,
+   "pre_graph_share": 0.9620932442829526,
+   "post_graph_share": 0.2471471335561748,
+   "both_graph_share": 0.21127698504548423
+  },
+  "EB": {
+   "synapses": 494047,
+   "pre_graph_share": 0.8988719696709018,
+   "post_graph_share": 0.5052474764546693,
+   "both_graph_share": 0.404716555307491
+  },
+  "LTct": {
+   "synapses": 871002,
+   "pre_graph_share": 0.9359151873359648,
+   "post_graph_share": 0.3058856351650168,
+   "both_graph_share": 0.24568026250226752
+  },
+  "mVAC": {
+   "synapses": 435553,
+   "pre_graph_share": 0.9201566743886508,
+   "post_graph_share": 0.3537411061340411,
+   "both_graph_share": 0.27811081544611105
+  },
+  "NO": {
+   "synapses": 107213,
+   "pre_graph_share": 0.8621622377883279,
+   "post_graph_share": 0.6505181274658857,
+   "both_graph_share": 0.5139768498223163
+  },
+  "mVAC_T3": {
+   "synapses": 18,
+   "pre_graph_share": 0.7222222222222222,
+   "post_graph_share": 0.1111111111111111,
+   "both_graph_share": 0.0
+  },
+  "cervical_connective": {
+   "synapses": 152,
+   "pre_graph_share": 0.9473684210526315,
+   "post_graph_share": 0.3157894736842105,
+   "both_graph_share": 0.2631578947368421
+  }
+ },
+ "by_dominant_neuropil": {
+  "ME": {
+   "types": 61,
+   "out_BM": 1.2035742087384687,
+   "out_BF": 1.4860810094880315,
+   "out_FM": 0.8358730278032308,
+   "in_BM": 0.5366340490606772,
+   "in_BF": 0.6676930046399097,
+   "out_BM_rank": 0.2260061919504644,
+   "out_BF_rank": 0.13493292053663572,
+   "synapses": 38036205,
+   "pre_graph_share": 0.8054353740074752,
+   "post_graph_share": 0.2921067966691209,
+   "both_graph_share": 0.19024839623195847
+  },
+  "LOP": {
+   "types": 24,
+   "out_BM": 1.175124529120458,
+   "out_BF": 1.8033261027858696,
+   "out_FM": 0.7161738530048002,
+   "in_BM": 0.5070006008745116,
+   "in_BF": 0.7654900204997821,
+   "out_BM_rank": 0.21155830753353974,
+   "out_BF_rank": 0.22807017543859648,
+   "synapses": 7747144,
+   "pre_graph_share": 0.8393120096902807,
+   "post_graph_share": 0.33058518080985716,
+   "both_graph_share": 0.23034578936444192
+  },
+  "LO": {
+   "types": 52,
+   "out_BM": 1.601332107014541,
+   "out_BF": 1.5236531363365768,
+   "out_FM": 0.8353891586003297,
+   "in_BM": 0.5124106526142471,
+   "in_BF": 0.5401971760928548,
+   "out_BM_rank": 0.40737874097007226,
+   "out_BF_rank": 0.14422084623323014,
+   "synapses": 16233826,
+   "pre_graph_share": 0.7917997889098971,
+   "post_graph_share": 0.29972004135069574,
+   "both_graph_share": 0.1778384220700653
+  },
+  "LH": {
+   "types": 184,
+   "out_BM": 1.9577936831006189,
+   "out_BF": 2.114994086777532,
+   "out_FM": 0.8509769095783632,
+   "in_BM": 0.536121805024913,
+   "in_BF": 0.7029971572245912,
+   "out_BM_rank": 0.5835913312693498,
+   "out_BF_rank": 0.3573271413828689,
+   "synapses": 4128035,
+   "pre_graph_share": 0.932106680297042,
+   "post_graph_share": 0.17442778464814374,
+   "both_graph_share": 0.10923308547529273
+  },
+  "AVLP": {
+   "types": 375,
+   "out_BM": 1.385861561119293,
+   "out_BF": 2.123205741626794,
+   "out_FM": 0.6468322351748607,
+   "in_BM": 0.37189367401607254,
+   "in_BF": 0.5389509218384835,
+   "out_BM_rank": 0.3075335397316821,
+   "out_BF_rank": 0.36119711042311664,
+   "synapses": 11957918,
+   "pre_graph_share": 0.930781428673453,
+   "post_graph_share": 0.23894820151802346,
+   "both_graph_share": 0.17579924866519406
+  },
+  "SLP": {
+   "types": 271,
+   "out_BM": 1.469851590106007,
+   "out_BF": 2.2994722955145117,
+   "out_FM": 0.61742934051144,
+   "in_BM": 0.35303378156772713,
+   "in_BF": 0.5473135525260625,
+   "out_BM_rank": 0.3459752321981424,
+   "out_BF_rank": 0.43859649122807015,
+   "synapses": 3451698,
+   "pre_graph_share": 0.9037601203813311,
+   "post_graph_share": 0.18749960164533513,
+   "both_graph_share": 0.09662085153452012
+  },
+  "PLP": {
+   "types": 85,
+   "out_BM": 1.9279708520179373,
+   "out_BF": 2.1105618718075467,
+   "out_FM": 0.8370193265590755,
+   "in_BM": 0.4412583182093164,
+   "in_BF": 0.5587425424506655,
+   "out_BM_rank": 0.5683694530443757,
+   "out_BF_rank": 0.35526315789473684,
+   "synapses": 4859197,
+   "pre_graph_share": 0.9284957987914464,
+   "post_graph_share": 0.22531747529478635,
+   "both_graph_share": 0.16279191808852367
+  },
+  "AOTU": {
+   "types": 22,
+   "out_BM": 1.0765849724198038,
+   "out_BF": 1.6976744630548541,
+   "out_FM": 0.6652849172931536,
+   "in_BM": 0.3542748892982597,
+   "in_BF": 0.6081851304515651,
+   "out_BM_rank": 0.17698658410732715,
+   "out_BF_rank": 0.19917440660474717,
+   "synapses": 1000768,
+   "pre_graph_share": 0.8780256762806165,
+   "post_graph_share": 0.3015044445865575,
+   "both_graph_share": 0.191275100722645
+  },
+  "WED": {
+   "types": 12,
+   "out_BM": 1.7949721092288078,
+   "out_BF": 2.4669755283870876,
+   "out_FM": 0.7309605024621675,
+   "in_BM": 0.5912288001470941,
+   "in_BF": 0.7069089933819281,
+   "out_BM_rank": 0.5030959752321982,
+   "out_BF_rank": 0.5067079463364293,
+   "synapses": 1320027,
+   "pre_graph_share": 0.9519396194168755,
+   "post_graph_share": 0.23777771212255508,
+   "both_graph_share": 0.19092033723552623
+  },
+  "IPS": {
+   "types": 118,
+   "out_BM": 1.9197377069119819,
+   "out_BF": 2.6823614358472554,
+   "out_FM": 0.7488391501221945,
+   "in_BM": 0.48926533665733374,
+   "in_BF": 0.7061619920181204,
+   "out_BM_rank": 0.5652734778121775,
+   "out_BF_rank": 0.5797213622291022,
+   "synapses": 4086881,
+   "pre_graph_share": 0.9528124259062106,
+   "post_graph_share": 0.2298970779917497,
+   "both_graph_share": 0.1842143189390638
+  },
+  "AMMC": {
+   "types": 12,
+   "out_BM": 1.8764086749213007,
+   "out_BF": 1.9568350979160152,
+   "out_FM": 1.0620714231001076,
+   "in_BM": 0.4734670735168439,
+   "in_BF": 0.8459704274625128,
+   "out_BM_rank": 0.5410216718266254,
+   "out_BF_rank": 0.2884416924664603,
+   "synapses": 850026,
+   "pre_graph_share": 0.9205753706357217,
+   "post_graph_share": 0.3435883137692259,
+   "both_graph_share": 0.26768828247606546
+  },
+  "SIP": {
+   "types": 20,
+   "out_BM": 2.264456566067401,
+   "out_BF": 3.113108842287113,
+   "out_FM": 0.9005874387467522,
+   "in_BM": 0.4986634322565526,
+   "in_BF": 0.5430400165543956,
+   "out_BM_rank": 0.7200722394220846,
+   "out_BF_rank": 0.7092363261093911,
+   "synapses": 1423616,
+   "pre_graph_share": 0.9212540460348858,
+   "post_graph_share": 0.1987965855961158,
+   "both_graph_share": 0.12234408716957382
+  },
+  "ICL": {
+   "types": 87,
+   "out_BM": 1.9815434540107495,
+   "out_BF": 2.427925381571509,
+   "out_FM": 0.7965260545905707,
+   "in_BM": 0.40674698795180725,
+   "in_BF": 0.5095989029825163,
+   "out_BM_rank": 0.5964912280701754,
+   "out_BF_rank": 0.49019607843137253,
+   "synapses": 3007110,
+   "pre_graph_share": 0.9370608324936567,
+   "post_graph_share": 0.22859722457775072,
+   "both_graph_share": 0.16740591464894866
+  },
+  "GNG": {
+   "types": 147,
+   "out_BM": 1.7878568556493768,
+   "out_BF": 2.7614322691975843,
+   "out_FM": 0.6375811688311688,
+   "in_BM": 0.5181262729124236,
+   "in_BF": 0.6783129175946548,
+   "out_BM_rank": 0.4997420020639835,
+   "out_BF_rank": 0.6091331269349846,
+   "synapses": 11552410,
+   "pre_graph_share": 0.9415175707925879,
+   "post_graph_share": 0.23875780032045263,
+   "both_graph_share": 0.18148464259838423
+  },
+  "SPS": {
+   "types": 81,
+   "out_BM": 1.8914084152179391,
+   "out_BF": 2.2855565371024733,
+   "out_FM": 0.8234522560335782,
+   "in_BM": 0.5230733733271804,
+   "in_BF": 0.6330769230769231,
+   "out_BM_rank": 0.5490196078431373,
+   "out_BF_rank": 0.43188854489164086,
+   "synapses": 3872394,
+   "pre_graph_share": 0.9441658054423181,
+   "post_graph_share": 0.25183207080684455,
+   "both_graph_share": 0.1982597845157285
+  },
+  "AL": {
+   "types": 127,
+   "out_BM": 0.9512399701494378,
+   "out_BF": 1.8862039417309342,
+   "out_FM": 0.6178898394116764,
+   "in_BM": 0.5485899390243902,
+   "in_BF": 0.9204081632653061,
+   "out_BM_rank": 0.1323529411764706,
+   "out_BF_rank": 0.2592879256965944,
+   "synapses": 4077052,
+   "pre_graph_share": 0.8864520246491828,
+   "post_graph_share": 0.5315284180824772,
+   "both_graph_share": 0.41871528741845826
+  },
+  "LAL": {
+   "types": 96,
+   "out_BM": 1.8569731386673443,
+   "out_BF": 2.298600881643698,
+   "out_FM": 0.8137447395163856,
+   "in_BM": 0.48964408456704983,
+   "in_BF": 0.594374507225798,
+   "out_BM_rank": 0.5332817337461301,
+   "out_BF_rank": 0.43833849329205365,
+   "synapses": 2759051,
+   "pre_graph_share": 0.9601805113424869,
+   "post_graph_share": 0.2459262260828089,
+   "both_graph_share": 0.20707989812439132
+  },
+  "SMP": {
+   "types": 276,
+   "out_BM": 1.9505987195033132,
+   "out_BF": 2.7560258682821357,
+   "out_FM": 0.704413998244199,
+   "in_BM": 0.4153606179333028,
+   "in_BF": 0.5922857769011616,
+   "out_BM_rank": 0.5794633642930856,
+   "out_BF_rank": 0.6057791537667698,
+   "synapses": 4928989,
+   "pre_graph_share": 0.9316663112861482,
+   "post_graph_share": 0.21663144308092389,
+   "both_graph_share": 0.1498970681411543
+  },
+  "CRE": {
+   "types": 168,
+   "out_BM": 1.8742157835635913,
+   "out_BF": 2.682768497181951,
+   "out_FM": 0.68716001301709,
+   "in_BM": 0.4620459967300007,
+   "in_BF": 0.6058170511423961,
+   "out_BM_rank": 0.5410216718266254,
+   "out_BF_rank": 0.5797213622291022,
+   "synapses": 3790100,
+   "pre_graph_share": 0.9119566766048389,
+   "post_graph_share": 0.24665787182396243,
+   "both_graph_share": 0.16095643914408592
+  },
+  "VES": {
+   "types": 39,
+   "out_BM": 2.2582298442736053,
+   "out_BF": 2.998682476943346,
+   "out_FM": 0.7430771508958981,
+   "in_BM": 0.5110964829791235,
+   "in_BF": 0.6638948943954766,
+   "out_BM_rank": 0.7187822497420021,
+   "out_BF_rank": 0.6775025799793601,
+   "synapses": 2157613,
+   "pre_graph_share": 0.9640955073963681,
+   "post_graph_share": 0.24666888825753275,
+   "both_graph_share": 0.21161255517092267
+  },
+  "ProNM-T1": {
+   "types": 13,
+   "out_BM": 2.6141113180219326,
+   "out_BF": 11.751724137931035,
+   "out_FM": 0.23360386049572274,
+   "in_BM": 0.36427135146576356,
+   "in_BF": 0.626155138616634,
+   "out_BM_rank": 0.8405572755417957,
+   "out_BF_rank": 0.955108359133127,
+   "synapses": 10617205,
+   "pre_graph_share": 0.9326636341673726,
+   "post_graph_share": 0.29019831490491144,
+   "both_graph_share": 0.232085186261356
+  },
+  "IB": {
+   "types": 55,
+   "out_BM": 2.173944038495812,
+   "out_BF": 3.200388475234704,
+   "out_FM": 0.687117621714778,
+   "in_BM": 0.46631205673758863,
+   "in_BF": 0.6720977596741344,
+   "out_BM_rank": 0.685500515995872,
+   "out_BF_rank": 0.7296181630546955,
+   "synapses": 1690728,
+   "pre_graph_share": 0.9434344258804491,
+   "post_graph_share": 0.21692903885190284,
+   "both_graph_share": 0.16172264255397675
+  },
+  "FB": {
+   "types": 114,
+   "out_BM": 0.9359968006565136,
+   "out_BF": 1.4293071004525342,
+   "out_FM": 0.7178306431732733,
+   "in_BM": 0.4626730004356841,
+   "in_BF": 0.7447483246304175,
+   "out_BM_rank": 0.12616099071207432,
+   "out_BF_rank": 0.12125902992776058,
+   "synapses": 1934233,
+   "pre_graph_share": 0.905019198824547,
+   "post_graph_share": 0.37545735182886447,
+   "both_graph_share": 0.2811755357291495
+  },
+  "EB": {
+   "types": 13,
+   "out_BM": 0.75797833082396,
+   "out_BF": 1.3247738295896254,
+   "out_FM": 0.548722176422094,
+   "in_BM": 0.3950237270745159,
+   "in_BF": 0.7097007141137768,
+   "out_BM_rank": 0.07430340557275542,
+   "out_BF_rank": 0.09520123839009288,
+   "synapses": 494047,
+   "pre_graph_share": 0.8988719696709018,
+   "post_graph_share": 0.5052474764546693,
+   "both_graph_share": 0.404716555307491
+  }
+ },
+ "cutouts": [
+  {
+   "cutout": "cutout001",
+   "neuropil": "ME_left",
+   "region": "optic_lobe",
+   "recall": 0.831,
+   "precision": 0.932,
+   "matched_neuropil_names": [
+    "ME"
+   ],
+   "types": 61,
+   "out_BM": 1.2035742087384687,
+   "out_BF": 1.4860810094880315
+  },
+  {
+   "cutout": "cutout002",
+   "neuropil": "LAL_left",
+   "region": "central_brain",
+   "recall": 0.783,
+   "precision": 0.903,
+   "matched_neuropil_names": [
+    "LAL"
+   ],
+   "types": 96,
+   "out_BM": 1.8569731386673443,
+   "out_BF": 2.298600881643698
+  },
+  {
+   "cutout": "cutout003",
+   "neuropil": "SPS_left",
+   "region": "central_brain",
+   "recall": 0.872,
+   "precision": 0.845,
+   "matched_neuropil_names": [
+    "SPS"
+   ],
+   "types": 81,
+   "out_BM": 1.8914084152179391,
+   "out_BF": 2.2855565371024733
+  },
+  {
+   "cutout": "cutout004",
+   "neuropil": "GNG_left",
+   "region": "central_brain",
+   "recall": 0.899,
+   "precision": 0.795,
+   "matched_neuropil_names": [
+    "GNG"
+   ],
+   "types": 147,
+   "out_BM": 1.7878568556493768,
+   "out_BF": 2.7614322691975843
+  },
+  {
+   "cutout": "cutout005",
+   "neuropil": "FB_right",
+   "region": "central_brain",
+   "recall": 0.72,
+   "precision": 0.947,
+   "matched_neuropil_names": [
+    "FB"
+   ],
+   "types": 114,
+   "out_BM": 0.9359968006565136,
+   "out_BF": 1.4293071004525342
+  },
+  {
+   "cutout": "cutout006",
+   "neuropil": "SMP_right",
+   "region": "central_brain",
+   "recall": 0.905,
+   "precision": 0.826,
+   "matched_neuropil_names": [
+    "SMP"
+   ],
+   "types": 276,
+   "out_BM": 1.9505987195033132,
+   "out_BF": 2.7560258682821357
+  },
+  {
+   "cutout": "cutout007",
+   "neuropil": "MB_ML_right",
+   "region": "central_brain",
+   "recall": 0.525,
+   "precision": 0.913,
+   "matched_neuropil_names": [
+    "MB_CA",
+    "MB_PED",
+    "MB_VL",
+    "MB_ML"
+   ],
+   "types": 6,
+   "out_BM": 1.5767984013362875,
+   "out_BF": 1.7026515702025982
+  },
+  {
+   "cutout": "cutout008",
+   "neuropil": "MB_CA_right",
+   "region": "central_brain",
+   "recall": 0.867,
+   "precision": 0.945,
+   "matched_neuropil_names": [
+    "MB_CA"
+   ],
+   "types": 4
+  },
+  {
+   "cutout": "cutout009",
+   "neuropil": "AVLP_right",
+   "region": "central_brain",
+   "recall": 0.733,
+   "precision": 0.917,
+   "matched_neuropil_names": [
+    "AVLP"
+   ],
+   "types": 375,
+   "out_BM": 1.385861561119293,
+   "out_BF": 2.123205741626794
+  },
+  {
+   "cutout": "cutout010",
+   "neuropil": "LO_right",
+   "region": "optic_lobe",
+   "recall": 0.655,
+   "precision": 0.8,
+   "matched_neuropil_names": [
+    "LO"
+   ],
+   "types": 52,
+   "out_BM": 1.601332107014541,
+   "out_BF": 1.5236531363365768
+  },
+  {
+   "cutout": "cutout011",
+   "neuropil": "T1_left",
+   "region": "ventral_nerve_cord",
+   "recall": 0.803,
+   "precision": 0.803,
+   "matched_neuropil_names": [],
+   "types": 0
+  },
+  {
+   "cutout": "cutout012",
+   "neuropil": "WTct_right",
+   "region": "ventral_nerve_cord",
+   "recall": 0.844,
+   "precision": 0.931,
+   "matched_neuropil_names": [
+    "WTct_UTct_T2",
+    "WTct"
+   ],
+   "types": 0
+  },
+  {
+   "cutout": "cutout013",
+   "neuropil": "LTct_left",
+   "region": "ventral_nerve_cord",
+   "recall": 0.781,
+   "precision": 0.893,
+   "matched_neuropil_names": [
+    "LTct"
+   ],
+   "types": 0
+  },
+  {
+   "cutout": "cutout014",
+   "neuropil": "HTct_left",
+   "region": "ventral_nerve_cord",
+   "recall": 0.636,
+   "precision": 0.933,
+   "matched_neuropil_names": [
+    "HTct_UTct_T3",
+    "HTct"
+   ],
+   "types": 2
+  },
+  {
+   "cutout": "cutout015",
+   "neuropil": "ABDNM_posterior_left",
+   "region": "ventral_nerve_cord",
+   "recall": 0.793,
+   "precision": 0.873,
+   "matched_neuropil_names": [],
+   "types": 0
+  },
+  {
+   "cutout": "cutout016",
+   "neuropil": "ABDNM_anterior_right",
+   "region": "ventral_nerve_cord",
+   "recall": 0.8,
+   "precision": 0.861,
+   "matched_neuropil_names": [],
+   "types": 0
+  }
+ ],
+ "cutout_rank_correlation": {
+  "n": 9,
+  "recall_vs_out_BM": 0.6,
+  "recall_vs_out_BF": 0.6833333333333333
+ },
+ "by_class": {
+  "mushroom_body_dopaminergic_neuron": {
+   "types": 22,
+   "out_BM": 0.27599135040300227,
+   "out_BM_rank": 0.007223942208462332,
+   "out_BF": 0.7016357336126772,
+   "out_BF_rank": 0.014189886480908152
+  },
+  "olfactory_receptor_neuron": {
+   "types": 52,
+   "out_BM": 0.7344078706572458,
+   "out_BM_rank": 0.0673374613003096,
+   "out_BF": 1.7810084981842151,
+   "out_BF_rank": 0.2218782249742002
+  },
+  "central_complex_input_neuron": {
+   "types": 105,
+   "out_BM": 0.9331103678929766,
+   "out_BM_rank": 0.12564499484004127,
+   "out_BF": 1.4105173150919195,
+   "out_BF_rank": 0.11687306501547988
+  },
+  "central_complex_intrinsic_neuron": {
+   "types": 33,
+   "out_BM": 0.9452415448786932,
+   "out_BM_rank": 0.12925696594427244,
+   "out_BF": 1.2402876882999208,
+   "out_BF_rank": 0.076109391124871
+  },
+  "distal_medulla": {
+   "types": 16,
+   "out_BM": 1.011921468453794,
+   "out_BM_rank": 0.1540247678018576,
+   "out_BF": 1.1581897924692055,
+   "out_BF_rank": 0.06346749226006192
+  },
+  "transmedullary_y": {
+   "types": 8,
+   "out_BM": 1.1654414894996212,
+   "out_BM_rank": 0.2089783281733746,
+   "out_BF": 1.5602073239794407,
+   "out_BF_rank": 0.15505675954592363
+  },
+  "transverse_neuron": {
+   "types": 11,
+   "out_BM": 1.1705618978976666,
+   "out_BM_rank": 0.2107843137254902,
+   "out_BF": 1.866739455843863,
+   "out_BF_rank": 0.25077399380804954
+  },
+  "medulla_tubercle": {
+   "types": 10,
+   "out_BM": 1.1924360360275847,
+   "out_BM_rank": 0.22084623323013416,
+   "out_BF": 1.9203471274268773,
+   "out_BF_rank": 0.27270381836945307
+  },
+  "lateral_horn_local_neuron": {
+   "types": 57,
+   "out_BM": 1.3337940566689703,
+   "out_BM_rank": 0.2835397316821465,
+   "out_BF": 1.6500269541778976,
+   "out_BF_rank": 0.18369453044375644
+  },
+  "medulla_intrinsic": {
+   "types": 8,
+   "out_BM": 1.4334404721868659,
+   "out_BM_rank": 0.3299793601651187,
+   "out_BF": 1.811235643802625,
+   "out_BF_rank": 0.23194014447884417
+  },
+  "central_complex_output_neuron": {
+   "types": 19,
+   "out_BM": 1.4428745894045312,
+   "out_BM_rank": 0.3317853457172343,
+   "out_BF": 2.155865981439441,
+   "out_BF_rank": 0.37874097007223945
+  },
+  "antennal_lobe_local_neuron": {
+   "types": 55,
+   "out_BM": 1.4556990709268072,
+   "out_BM_rank": 0.33875128998968007,
+   "out_BF": 1.7632075471698114,
+   "out_BF_rank": 0.21749226006191952
+  },
+  "transmedullary": {
+   "types": 18,
+   "out_BM": 1.4572272283645158,
+   "out_BM_rank": 0.34004127966976266,
+   "out_BF": 1.6576151168005615,
+   "out_BF_rank": 0.18704850361197112
+  },
+  "lobula_columnar": {
+   "types": 35,
+   "out_BM": 1.5239438473548526,
+   "out_BM_rank": 0.3717750257997936,
+   "out_BF": 1.8394611027793346,
+   "out_BF_rank": 0.24174406604747162
+  },
+  "taste_bristle_gustatory_neuron": {
+   "types": 17,
+   "out_BM": 1.5803573449204518,
+   "out_BM_rank": 0.3988648090815273,
+   "out_BF": 2.5677536597677943,
+   "out_BF_rank": 0.5430856553147575
+  },
+  "internal_taste_sensillum_gustatory_neuron": {
+   "types": 18,
+   "out_BM": 1.7112276334734084,
+   "out_BM_rank": 0.4628482972136223,
+   "out_BF": 2.1763393616127846,
+   "out_BF_rank": 0.3867389060887513
+  },
+  "lateral_horn_centrifugal_neuron": {
+   "types": 13,
+   "out_BM": 1.7430376640902956,
+   "out_BM_rank": 0.4806501547987616,
+   "out_BF": 1.986368402656414,
+   "out_BF_rank": 0.30108359133126933
+  },
+  "amacrine_medulla": {
+   "types": 17,
+   "out_BM": 1.7590027700831026,
+   "out_BM_rank": 0.4886480908152735,
+   "out_BF": 2.167235494880546,
+   "out_BF_rank": 0.38209494324045407
+  },
+  "?": {
+   "types": 2372,
+   "out_BM": 1.7872833682770464,
+   "out_BM_rank": 0.49948400412796695,
+   "out_BF": 2.443444427949327,
+   "out_BF_rank": 0.4966460268317853
+  },
+  "antennal_lobe_centrifugal_neuron": {
+   "types": 10,
+   "out_BM": 1.8554223754278225,
+   "out_BM_rank": 0.5330237358101135,
+   "out_BF": 2.23230128610584,
+   "out_BF_rank": 0.4086687306501548
+  },
+  "lateral_horn_output_neuron": {
+   "types": 193,
+   "out_BM": 1.9089837997054493,
+   "out_BM_rank": 0.5585655314757482,
+   "out_BF": 2.4262940850618575,
+   "out_BF_rank": 0.4886480908152735
+  },
+  "lobula_tangential": {
+   "types": 36,
+   "out_BM": 1.933903427162789,
+   "out_BM_rank": 0.5719814241486069,
+   "out_BF": 2.1070976521287963,
+   "out_BF_rank": 0.3539731682146543
+  },
+  "circadian_neuron": {
+   "types": 11,
+   "out_BM": 1.977725922783199,
+   "out_BM_rank": 0.5941692466460269,
+   "out_BF": 2.913292726621283,
+   "out_BF_rank": 0.6519607843137255
+  },
+  "wedge_projection_neuron": {
+   "types": 33,
+   "out_BM": 2.2002344207853097,
+   "out_BM_rank": 0.6986584107327142,
+   "out_BF": 2.4987274862960063,
+   "out_BF_rank": 0.5172858617131063
+  },
+  "descending_neuron": {
+   "types": 380,
+   "out_BM": 2.20034447127971,
+   "out_BM_rank": 0.6991744066047472,
+   "out_BF": 9.792777477845089,
+   "out_BF_rank": 0.9471104231166151
+  },
+  "lobula_plate_tangential_cell": {
+   "types": 31,
+   "out_BM": 2.2043514183420547,
+   "out_BM_rank": 0.7009803921568627,
+   "out_BF": 2.5265092879256965,
+   "out_BF_rank": 0.5283797729618163
+  },
+  "antennal_lobe_projection_neuron": {
+   "types": 152,
+   "out_BM": 2.34594536703925,
+   "out_BM_rank": 0.7512899896800825,
+   "out_BF": 2.67833977405193,
+   "out_BF_rank": 0.5781733746130031
+  },
+  "mushroom_body_output_neuron": {
+   "types": 33,
+   "out_BM": 2.5077393075356413,
+   "out_BM_rank": 0.8098555211558307,
+   "out_BF": 2.5917087967644084,
+   "out_BF_rank": 0.5515995872033024
+  },
+  "lobula_intrinsic": {
+   "types": 16,
+   "out_BM": 2.70877232044856,
+   "out_BM_rank": 0.8673890608875129,
+   "out_BF": 1.0592710220534838,
+   "out_BF_rank": 0.04695562435500516
+  }
+ },
+ "groups": {
+  "ring neurons (ER)": {
+   "types": 7,
+   "out_BM": 0.7213520197856554,
+   "out_BM_rank": 0.0632094943240454,
+   "out_BF": 1.3146033653846154,
+   "out_BF_rank": 0.09313725490196079,
+   "out_FM": 0.567753766851705
+  },
+  "ExR": {
+   "types": 7,
+   "out_BM": 1.0677279511051099,
+   "out_BM_rank": 0.17311661506707945,
+   "out_BF": 1.4189975596020274,
+   "out_BF_rank": 0.1197110423116615,
+   "out_FM": 0.48142190767251086
+  },
+  "EPG, PEG, PEN, EL": {
+   "types": 6,
+   "out_BM": 1.0966732671107744,
+   "out_BM_rank": 0.18188854489164086,
+   "out_BF": 2.0695361739414437,
+   "out_BF_rank": 0.33591331269349844,
+   "out_FM": 0.5165154803787155
+  },
+  "FB tangential": {
+   "types": 82,
+   "out_BM": 0.9359968006565136,
+   "out_BM_rank": 0.12616099071207432,
+   "out_BF": 1.3670415142289554,
+   "out_BF_rank": 0.10577915376676987,
+   "out_FM": 0.7178306431732733
+  },
+  "hDelta, vDelta": {
+   "types": 26,
+   "out_BM": 0.8984151743246401,
+   "out_BM_rank": 0.11455108359133127,
+   "out_BF": 1.1327212125715953,
+   "out_BF_rank": 0.058823529411764705,
+   "out_FM": 0.7994831287809919
+  },
+  "FC, FR, FS": {
+   "types": 11,
+   "out_BM": 1.4428745894045312,
+   "out_BM_rank": 0.3317853457172343,
+   "out_BF": 2.0130121329347634,
+   "out_BF_rank": 0.31217750257997934,
+   "out_FM": 0.6654868300740348
+  },
+  "PFN, PFL, PFG, PFR": {
+   "types": 7,
+   "out_BM": 1.234211431660687,
+   "out_BM_rank": 0.23839009287925697,
+   "out_BF": 1.8834616184730602,
+   "out_BF_rank": 0.2579979360165119,
+   "out_FM": 0.6965399316032992
+  },
+  "LNO, GLNO, LCNO": {
+   "types": 6,
+   "out_BM": 1.05120454474722,
+   "out_BM_rank": 0.16589267285861714,
+   "out_BF": 1.3973031065182968,
+   "out_BF_rank": 0.11222910216718267,
+   "out_FM": 0.6295361408442219
+  },
+  "TuBu": {
+   "types": 3,
+   "out_BM": 3.3876932403758713,
+   "out_BM_rank": 0.9589783281733746,
+   "out_BF": 3.760890846793931,
+   "out_BF_rank": 0.8230134158926729,
+   "out_FM": 1.4009871192969783
+  },
+  "MeTu": {
+   "types": 10,
+   "out_BM": 1.1924360360275847,
+   "out_BM_rank": 0.22084623323013416,
+   "out_BF": 1.9203471274268773,
+   "out_BF_rank": 0.27270381836945307,
+   "out_FM": 0.5902103954593285
+  },
+  "Kenyon cells": {
+   "types": 4,
+   "out_BM": 0.3955109240194863,
+   "out_BM_rank": 0.014447884416924664,
+   "out_BF": 1.3540897508335143,
+   "out_BF_rank": 0.10294117647058823,
+   "out_FM": 0.2773976666455614
+  },
+  "MBON": {
+   "types": 33,
+   "out_BM": 2.5077393075356413,
+   "out_BM_rank": 0.8098555211558307,
+   "out_BF": 2.5917087967644084,
+   "out_BF_rank": 0.5515995872033024,
+   "out_FM": 1.0356020942408377
+  },
+  "dopaminergic PAM, PPL": {
+   "types": 22,
+   "out_BM": 0.27599135040300227,
+   "out_BM_rank": 0.007223942208462332,
+   "out_BF": 0.7016357336126772,
+   "out_BF_rank": 0.014189886480908152,
+   "out_FM": 0.3332948224888515
+  }
+ }
+}

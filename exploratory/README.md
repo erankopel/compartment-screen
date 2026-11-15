@@ -64,3 +64,19 @@ The BANC metadata table was read for names only; the BANC edge list has not been
 - The amine statistic does not carry across data sets (transmitter predictions and type names differ);
   it is reported, not scored.
 - T1: criterion C5 for chemical labels is not evaluated (needs measured signal lifetimes per modulator).
+
+## Added on 15 Nov 2026, after the confirmatory run
+
+Exploratory arithmetic from published numbers. These two scripts read no connectome edges and score no
+registered criterion. Report: `T8_population_code.md`.
+
+| script | what it does | data | status |
+|---|---|---|---|
+| t8b_standing_bouts.py | the single standing bouts of Seelig and Jayaraman 2015 (doi:10.1038/nature14446), Fig. 4h and 4i, read from the vector graphics of the published PDF (445 markers per panel); spread against duration, a least-squares and a mixture estimate of the diffusion coefficient of the bump | results/t8b_fig4_points.csv, or the PDF as argument (needs pdftocairo) | EXPLORATORY; the models were chosen after looking at the points |
+| t8_population_code.py | Tier 1 for the candidate: a population-code row for Table 5 of BioSystems 270, 106004, evaluated for the heading bump (alphabet against hold time, readout in spikes, rewrite times) | results/t8b_standing_bouts.json | EXPLORATORY arithmetic |
+
+    python3 t8b_standing_bouts.py            # from results/t8b_fig4_points.csv; seed 20261115
+    python3 t8_population_code.py
+
+The sections Freeze package and Known gaps above describe the state of 14 Nov 2026 before the registration.
+The registration, the run and its results are described in the README of the repository and in RESULTS.md.

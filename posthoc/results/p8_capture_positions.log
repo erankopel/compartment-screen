@@ -1,0 +1,33 @@
+a. CAPTURE (size >= 10)
+all synapses: 255,774,906; pre and post both graph neurons 0.154; post a fragment 0.777; post no segment 0.000; pre a fragment 0.280; pre no segment 0.000
+group             n | outputs: per neuron, share onto graph neurons / other rows / no segment / fragments | inputs: per neuron, share from graph neurons / other / none / fragments
+whole graph  146769 |     1205  0.222 0.008 0.000 0.770 |      372  0.719 0.026 0.000 0.255
+EB set          595 |     1291  0.388 0.001 0.000 0.611 |      684  0.782 0.003 0.000 0.215
+CX set         3164 |     1069  0.315 0.001 0.000 0.684 |      477  0.763 0.001 0.000 0.235
+MB set         4957 |      323  0.256 0.009 0.000 0.735 |      190  0.661 0.021 0.000 0.318
+AL set         1128 |     4811  0.279 0.001 0.000 0.720 |     1776  0.779 0.001 0.000 0.220
+ER              268 |     1123  0.449 0.000 0.000 0.550 |      568  0.773 0.001 0.000 0.227
+EPG              45 |     3379  0.401 0.001 0.000 0.599 |     1562  0.816 0.000 0.000 0.183
+PEG              19 |     1222  0.446 0.001 0.000 0.553 |      874  0.878 0.000 0.000 0.122
+PEN              42 |     1793  0.421 0.000 0.000 0.579 |     1246  0.883 0.000 0.000 0.117
+EL               18 |      214  0.496 0.001 0.000 0.504 |     1212  0.821 0.000 0.000 0.179
+ExR              14 |     3823  0.437 0.001 0.000 0.562 |     3520  0.826 0.001 0.000 0.173
+TuBu            148 |      649  0.122 0.001 0.000 0.877 |      139  0.347 0.031 0.000 0.622
+MeTu2            27 |      349  0.161 0.024 0.000 0.815 |      160  0.513 0.080 0.000 0.407
+LPsP              2 |    10766  0.370 0.001 0.000 0.629 |     4321  0.911 0.001 0.000 0.088
+GLNO              4 |     2707  0.735 0.000 0.000 0.265 |     1195  0.895 0.001 0.000 0.104
+AOTU046           4 |     3182  0.296 0.005 0.000 0.699 |      832  0.469 0.035 0.000 0.496
+TuTuB             4 |     2062  0.190 0.018 0.000 0.792 |      735  0.257 0.046 0.000 0.697
+output capture per neuron (share onto graph neurons), neurons with at least 100 outputs: percentiles 5, 25, 50, 75, 95: 0.111 0.172 0.224 0.286 0.415
+input capture per neuron (share from graph neurons), neurons with at least 100 inputs: percentiles 5, 25, 50, 75, 95: 0.451 0.600 0.698 0.774 0.850
+median output capture by family and its rank among all graph neurons: ER 0.465 (rank 0.97); EPG 0.405 (rank 0.94); PEG 0.457 (rank 0.97); PEN 0.427 (rank 0.96); EL 0.480 (rank 0.98); ExR 0.345 (rank 0.88); TuBu 0.120 (rank 0.07); MeTu2 0.168 (rank 0.23); LPsP 0.370 (rank 0.92); GLNO 0.734 (rank 1.00); AOTU046 0.299 (rank 0.79); TuTuB 0.202 (rank 0.40)
+
+b. POSITIONS
+synapses with an end in EB: 917,016; both ends in EB: 257,977
+both ends in EB, inside a problem region: 14,061 (0.0545); by issue: {'tunnel of death': 0, 'T2 blowout': 0, 'T1 soup': 0, 'champagne patch': 0, 'left VLP blowout': 0, 'dorsal CB wavy patch': 1742, 'dorsal esophageal crush': 12323, 'butt wiggle': 0}
+presynaptic neuron in EB (any partner), inside a problem region: 0.0569
+extent of the synapses inside EB (0.5, 50, 99.5 percentiles; 4 nm voxels in x and y, sections in z): x [96452.0, 121160.0, 147436.0], y [21100.0, 28520.0, 47500.0], z [3142.0, 3807.0, 4901.0]
+sections 3305 to 4722 (central 95 percent of the synapses inside EB): 1418 sections, median 195 synapses per section; sections below 20 percent of the local median: 3 (0.002); empty sections: 1; longest low run: 1 sections
+  low runs (first section, length): [(4424, 1), (4449, 1), (4469, 1)]
+  synapses that would be added if every low section had the local median: 0.0001 of the total
+saved

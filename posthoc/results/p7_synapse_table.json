@@ -1,0 +1,100 @@
+{
+ "note": "POST HOC, EXPLORATORY",
+ "rows": 259393451,
+ "autapses_dropped": 3618545,
+ "graph_pairs_any_size": 12305034,
+ "check_registered": {
+  "pairs_ge10": 12305034,
+  "registered_pairs": 12305034,
+  "synapses_ge10": 39297815,
+  "registered_synapses": 39297815,
+  "identical_pairs": true,
+  "identical_counts": true
+ },
+ "graph_synapses_by_size_bin": {
+  "lt5": 0,
+  "5to9": 0,
+  "ge10": 39297815
+ },
+ "all_synapses_by_size_bin_prekind_postkind": [
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    39297815,
+    1369388,
+    7,
+    136146004
+   ],
+   [
+    1427843,
+    214575,
+    8,
+    5666467
+   ],
+   [
+    7,
+    3,
+    0,
+    71
+   ],
+   [
+    13911763,
+    782485,
+    23,
+    56958447
+   ]
+  ]
+ ],
+ "eb_rows": 917016
+}

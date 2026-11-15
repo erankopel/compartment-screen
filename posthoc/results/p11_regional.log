@@ -1,0 +1,28 @@
+BANC: synapses inside EB by neuropil sum to 257,977 (edge list 257,977)
+FlyWire: synapse table rows 55,595,125; inside EB 359,292 rows against 456,718 synapses in the edge list (scale 1.271)
+synapses inside the EB set by neuropil: BANC, FlyWire (scaled), ratio
+   EB         184,426     329,259  0.560
+   AOTU         1,894      21,249  0.089
+   FB          12,499      21,230  0.589
+   CRE         24,841      20,417  1.217
+   NO             575      19,216  0.030
+   MB_ML          539      10,581  0.051
+   GA          11,147       9,437  1.181
+   BU           8,503       8,849  0.961
+   PB           8,316       8,093  1.027
+   other        5,237       8,387  0.624
+   all        257,977     456,718  0.565
+edges inside EB: 47,134; with neuropil information 37,470; synapse-weighted mean keep probability inside EB 0.567 (uniform variant of P4: 0.648)
+  regional seed 20261115 th 1: EB 683 | loss 0.0873 stays 13.02 mixes 4.21 ratio 3.095 | Dob8 0.207 | exit mean 0.293 below 0.796 | 41 s
+  regional seed 20261115 th 2: EB 679 | loss 0.0769 stays 14.49 mixes 4.63 ratio 3.128 | Dob8 0.259 | exit mean 0.294 below 0.826 | 23 s
+  regional seed 20261115 th 3: EB 665 | loss 0.0686 stays 15.98 mixes 5.30 ratio 3.013 | Dob8 0.443 | exit mean 0.268 below 0.844 | 15 s
+  regional seed 20261115 th 5: EB 633 | loss 0.0555 stays 19.66 mixes 6.49 ratio 3.030 | Dob8 0.458 | exit mean 0.257 below 0.868 | 9 s
+  regional seed 20261116 th 1: EB 683 | loss 0.0882 stays 12.92 mixes 4.17 ratio 3.098 | Dob8 0.212 | exit mean 0.294 below 0.789 | 41 s
+  regional seed 20261116 th 2: EB 678 | loss 0.0774 stays 14.42 mixes 4.58 ratio 3.148 | Dob8 0.285 | exit mean 0.274 below 0.837 | 22 s
+  regional seed 20261116 th 3: EB 664 | loss 0.0697 stays 15.84 mixes 5.27 ratio 3.007 | Dob8 0.323 | exit mean 0.289 below 0.832 | 15 s
+  regional seed 20261116 th 5: EB 639 | loss 0.0558 stays 19.62 mixes 6.38 ratio 3.076 | Dob8 0.441 | exit mean 0.238 below 0.903 | 9 s
+  regional seed 20261117 th 1: EB 683 | loss 0.0892 stays 12.81 mixes 4.20 ratio 3.051 | Dob8 0.207 | exit mean 0.295 below 0.806 | 41 s
+  regional seed 20261117 th 2: EB 677 | loss 0.0782 stays 14.25 mixes 4.62 ratio 3.085 | Dob8 0.257 | exit mean 0.275 below 0.818 | 22 s
+  regional seed 20261117 th 3: EB 660 | loss 0.0699 stays 15.76 mixes 5.24 ratio 3.007 | Dob8 0.375 | exit mean 0.253 below 0.858 | 14 s
+  regional seed 20261117 th 5: EB 638 | loss 0.0576 stays 19.06 mixes 6.21 ratio 3.070 | Dob8 0.439 | exit mean 0.273 below 0.856 | 9 s
+saved

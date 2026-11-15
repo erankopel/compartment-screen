@@ -29,7 +29,9 @@ import screen_lib as sl  # noqa: E402  (frozen, sha256 e062d134...)
 CROSS = json.load(open(os.path.join(FROZEN, 'crosswalk_types.json')))
 RX = [re.compile(r) for r in CROSS['EB_family_regex']]
 FAM_NAMES = ['ER', 'EPG', 'PEG', 'PEN', 'EL', 'ExR', 'TuBu', 'MeTu2', 'LPsP', 'GLNO', 'AOTU046', 'TuTuB']
-PATHS = {'banc': ('banc_888_id', os.path.join(BANC_DIR, 'banc_888_meta.feather'), os.path.join(BANC_DIR, 'banc_888_edgelist_simple_v3.feather')),
+# BANC_EDGE_FILE: another edge list of the same release (e.g. the v2 synapse set); default is the registered v3 list
+BANC_EDGES = os.environ.get('BANC_EDGE_FILE', os.path.join(BANC_DIR, 'banc_888_edgelist_simple_v3.feather'))
+PATHS = {'banc': ('banc_888_id', os.path.join(BANC_DIR, 'banc_888_meta.feather'), BANC_EDGES),
          'flywire': ('fafb_783_id', os.path.join(FLYWIRE_DIR, 'fafb_783_meta.feather'), os.path.join(FLYWIRE_DIR, 'fafb_783_simple_edgelist.feather'))}
 
 

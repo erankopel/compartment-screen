@@ -1,0 +1,50 @@
+{
+ "note": "POST HOC, EXPLORATORY",
+ "edge_list": "banc_888_edgelist_simple_v2.feather",
+ "synapses_in_graph": 33338533,
+ "synapses_inside_EB": 201418,
+ "types": {
+  "EL": {
+   "n": 18,
+   "ER_to_X": 285.05555555555554,
+   "X_to_ER": 52.27777777777778,
+   "COL_to_X": 289.3888888888889,
+   "X_to_COL": 8.555555555555555
+  },
+  "ExR1": {
+   "n": 4,
+   "ER_to_X": 694.5,
+   "X_to_ER": 129.25,
+   "COL_to_X": 352.25,
+   "X_to_COL": 180.25
+  },
+  "ExR2": {
+   "n": 4,
+   "ER_to_X": 64.0,
+   "X_to_ER": 32.25,
+   "COL_to_X": 228.75,
+   "X_to_COL": 38.25
+  },
+  "ExR3": {
+   "n": 2,
+   "ER_to_X": 29.5,
+   "X_to_ER": 86.0,
+   "COL_to_X": 2.5,
+   "X_to_COL": 2.5
+  },
+  "ExR4": {
+   "n": 2,
+   "ER_to_X": 100.0,
+   "X_to_ER": 20.5,
+   "COL_to_X": 2087.5,
+   "X_to_COL": 2316.5
+  },
+  "ExR6": {
+   "n": 2,
+   "ER_to_X": 39.0,
+   "X_to_ER": 47.5,
+   "COL_to_X": 2979.0,
+   "X_to_COL": 2795.5
+  }
+ }
+}

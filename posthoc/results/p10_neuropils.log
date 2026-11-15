@@ -1,0 +1,79 @@
+  batch 0 of 2258, 0 s
+  batch 400 of 2258, 13 s
+  batch 800 of 2258, 28 s
+  batch 1200 of 2258, 45 s
+  batch 1600 of 2258, 61 s
+  batch 2000 of 2258, 76 s
+neuropils 64; synapses between graph neurons 39,297,815 (registered edge list 39,297,815); 85 s
+
+a, b. neuropils with at least 8 matched types that place at least half of their output there:
+   neuropil: synapses, share with identified pre, share with identified post | types | median out B:M (rank), out B:F (rank), F:M
+   EB             494,047 0.90 0.51 |   13 | 0.76 (0.07)  1.32 (0.10)  0.55
+   FB           1,934,233 0.91 0.38 |  114 | 0.94 (0.13)  1.43 (0.12)  0.72
+   AL           4,077,052 0.89 0.53 |  127 | 0.95 (0.13)  1.89 (0.26)  0.62
+   AOTU         1,000,768 0.88 0.30 |   22 | 1.08 (0.18)  1.70 (0.20)  0.67
+   LOP          7,747,144 0.84 0.33 |   24 | 1.18 (0.21)  1.80 (0.23)  0.72
+   ME          38,036,205 0.81 0.29 |   61 | 1.20 (0.23)  1.49 (0.13)  0.84
+   AVLP        11,957,918 0.93 0.24 |  375 | 1.39 (0.31)  2.12 (0.36)  0.65
+   SLP          3,451,698 0.90 0.19 |  271 | 1.47 (0.35)  2.30 (0.44)  0.62
+   LO          16,233,826 0.79 0.30 |   52 | 1.60 (0.41)  1.52 (0.14)  0.84
+   GNG         11,552,410 0.94 0.24 |  147 | 1.79 (0.50)  2.76 (0.61)  0.64
+   WED          1,320,027 0.95 0.24 |   12 | 1.79 (0.50)  2.47 (0.51)  0.73
+   LAL          2,759,051 0.96 0.25 |   96 | 1.86 (0.53)  2.30 (0.44)  0.81
+   CRE          3,790,100 0.91 0.25 |  168 | 1.87 (0.54)  2.68 (0.58)  0.69
+   AMMC           850,026 0.92 0.34 |   12 | 1.88 (0.54)  1.96 (0.29)  1.06
+   SPS          3,872,394 0.94 0.25 |   81 | 1.89 (0.55)  2.29 (0.43)  0.82
+   IPS          4,086,881 0.95 0.23 |  118 | 1.92 (0.57)  2.68 (0.58)  0.75
+   PLP          4,859,197 0.93 0.23 |   85 | 1.93 (0.57)  2.11 (0.36)  0.84
+   SMP          4,928,989 0.93 0.22 |  276 | 1.95 (0.58)  2.76 (0.61)  0.70
+   LH           4,128,035 0.93 0.17 |  184 | 1.96 (0.58)  2.11 (0.36)  0.85
+   ICL          3,007,110 0.94 0.23 |   87 | 1.98 (0.60)  2.43 (0.49)  0.80
+   IB           1,690,728 0.94 0.22 |   55 | 2.17 (0.69)  3.20 (0.73)  0.69
+   VES          2,157,613 0.96 0.25 |   39 | 2.26 (0.72)  3.00 (0.68)  0.74
+   SIP          1,423,616 0.92 0.20 |   20 | 2.26 (0.72)  3.11 (0.71)  0.90
+   ProNM-T1    10,617,205 0.93 0.29 |   13 | 2.61 (0.84)  11.75 (0.96)  0.23
+
+c. densely evaluated cutouts: recall of the detector beside the type ratios of the same neuropil
+   ME_left                recall 0.83 precision 0.93 | types   61 | out B:M 1.20  out B:F 1.49 | [np.str_('ME')]
+   LAL_left               recall 0.78 precision 0.90 | types   96 | out B:M 1.86  out B:F 2.30 | [np.str_('LAL')]
+   SPS_left               recall 0.87 precision 0.84 | types   81 | out B:M 1.89  out B:F 2.29 | [np.str_('SPS')]
+   GNG_left               recall 0.90 precision 0.80 | types  147 | out B:M 1.79  out B:F 2.76 | [np.str_('GNG')]
+   FB_right               recall 0.72 precision 0.95 | types  114 | out B:M 0.94  out B:F 1.43 | [np.str_('FB')]
+   SMP_right              recall 0.91 precision 0.83 | types  276 | out B:M 1.95  out B:F 2.76 | [np.str_('SMP')]
+   MB_ML_right            recall 0.53 precision 0.91 | types    6 | out B:M 1.58  out B:F 1.70 | [np.str_('MB_CA'), np.str_('MB_PED'), np.str_('MB_VL'), np.str_('MB_ML')]
+   MB_CA_right            recall 0.87 precision 0.94 | types    4 | too few matched types | [np.str_('MB_CA')]
+   AVLP_right             recall 0.73 precision 0.92 | types  375 | out B:M 1.39  out B:F 2.12 | [np.str_('AVLP')]
+   LO_right               recall 0.66 precision 0.80 | types   52 | out B:M 1.60  out B:F 1.52 | [np.str_('LO')]
+   T1_left                recall 0.80 precision 0.80 | types    0 | too few matched types | []
+   WTct_right             recall 0.84 precision 0.93 | types    0 | too few matched types | [np.str_('WTct_UTct_T2'), np.str_('WTct')]
+   LTct_left              recall 0.78 precision 0.89 | types    0 | too few matched types | [np.str_('LTct')]
+   HTct_left              recall 0.64 precision 0.93 | types    2 | too few matched types | [np.str_('HTct_UTct_T3'), np.str_('HTct')]
+   ABDNM_posterior_left   recall 0.79 precision 0.87 | types    0 | too few matched types | []
+   ABDNM_anterior_right   recall 0.80 precision 0.86 | types    0 | too few matched types | []
+   rank correlation over 9 cutouts: recall with out B:M 0.60, with out B:F 0.68
+
+d. by BANC cell class (at least 8 matched types), the 10 lowest by out B:M; and groups by type name
+   mushroom_body_dopaminergic_neuron            22 types  out B:M 0.28 (rank 0.01)  out B:F 0.70 (rank 0.01)
+   olfactory_receptor_neuron                    52 types  out B:M 0.73 (rank 0.07)  out B:F 1.78 (rank 0.22)
+   central_complex_input_neuron                105 types  out B:M 0.93 (rank 0.13)  out B:F 1.41 (rank 0.12)
+   central_complex_intrinsic_neuron             33 types  out B:M 0.95 (rank 0.13)  out B:F 1.24 (rank 0.08)
+   distal_medulla                               16 types  out B:M 1.01 (rank 0.15)  out B:F 1.16 (rank 0.06)
+   transmedullary_y                              8 types  out B:M 1.17 (rank 0.21)  out B:F 1.56 (rank 0.16)
+   transverse_neuron                            11 types  out B:M 1.17 (rank 0.21)  out B:F 1.87 (rank 0.25)
+   medulla_tubercle                             10 types  out B:M 1.19 (rank 0.22)  out B:F 1.92 (rank 0.27)
+   lateral_horn_local_neuron                    57 types  out B:M 1.33 (rank 0.28)  out B:F 1.65 (rank 0.18)
+   medulla_intrinsic                             8 types  out B:M 1.43 (rank 0.33)  out B:F 1.81 (rank 0.23)
+   ring neurons (ER)           7 types  out B:M 0.72 (rank 0.06)  out B:F 1.31 (rank 0.09)  F:M 0.57
+   ExR                         7 types  out B:M 1.07 (rank 0.17)  out B:F 1.42 (rank 0.12)  F:M 0.48
+   EPG, PEG, PEN, EL           6 types  out B:M 1.10 (rank 0.18)  out B:F 2.07 (rank 0.34)  F:M 0.52
+   FB tangential              82 types  out B:M 0.94 (rank 0.13)  out B:F 1.37 (rank 0.11)  F:M 0.72
+   hDelta, vDelta             26 types  out B:M 0.90 (rank 0.11)  out B:F 1.13 (rank 0.06)  F:M 0.80
+   FC, FR, FS                 11 types  out B:M 1.44 (rank 0.33)  out B:F 2.01 (rank 0.31)  F:M 0.67
+   PFN, PFL, PFG, PFR          7 types  out B:M 1.23 (rank 0.24)  out B:F 1.88 (rank 0.26)  F:M 0.70
+   LNO, GLNO, LCNO             6 types  out B:M 1.05 (rank 0.17)  out B:F 1.40 (rank 0.11)  F:M 0.63
+   TuBu                        3 types  out B:M 3.39 (rank 0.96)  out B:F 3.76 (rank 0.82)  F:M 1.40
+   MeTu                       10 types  out B:M 1.19 (rank 0.22)  out B:F 1.92 (rank 0.27)  F:M 0.59
+   Kenyon cells                4 types  out B:M 0.40 (rank 0.01)  out B:F 1.35 (rank 0.10)  F:M 0.28
+   MBON                       33 types  out B:M 2.51 (rank 0.81)  out B:F 2.59 (rank 0.55)  F:M 1.04
+   dopaminergic PAM, PPL      22 types  out B:M 0.28 (rank 0.01)  out B:F 0.70 (rank 0.01)  F:M 0.33
+saved

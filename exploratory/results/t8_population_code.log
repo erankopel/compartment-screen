@@ -1,0 +1,32 @@
+bump diffusion and coherence time (var = 2 D t = 2 t / tau_b)
+  pooled bound, Fig. 4i (upper bound on D)   D = 0.0431 rad^2/s   tau_b =   23.2 s   one bit kept   28.6 s
+  single bouts of Fig. 4i (t8b fit)          D = 0.01198 rad^2/s   tau_b =   83.4 s   one bit kept  102.9 s
+pooled bounds from the other panels (mean t, SD, n as printed in the legend)
+  ED Fig. 10b, darkness, 6-mm ball, before restart           D <= 0.076 rad^2/s   tau_b >=  13.2 s
+  ED Fig. 10d, darkness, 10-mm ball, before restart          D <= 0.052 rad^2/s   tau_b >=  19.4 s
+  ED Fig. 10f, darkness, 10-mm ball, at restart              D <= 0.066 rad^2/s   tau_b >=  15.1 s
+  ED Fig. 10h, visible stripe, closed loop, before restart   D <= 0.056 rad^2/s   tau_b >=  17.7 s
+
+alphabet K <= pi sqrt(tau_b / 2t) after a hold of t (diffusion only)
+  pooled bound, Fig. 4i (upper bound on D)   t=0.1s:  33.8  t=0.3s:  19.5  t=1s:  10.7  t=3s:   6.2  t=6.7s:   4.1  t=10s:   3.4  t=30s:   2.0
+  single bouts of Fig. 4i (t8b fit)          t=0.1s:  64.2  t=0.3s:  37.0  t=1s:  20.3  t=3s:  11.7  t=6.7s:   7.8  t=10s:   6.4  t=30s:   3.7
+hold time for which an alphabet K survives, t = pi^2 tau_b / (2 K^2)
+  pooled bound, Fig. 4i (upper bound on D)   K=2:   28.62 s  K=4:    7.16 s  K=8:    1.79 s  K=16:    0.45 s
+  single bouts of Fig. 4i (t8b fit)          K=2:  102.95 s  K=4:   25.74 s  K=8:    6.43 s  K=16:    1.61 s
+
+readout floor: spikes from the bump needed in one read window, N_s = (w K / pi)^2, w = FWHM / 2.355
+  FWHM  82.3 deg (one stripe       ) w = 34.9 deg   K=4:    0.6  K=8:    2.4  K=16:    9.6  K=32:   38.6   | 10.5 E-PG inside the FWHM; rate per neuron for a 0.1 s window: K=4: 0.6 Hz, K=8: 2.3 Hz, K=16: 9.2 Hz, K=32: 36.7 Hz
+  FWHM  90.9 deg (darkness         ) w = 38.6 deg   K=4:    0.7  K=8:    2.9  K=16:   11.8  K=32:   47.1   | 11.6 E-PG inside the FWHM; rate per neuron for a 0.1 s window: K=4: 0.6 Hz, K=8: 2.5 Hz, K=16: 10.1 Hz, K=32: 40.5 Hz
+  FWHM 100.0 deg (Turner-Evans 2017) w = 42.5 deg   K=4:    0.9  K=8:    3.6  K=16:   14.2  K=32:   57.0   | 12.8 E-PG inside the FWHM; rate per neuron for a 0.1 s window: K=4: 0.7 Hz, K=8: 2.8 Hz, K=16: 11.1 Hz, K=32: 44.6 Hz
+
+alphabet with both errors, K <= pi / sqrt(w^2 / N_s + 2 D t), pooled bound, FWHM 90.9 deg (darkness)
+  N_s =  10: t=0s:  14.7  t=0.1s:  13.5  t=1s:   8.7  t=6.7s:   4.0  t=30s:   1.9
+  N_s =  30: t=0s:  25.5  t=0.1s:  20.4  t=1s:   9.9  t=6.7s:   4.1  t=30s:   1.9
+  N_s = 100: t=0s:  46.6  t=0.1s:  27.4  t=1s:  10.4  t=6.7s:   4.1  t=30s:   2.0
+  N_s = 300: t=0s:  80.8  t=0.1s:  31.2  t=1s:  10.6  t=6.7s:   4.1  t=30s:   2.0
+
+rewrite: time for the bump to cross one wedge of 22.5 deg at a turn speed: 150 deg/s: 0.15 s, 180 deg/s: 0.12 s, 200 deg/s: 0.11 s, 35 deg/s: 0.64 s
+accuracy of the rewrite in the model of Turner-Evans 2017 (error between bump and integrated turning, not a hold): SD after 1 s: 0.07 rad, 10 s: 0.19 rad, 60 s: 0.47 rad, 300 s: 1.05 rad
+one bit is kept longer than by a gamma phase label (0.185 s) by a factor: pooled bound, Fig. 4i (upper bound on D): 155, single bouts of Fig. 4i (t8b fit): 556; in read windows of 0.1 s: pooled bound, Fig. 4i (upper bound on D): 286, single bouts of Fig. 4i (t8b fit): 1029
+check: after 30 s the pooled bound gives K = 1.95 (one bit), the duration the authors report as sometimes exceeded; after the mean bout of 6.7 s, K = 4.13
+saved
